@@ -188,6 +188,8 @@ $RowHtml = foreach ($r in $Rows) {
 "@
 }
 
+$ProfileSheetPath = Join-Path $Path "_surface_work\structural_read_profile_sheet_v0\STRUCTURAL_READ_PROFILE_SHEET_V0.html"
+
 $Html = @"
 <html>
 <head>
@@ -399,6 +401,8 @@ a:hover {
 <body>
 <div class='card'>
 
+<p><a href="file:///$ProfileSheetPath">← Back to Structural Read Profile Sheet</a></p>
+
 <h1>File Texture Profile Bars</h1>
 
 <div class='metahead'>
@@ -433,5 +437,6 @@ Write-AtomicText -Path $HtmlPath -Text $Html
 Write-Host ""
 Write-Host "=== FILE TEXTURE PROFILE BARS COMPLETE ==="
 Write-Host $HtmlPath
+
 
 
