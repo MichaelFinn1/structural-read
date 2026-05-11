@@ -129,12 +129,16 @@ $Rows | Export-Csv $CsvPath -NoTypeInformation -Encoding UTF8
 
 $DetailDir = Join-Path $Path "_surface_work\log_structure_file_detail_v0"
 
+$MaxDensity = ($Rows | Measure-Object -Property templates_per_1000_lines -Maximum).Maximum
+if (-not $MaxDensity -or $MaxDensity -eq 0) { $MaxDensity = 1 }
+
 $RowHtml = foreach ($r in $Rows) {
 
   $SafeFile = $r.file_name -replace '[^A-Za-z0-9_.-]', '_'
   $DetailPath = Join-Path $DetailDir ("LOG_STRUCTURE_FILE_DETAIL_" + $SafeFile + ".html")
 
   $barWidth = [math]::Max(120, [math]::Round(($r.lines / $MaxLines) * 900))
+  $barHeight = [math]::Max(26, [math]::Min(70, [math]::Round(26 + (($r.templates_per_1000_lines / $MaxDensity) * 44))))
   $stableWidth = [math]::Round(($r.stable_pct / 100) * $barWidth)
   $middleWidth = [math]::Round(($r.middle_pct / 100) * $barWidth)
   $residualWidth = [math]::Max(2, $barWidth - $stableWidth - $middleWidth)
@@ -165,7 +169,7 @@ $RowHtml = foreach ($r in $Rows) {
   </div>
 
   <div class='texture-wrap'>
-    <div class='texture-bar' style='width:${barWidth}px'>
+    <div class='texture-bar' style='width:${barWidth}px; height:${barHeight}px'>
 
       <div class='seg stable $stableTexture' style='width:${stableWidth}px'></div>
 
@@ -398,7 +402,7 @@ a:hover {
 <h1>File Texture Profile Bars</h1>
 
 <div class='metahead'>
-Each file is one proportional bar. Bar length reflects file volume. Color regions show stable / middle / residual. Internal texture shows concentration or dispersion.
+Each file is one proportional bar. Bar length reflects file volume. Bar height reflects template density. Color regions show stable / middle / residual. Internal texture shows concentration or dispersion.
 </div>
 
 <div class='legend'>
@@ -406,6 +410,7 @@ Each file is one proportional bar. Bar length reflects file volume. Color region
   <div><span class='dot' style='background:#9bc53d'></span>middle</div>
   <div><span class='dot' style='background:#e55934'></span>residual</div>
   <div>longer bar = more lines</div>
+  <div>taller bar = higher template density</div>
   <div>more texture = more dispersion</div>
 </div>
 
@@ -428,4 +433,5 @@ Write-AtomicText -Path $HtmlPath -Text $Html
 Write-Host ""
 Write-Host "=== FILE TEXTURE PROFILE BARS COMPLETE ==="
 Write-Host $HtmlPath
+
 
