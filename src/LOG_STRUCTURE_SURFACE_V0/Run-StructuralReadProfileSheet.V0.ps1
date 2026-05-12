@@ -59,6 +59,45 @@ $TopResidual = $FileRows | Sort-Object {[double]$_.residual_pct} -Descending | S
 $TopDensity = $FileRows | Sort-Object {[double]$_.templates_per_1000_lines} -Descending | Select-Object -First 1
 $TopConcentration = $FileRows | Sort-Object {[double]$_.top10_share_pct} -Descending | Select-Object -First 1
 
+$MaxLines = ($FileRows | Measure-Object -Property lines -Maximum).Maximum
+if (-not $MaxLines -or $MaxLines -eq 0) { $MaxLines = 1 }
+
+$MaxDensity = ($FileRows | Measure-Object -Property templates_per_1000_lines -Maximum).Maximum
+if (-not $MaxDensity -or $MaxDensity -eq 0) { $MaxDensity = 1 }
+
+$VisualRows = foreach ($f in ($FileRows | Sort-Object {[int]$_.lines} -Descending)) {
+  $barWidth = [math]::Max(120, [math]::Round(([double]$f.lines / $MaxLines) * 850))
+  $barHeight = [math]::Max(24, [math]::Min(64, [math]::Round(24 + (([double]$f.templates_per_1000_lines / $MaxDensity) * 40))))
+
+  $stableWidth = [math]::Round(([double]$f.stable_pct / 100) * $barWidth)
+  $middleWidth = [math]::Round(([double]$f.middle_pct / 100) * $barWidth)
+  $residualWidth = [math]::Max(2, $barWidth - $stableWidth - $middleWidth)
+
+  $SafeFile = $f.file_name -replace '[^A-Za-z0-9_.-]', '_'
+  $DetailPath = Join-Path $TerrainRoot ("_surface_work\log_structure_file_detail_v0\LOG_STRUCTURE_FILE_DETAIL_" + $SafeFile + ".html")
+
+@"
+<div class='profile-row'>
+  <div class='profile-head'>
+    <a href='file:///$DetailPath'>$($f.file_name)</a>
+    <span>lines=$($f.lines) | templates=$($f.templates) | top10=$($f.top10_share_pct)% | templates/1k=$($f.templates_per_1000_lines)</span>
+  </div>
+
+  <div class='inline-bar-wrap'>
+    <div class='inline-bar' style='width:${barWidth}px; height:${barHeight}px'>
+      <a class='stable-seg' title='Open stable structures' href='file:///$DetailPath#stable' style='width:${stableWidth}px'></a>
+      <a class='middle-seg' title='Open middle recurrence texture' href='file:///$DetailPath#middle' style='width:${middleWidth}px'></a>
+      <a class='residual-seg' title='Open residual samples' href='file:///$DetailPath#residual' style='width:${residualWidth}px'></a>
+    </div>
+  </div>
+
+  <div class='profile-shares'>
+    stable=$($f.stable_pct)% / middle=$($f.middle_pct)% / residual=$($f.residual_pct)%
+  </div>
+</div>
+"@
+}
+
 $FileSummaryRows = foreach ($f in ($FileRows | Sort-Object {[int]$_.lines} -Descending)) {
 @"
 <tr>
@@ -202,6 +241,119 @@ a:hover {
   text-decoration:underline;
 }
 
+.inline-legend {
+  display:flex;
+  gap:18px;
+  flex-wrap:wrap;
+  color:#bbb;
+  font-size:12px;
+  margin:12px 0 18px 0;
+}
+
+.dot {
+  display:inline-block;
+  width:10px;
+  height:10px;
+  border-radius:2px;
+  margin-right:5px;
+}
+
+.stable-dot { background:#5bc0eb; }
+.middle-dot { background:#9bc53d; }
+.residual-dot { background:#e55934; }
+
+.profile-row {
+  margin-bottom:22px;
+  padding-bottom:16px;
+  border-bottom:1px solid #333;
+}
+
+.profile-head {
+  display:flex;
+  flex-direction:column;
+  gap:4px;
+  margin-bottom:8px;
+}
+
+.profile-head a {
+  color:#8fd8f4;
+  text-decoration:none;
+  font-weight:600;
+}
+
+.profile-head a:hover {
+  text-decoration:underline;
+}
+
+.profile-head span {
+  color:#999;
+  font-size:12px;
+}
+
+.inline-bar-wrap {
+  width:900px;
+  background:#101010;
+  border-radius:10px;
+  padding:7px;
+  border:1px solid #333;
+}
+
+.inline-bar {
+  display:flex;
+  overflow:hidden;
+  border-radius:8px;
+  background:#222;
+}
+
+.stable-seg {
+  display:block;
+  height:100%;
+  background:repeating-linear-gradient(
+    90deg,
+    #5bc0eb 0px,
+    #5bc0eb 10px,
+    #8fd8f4 10px,
+    #8fd8f4 12px
+  );
+  flex-shrink:0;
+}
+
+.middle-seg {
+  display:block;
+  height:100%;
+  background:repeating-linear-gradient(
+    90deg,
+    #9bc53d 0px,
+    #9bc53d 7px,
+    #b7da64 7px,
+    #b7da64 10px
+  );
+  flex-shrink:0;
+}
+
+.residual-seg {
+  display:block;
+  height:100%;
+  background:repeating-linear-gradient(
+    90deg,
+    #e55934 0px,
+    #e55934 6px,
+    #f0886f 6px,
+    #f0886f 10px
+  );
+  flex-shrink:0;
+}
+
+.profile-shares {
+  margin-top:7px;
+  color:#aaa;
+  font-size:12px;
+}
+
+.compact-link {
+  margin-top:18px;
+}
+
 table {
   width:100%;
   border-collapse:collapse;
@@ -315,9 +467,18 @@ Receive → Reduce → Profile → Export
 
 <div class='section'>
   <h2>Visual file profiles</h2>
-  <p class='subtitle'>Each file profile can be opened as a visual texture bar surface.</p>
-  <div class='exports'>
-    <a href="file:///$TextureHtmlPath">Open file texture profile bars</a>
+  <p class='subtitle'>Each file is one proportional structural profile. Longer bars carry more line volume; taller bars carry higher template density. Click a file name for full detail, or click blue / green / red segments to descend directly into stable, middle, or residual structure.</p>
+
+  <div class='inline-legend'>
+    <span><b class='dot stable-dot'></b>stable</span>
+    <span><b class='dot middle-dot'></b>middle</span>
+    <span><b class='dot residual-dot'></b>residual</span>
+  </div>
+
+  $($VisualRows -join "`r`n")
+
+  <div class='exports compact-link'>
+    <a href="file:///$TextureHtmlPath">Open separate file texture profile page</a>
   </div>
 </div>
 
@@ -368,4 +529,6 @@ Write-AtomicText -Path $HtmlPath -Text $Html
 Write-Host ""
 Write-Host "=== STRUCTURAL READ PROFILE SHEET COMPLETE ==="
 Write-Host $HtmlPath
+
+
 
