@@ -10,7 +10,8 @@ $Files = @(
   "Run-LogStructureZoomCard.V0.ps1",
   "Run-LogStructureBandTextureCard.V0.ps1",
   "START_HERE_FOR_OUTSIDERS.md",
-  "STRUCTURAL_READ_EIGHT_STAGE_CONTRACT_V0.md"
+  "STRUCTURAL_READ_EIGHT_STAGE_CONTRACT_V0.md",
+  "STRUCTURAL_READ_LAYER_MODEL_V0.md"
 )
 
 $Rows = foreach ($f in $Files) {
@@ -49,6 +50,7 @@ $Rows | Export-Csv ".\LOG_STRUCTURE_V0_SELF_CHECK.csv" -NoTypeInformation -Encod
 Write-Host ""
 Write-Host "Wrote:"
 Write-Host ".\LOG_STRUCTURE_V0_SELF_CHECK.csv"
+
 
 
 
