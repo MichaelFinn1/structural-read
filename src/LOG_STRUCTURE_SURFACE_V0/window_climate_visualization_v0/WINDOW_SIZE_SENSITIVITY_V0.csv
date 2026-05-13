@@ -1,0 +1,4 @@
+window_size,windows,localized_inversion_basins,pulse_line_ranges,max_edge_margin,max_middle_share,max_diversity_share
+250,155,2,28001-28250; 37501-37750,0.012,0.168,0.628
+500,78,1,37501-38000,0.006,0.158,0.54
+1000,39,0,,-0.202,0.123,0.439
