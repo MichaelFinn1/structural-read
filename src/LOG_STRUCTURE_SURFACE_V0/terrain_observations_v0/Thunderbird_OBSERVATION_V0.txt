@@ -1,0 +1,24 @@
+﻿terrain:
+Thunderbird
+
+stable posture:
+mixed
+
+middle posture:
+circulating
+
+residual posture:
+fragmented_attached
+
+observer notes:
+high fragmentation with partial attachment
+
+cross-layer observations:
+
+possible repeated structures:
+
+counterexamples observed:
+
+observer cautions:
+
+hold:

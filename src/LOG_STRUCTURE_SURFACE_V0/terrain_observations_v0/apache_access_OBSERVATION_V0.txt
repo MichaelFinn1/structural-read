@@ -1,0 +1,24 @@
+﻿terrain:
+apache_access
+
+stable posture:
+distributed
+
+middle posture:
+circulating
+
+residual posture:
+fragmented
+
+observer notes:
+high residual dispersion and weak dominant families
+
+cross-layer observations:
+
+possible repeated structures:
+
+counterexamples observed:
+
+observer cautions:
+
+hold:

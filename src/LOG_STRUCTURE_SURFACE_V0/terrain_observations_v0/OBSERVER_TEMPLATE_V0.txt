@@ -1,0 +1,24 @@
+﻿terrain:
+window:
+dataset:
+
+stable posture:
+middle posture:
+residual posture:
+transition posture:
+
+observed concentration:
+observed fragmentation:
+observed attachment:
+observed circulation:
+observed dispersion:
+
+cross-layer observations:
+
+possible repeated structures:
+
+counterexamples observed:
+
+observer cautions:
+
+hold:
