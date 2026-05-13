@@ -75,11 +75,28 @@ if (-not (Test-Path $ManifestPath)) {
         if (-not $row.source_read_id) { Add-Issue "manifest missing source_read_id" }
         if (-not $row.packet_type) { Add-Issue "manifest missing packet_type" }
         if (-not $row.boundary) { Add-Issue "manifest missing boundary" }
+if (
+    $row.status -in @("banked_reread","revised")
+) {
+    if (-not $row.unresolved_scale_behavior) {
+        Add-Issue "missing unresolved_scale_behavior"
+    }
+
+    if (-not $row.unresolved_attachment_structure) {
+        Add-Issue "missing unresolved_attachment_structure"
+    }
+
+    if (-not $row.unresolved_middle_distribution) {
+        Add-Issue "missing unresolved_middle_distribution"
+    }
+}
+
         if ($allowedStatus -notcontains $row.status) {
             Add-Issue "manifest status not allowed: $($row.status)"
         }
     }
 }
+
 
 if ($result.valid) {
     Write-Host ""
