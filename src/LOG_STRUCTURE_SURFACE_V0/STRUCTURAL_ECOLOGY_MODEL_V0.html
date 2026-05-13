@@ -1,0 +1,124 @@
+﻿<html>
+<head>
+<meta charset="utf-8">
+<title>Structural Ecology Model V0</title>
+<style>
+body {
+  background:#0b0f14;
+  color:#eee;
+  font-family:Segoe UI, Arial;
+  padding:28px;
+}
+.card {
+  max-width:1100px;
+  margin:auto;
+  background:#111820;
+  border:1px solid #2c3945;
+  border-radius:14px;
+  padding:24px;
+}
+h1 { margin-top:0; }
+.grid {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:18px;
+}
+.box {
+  background:#0d1319;
+  border:1px solid #24313a;
+  border-radius:12px;
+  padding:18px;
+}
+.regime {
+  margin:12px 0;
+  padding:12px;
+  border-left:4px solid #5aa9e6;
+  background:#111820;
+}
+small { color:#aaa; }
+.boundary {
+  color:#aaa;
+  margin-top:22px;
+  line-height:1.6;
+  border-top:1px solid #2c3945;
+  padding-top:18px;
+}
+code { color:#cfe9ff; }
+</style>
+</head>
+<body>
+<div class="card">
+
+<h1>Structural Ecology Model V0</h1>
+
+<p>
+Observer-only model. This page separates static recurrence posture from dynamic movement across windows.
+It does not rank, score, diagnose, or infer anomaly.
+</p>
+
+<div class="grid">
+
+<div class="box">
+<h2>Static posture</h2>
+<small>What is the recurrence state in this bounded read?</small>
+
+<div class="regime">
+<strong>Stable</strong><br>
+Persistent recurrence mass and accumulation shape.
+</div>
+
+<div class="regime">
+<strong>Middle</strong><br>
+Weak recurrence and contextual reuse topology.
+</div>
+
+<div class="regime">
+<strong>Residual</strong><br>
+Edge rarity ecology, rough-shape families, and local attachment.
+</div>
+
+<div class="regime">
+<strong>Absence</strong><br>
+Outside the currently observed recurrence field.
+</div>
+</div>
+
+<div class="box">
+<h2>Dynamic transition</h2>
+<small>How does recurrence posture change across windows?</small>
+
+<div class="regime">
+<code>absent -> residual</code><br>
+First appearance inside the observed field.
+</div>
+
+<div class="regime">
+<code>residual -> middle -> stable</code><br>
+Possible formation path, not a universal ladder.
+</div>
+
+<div class="regime">
+<code>stable -> middle -> residual -> absent</code><br>
+Possible outward movement or fragmentation.
+</div>
+
+<div class="regime">
+<code>residual <-> absent</code><br>
+May be its own edge ecology, not failed stabilization.
+</div>
+</div>
+
+</div>
+
+<div class="boundary">
+<strong>Current hold:</strong><br>
+Stable, middle, and residual are adjacent persistence regimes, not value levels.
+Counts are one projection of persistence. Persistence may also appear as rough-shape continuity,
+neighborhood reuse, attachment, and circulation.
+<br><br>
+No lifecycle claim. No anomaly claim. No unified score.
+</div>
+
+</div>
+</body>
+</html>
