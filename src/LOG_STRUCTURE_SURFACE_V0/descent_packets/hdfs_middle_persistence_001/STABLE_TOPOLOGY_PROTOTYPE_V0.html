@@ -1,0 +1,449 @@
+﻿<html>
+<head>
+<meta charset='utf-8'>
+<title>Stable Topology Prototype V0</title>
+<style>
+body {
+  background:#111;
+  color:#eee;
+  font-family:Segoe UI, Arial;
+  padding:32px;
+}
+
+.card {
+  max-width:1220px;
+  margin:auto;
+  background:#1b1b1b;
+  border-radius:18px;
+  padding:28px;
+}
+
+h1 { margin-top:0; }
+h2 { margin-bottom:12px; }
+
+.note {
+  color:#aaa;
+  line-height:1.6;
+  margin-bottom:26px;
+}
+
+.small-note {
+  font-size:12px;
+  margin-bottom:12px;
+}
+
+.comparison-block {
+  background:#202020;
+  border:1px solid #333;
+  border-radius:16px;
+  padding:22px;
+  margin:24px 0;
+}
+
+.file-card {
+  background:#202020;
+  border:1px solid #333;
+  border-radius:16px;
+  padding:22px;
+  margin:24px 0;
+}
+
+.metrics {
+  display:grid;
+  grid-template-columns:repeat(4, 1fr);
+  gap:10px;
+  margin-bottom:18px;
+}
+
+.metrics div {
+  background:#171717;
+  border-radius:10px;
+  padding:12px;
+}
+
+.metrics span {
+  display:block;
+  color:#999;
+  font-size:11px;
+}
+
+.metrics strong {
+  font-size:22px;
+}
+
+.label {
+  color:#aaa;
+  font-size:12px;
+  margin:18px 0 8px 0;
+}
+
+.curve-note {
+  color:#999;
+  font-size:12px;
+  margin-bottom:8px;
+}
+
+.curve-field {
+  height:150px;
+  position:relative;
+  background:linear-gradient(to bottom, #101a2b, #07101d);
+  border-radius:12px;
+  padding:8px;
+  overflow:hidden;
+  border:1px solid #25344a;
+}
+
+.curve-svg {
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  overflow:visible;
+}
+
+.curve-svg polyline {
+  fill:none;
+  stroke:#51eaff;
+  stroke-width:2.4;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  vector-effect:non-scaling-stroke;
+  filter:drop-shadow(0 0 5px rgba(90,220,255,.55));
+}
+
+.grid-line {
+  position:absolute;
+  left:0;
+  right:0;
+  height:1px;
+  background:rgba(255,255,255,.08);
+}
+
+.y20 { top:80%; }
+.y40 { top:60%; }
+.y60 { top:40%; }
+.y80 { top:20%; }
+
+.pct-marker {
+  position:absolute;
+  top:0;
+  bottom:0;
+  width:1px;
+}
+
+
+
+.pct-line {
+  height:100%;
+  border-left:1px dashed rgba(255,255,255,.16);
+}
+
+.pct-label {
+  position:absolute;
+  top:4px;
+  left:4px;
+  color:#8fd8f4;
+  font-size:10px;
+}
+
+.density-frame {
+  height:34px;
+  background:linear-gradient(to bottom, #101a2b, #07101d);
+  border-radius:12px;
+  padding:8px;
+  overflow:hidden;
+  border:1px solid #25344a;
+}
+
+.density-field {
+  height:100%;
+  display:flex;
+  border-radius:8px;
+  overflow:hidden;
+  background:rgba(40,120,210,.16);
+}
+
+.density-cell {
+  flex:1;
+  min-width:1px;
+  background:linear-gradient(to bottom, #51eaff, #10345d);
+  box-shadow:0 0 5px rgba(90,220,255,.22);
+}
+
+.decay-field {
+  height:104px;
+  display:flex;
+  align-items:flex-end;
+  gap:3px;
+  background:linear-gradient(to bottom, #101a2b, #07101d);
+  border-radius:12px;
+  padding:8px;
+  overflow:hidden;
+}
+
+.decay-tick {
+  width:8px;
+  background:linear-gradient(to top, #10345d, #51eaff);
+  border-radius:6px 6px 0 0;
+  box-shadow:0 0 7px rgba(90,220,255,.3);
+}
+
+.relief-field {
+  min-height:80px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:3px;
+  background:linear-gradient(to bottom, #101a2b, #07101d);
+  border-radius:12px;
+  padding:8px;
+  overflow:hidden;
+}
+
+.relief-cell {
+  width:13px;
+  height:13px;
+  border-radius:4px;
+  box-shadow:0 0 5px rgba(90,220,255,.22);
+}
+
+details {
+  margin-top:16px;
+}
+
+summary {
+  cursor:pointer;
+  color:#8fd8f4;
+}
+
+table {
+  width:100%;
+  border-collapse:collapse;
+  margin-top:10px;
+  font-size:12px;
+}
+
+th {
+  color:#aaa;
+  text-align:left;
+  border-bottom:1px solid #444;
+  padding:8px;
+}
+
+td {
+  border-bottom:1px solid #333;
+  padding:8px;
+  vertical-align:top;
+}
+
+code {
+  color:#ddd;
+  white-space:normal;
+}
+
+.boundary {
+  margin-top:34px;
+  border-top:1px solid #333;
+  padding-top:18px;
+  color:#999;
+  font-size:12px;
+  line-height:1.7;
+}
+</style>
+</head>
+<body>
+<div class='card'>
+
+<h1>Stable Topology Prototype V0</h1>
+
+<div class='note'>
+Sandbox prototype only. This page studies stable recurrence topology before compressing it into the overview terrain strip.
+Stable means templates occurring five or more times: recurring enough to have shape. Stable does not mean normal, safe, boring, ignorable, or explained.
+This page shows recurrence posture, not importance.
+</div>
+
+<div class='comparison-block'>
+  <h2>Stable mass comparison</h2>
+  <div class='note small-note'>
+    Comparison table for recurrence mass only. Lower template counts to 50% / 80% indicate concentrated stable mass; higher counts indicate broader stable mass.
+  </div>
+  <table>
+    <tr>
+      <th>file</th>
+      <th>stable templates</th>
+      <th>stable lines</th>
+      <th>max count</th>
+      <th>median count</th>
+      <th>top1</th>
+      <th>top5</th>
+      <th>top10</th>
+      <th>templates to 50%</th>
+      <th>templates to 80%</th>
+    </tr>
+    <tr>
+  <td>HDFS_2k.log</td>
+  <td>28</td>
+  <td>1670</td>
+  <td>157</td>
+  <td>23.5</td>
+  <td>9.4%</td>
+  <td>45.5%</td>
+  <td>84.7%</td>
+  <td>6</td>
+  <td>10</td>
+</tr>
+  </table>
+</div>
+
+<div class='file-card'>
+  <h2>HDFS_2k.log</h2>
+
+  <div class='metrics'>
+    <div><span>stable templates</span><strong>28</strong></div>
+    <div><span>stable lines</span><strong>1670</strong></div>
+    <div><span>max recurrence</span><strong>157</strong></div>
+    <div><span>median count</span><strong>23.5</strong></div>
+    <div><span>top5 stable share</span><strong>45.5%</strong></div>
+    <div><span>templates to 80%</span><strong>10</strong></div>
+  </div>
+
+  <div class='label'>cumulative stable mass curve</div>
+  <div class='curve-note'>Shows how quickly stable recurrence mass accumulates as templates are added from highest count downward. Fast rise = stable mass carried by few templates. Slow rise = stable mass spread across many templates.</div>
+  <div class='curve-field'>
+    <div class='grid-line y20'></div>
+    <div class='grid-line y40'></div>
+    <div class='grid-line y60'></div>
+    <div class='grid-line y80'></div>
+    <svg class="curve-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+      <polyline points="0,90.6 3.7,81.38 7.41,72.34 11.11,63.29 14.81,54.49 18.52,45.81 22.22,37.13 25.93,28.68 29.63,21.92 33.33,15.27 37.04,12.63 40.74,10.06 44.44,7.84 48.15,5.69 51.85,5.03 55.56,4.48999999999999 59.26,3.95 62.96,3.47 66.67,3.05 70.37,2.63 74.07,2.22 77.78,1.86 81.48,1.5 85.19,1.2 88.89,0.900000000000006 92.59,0.599999999999994 96.3,0.299999999999997 100,0" />
+    </svg>
+        <div class='pct-marker' style='left:21%'>
+      <div class='pct-line'></div>
+      <div class='pct-label'>50%</div>
+    </div>
+    <div class='pct-marker' style='left:36%'>
+      <div class='pct-line'></div>
+      <div class='pct-label'>80%</div>
+    </div>
+    <div class='pct-marker' style='left:100%'>
+      <div class='pct-line'></div>
+      <div class='pct-label'>100%</div>
+    </div>
+  </div>
+
+  <div class='label'>rank density strip</div>
+  <div class='curve-note'>Strip length shows stable recurrence mass relative to other files. Brightness shows rank concentration inside this file.</div>
+  <div class='density-frame'>
+    <div class='density-field' style='width:100%'>
+      <span class='density-cell' style='opacity:1'></span>
+<span class='density-cell' style='opacity:0.983'></span>
+<span class='density-cell' style='opacity:0.966'></span>
+<span class='density-cell' style='opacity:0.966'></span>
+<span class='density-cell' style='opacity:0.944'></span>
+<span class='density-cell' style='opacity:0.933'></span>
+<span class='density-cell' style='opacity:0.933'></span>
+<span class='density-cell' style='opacity:0.91'></span>
+<span class='density-cell' style='opacity:0.753'></span>
+<span class='density-cell' style='opacity:0.742'></span>
+<span class='density-cell' style='opacity:0.367'></span>
+<span class='density-cell' style='opacity:0.361'></span>
+<span class='density-cell' style='opacity:0.327'></span>
+<span class='density-cell' style='opacity:0.322'></span>
+<span class='density-cell' style='opacity:0.182'></span>
+<span class='density-cell' style='opacity:0.17'></span>
+<span class='density-cell' style='opacity:0.17'></span>
+<span class='density-cell' style='opacity:0.165'></span>
+<span class='density-cell' style='opacity:0.159'></span>
+<span class='density-cell' style='opacity:0.159'></span>
+<span class='density-cell' style='opacity:0.159'></span>
+<span class='density-cell' style='opacity:0.155'></span>
+<span class='density-cell' style='opacity:0.155'></span>
+<span class='density-cell' style='opacity:0.155'></span>
+<span class='density-cell' style='opacity:0.155'></span>
+<span class='density-cell' style='opacity:0.155'></span>
+<span class='density-cell' style='opacity:0.155'></span>
+<span class='density-cell' style='opacity:0.155'></span>
+    </div>
+  </div>
+
+  <details>
+    <summary>Open top stable templates</summary>
+    <table>
+      <tr><th>count</th><th>template</th></tr>
+      <tr>
+  <td>157</td>
+  <td><code><num> <num> <num> INFO dfs.DataNode$PacketResponder: PacketResponder <num> for block blk_-<hex> terminating</code></td>
+</tr>
+<tr>
+  <td>154</td>
+  <td><code><num> <num> <num> INFO dfs.DataNode$PacketResponder: PacketResponder <num> for block blk_<hex> terminating</code></td>
+</tr>
+<tr>
+  <td>151</td>
+  <td><code><num> <num> <num> INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: <ip>:<num> is added to blk_<hex> size <hex></code></td>
+</tr>
+<tr>
+  <td>151</td>
+  <td><code><num> <num> <num> INFO dfs.FSNamesystem: BLOCK* NameSystem.addStoredBlock: blockMap updated: <ip>:<num> is added to blk_-<hex> size <hex></code></td>
+</tr>
+<tr>
+  <td>147</td>
+  <td><code><num> <num> <num> INFO dfs.DataNode$DataXceiver: Receiving block blk_-<hex> src: /<ip>:<num> dest: /<ip>:<num></code></td>
+</tr>
+<tr>
+  <td>145</td>
+  <td><code><num> <num> <num> INFO dfs.DataNode$PacketResponder: Received block blk_<hex> of size <hex> from /<ip></code></td>
+</tr>
+<tr>
+  <td>145</td>
+  <td><code><num> <num> <num> INFO dfs.DataNode$DataXceiver: Receiving block blk_<hex> src: /<ip>:<num> dest: /<ip>:<num></code></td>
+</tr>
+<tr>
+  <td>141</td>
+  <td><code><num> <num> <num> INFO dfs.DataNode$PacketResponder: Received block blk_-<hex> of size <hex> from /<ip></code></td>
+</tr>
+<tr>
+  <td>113</td>
+  <td><code><num> <num> <num> INFO dfs.FSNamesystem: BLOCK* NameSystem.delete: blk_-<hex> is added to invalidSet of <ip>:<num></code></td>
+</tr>
+<tr>
+  <td>111</td>
+  <td><code><num> <num> <num> INFO dfs.FSNamesystem: BLOCK* NameSystem.delete: blk_<hex> is added to invalidSet of <ip>:<num></code></td>
+</tr>
+<tr>
+  <td>44</td>
+  <td><code><num> <num> <num> WARN dfs.DataNode$DataXceiver: <ip>:<num>:Got exception while serving blk_<hex> to /<ip>:</code></td>
+</tr>
+<tr>
+  <td>43</td>
+  <td><code><num> <num> <num> INFO dfs.DataNode$DataXceiver: <ip>:<num> Served block blk_<hex> to /<ip></code></td>
+</tr>
+<tr>
+  <td>37</td>
+  <td><code><num> <num> <num> INFO dfs.DataNode$DataXceiver: <ip>:<num> Served block blk_-<hex> to /<ip></code></td>
+</tr>
+<tr>
+  <td>36</td>
+  <td><code><num> <num> <num> WARN dfs.DataNode$DataXceiver: <ip>:<num>:Got exception while serving blk_-<hex> to /<ip>:</code></td>
+</tr>
+<tr>
+  <td>11</td>
+  <td><code><num> <num> <num> INFO dfs.DataBlockScanner: Verification succeeded for blk_-<hex></code></td>
+</tr>
+<tr>
+  <td>9</td>
+  <td><code><num> <num> <num> INFO dfs.FSDataset: Deleting block blk_-<hex> file /mnt/hadoop/dfs/data/current/subdir34/blk_-<hex></code></td>
+</tr>
+    </table>
+  </details>
+</div>
+
+<div class='boundary'>
+Boundary: This prototype does not infer anomaly, severity, importance, cause, incident status, or recommended action.
+<br><br>
+One-line hold: Stabilize local stable terrain before compressing upward.
+</div>
+
+</div>
+</body>
+</html>
