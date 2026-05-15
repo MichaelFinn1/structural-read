@@ -188,3 +188,26 @@ It does not infer:
 Window size behaves as observer stance rather than truth resolution.
 
 Residual islanding survived scale reread as localized recurrence climate deformation rather than dissolving into either diffuse noise or global terrain transformation.
+
+## Lower reread boundary
+
+Does morphology remain composable below 50?
+
+TBD
+
+Current observer question:
+
+- does 25 preserve coherent chamber structure?
+- does 10 preserve adjacency posture?
+- does narrowing still compose upward cleanly?
+- or does morphology fragment into unstable local residue?
+
+Boundary:
+
+Higher resolution is not automatically better.
+
+A scale remains lawful only if:
+- local structure remains replayable
+- reread composes upward cleanly
+- and widening does not require interpretive repair.
+

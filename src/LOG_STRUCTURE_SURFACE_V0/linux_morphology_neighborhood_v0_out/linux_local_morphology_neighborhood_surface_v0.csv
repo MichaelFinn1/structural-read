@@ -1,0 +1,16 @@
+family_a,family_b,shared_prefix_depth,shared_local_posture,window_a,window_b,window_size_a,window_size_b
+Jun <num> <num>:<num>:<num> combo ftpd[<num>]:,Jul <num> <num>:<num>:<num> combo gpm[<num>]:,0,False,window_001,window_004,250,250
+Jun <num> <num>:<num>:<num> combo ftpd[<num>]:,Jul <num> <num>:<num>:<num> combo gdm(pam_unix)[<num>]:,0,True,window_001,window_005,250,250
+Jun <num> <num>:<num>:<num> combo ftpd[<num>]:,Jul <num> <num>:<num>:<num> combo kernel:,0,False,window_001,window_008,250,250
+Jun <num> <num>:<num>:<num> combo ftpd[<num>]:,Jul <num> <num>:<num>:<num> combo gpm[<num>]:,0,False,window_001,window_001,250,1000
+Jun <num> <num>:<num>:<num> combo ftpd[<num>]:,Jul <num> <num>:<num>:<num> combo kernel:,0,False,window_001,window_002,250,1000
+Jul <num> <num>:<num>:<num> combo gpm[<num>]:,Jul <num> <num>:<num>:<num> combo gdm(pam_unix)[<num>]:,4,False,window_004,window_005,250,250
+Jul <num> <num>:<num>:<num> combo gpm[<num>]:,Jul <num> <num>:<num>:<num> combo kernel:,4,True,window_004,window_008,250,250
+Jul <num> <num>:<num>:<num> combo gpm[<num>]:,Jul <num> <num>:<num>:<num> combo gpm[<num>]:,5,False,window_004,window_001,250,1000
+Jul <num> <num>:<num>:<num> combo gpm[<num>]:,Jul <num> <num>:<num>:<num> combo kernel:,4,True,window_004,window_002,250,1000
+Jul <num> <num>:<num>:<num> combo gdm(pam_unix)[<num>]:,Jul <num> <num>:<num>:<num> combo kernel:,4,False,window_005,window_008,250,250
+Jul <num> <num>:<num>:<num> combo gdm(pam_unix)[<num>]:,Jul <num> <num>:<num>:<num> combo gpm[<num>]:,4,False,window_005,window_001,250,1000
+Jul <num> <num>:<num>:<num> combo gdm(pam_unix)[<num>]:,Jul <num> <num>:<num>:<num> combo kernel:,4,False,window_005,window_002,250,1000
+Jul <num> <num>:<num>:<num> combo kernel:,Jul <num> <num>:<num>:<num> combo gpm[<num>]:,4,False,window_008,window_001,250,1000
+Jul <num> <num>:<num>:<num> combo kernel:,Jul <num> <num>:<num>:<num> combo kernel:,5,True,window_008,window_002,250,1000
+Jul <num> <num>:<num>:<num> combo gpm[<num>]:,Jul <num> <num>:<num>:<num> combo kernel:,4,False,window_001,window_002,1000,1000

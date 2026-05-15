@@ -13,8 +13,11 @@ parser.add_argument(
 )
 args = parser.parse_args()
 
-SOURCE = Path(r"C:\Users\Admin\Desktop\StructuralRead_FirstUserTest\terrain\loghub_2k_panel\Linux\Linux_2k.log")
-OUTDIR = Path("linux_residual_temporal_001_out")
+SOURCE = Path(
+    r"C:\Users\Admin\Desktop\StructuralRead_FirstUserTest\terrain\loghub_2k_panel\Thunderbird\Thunderbird_2k.log"
+)
+
+OUTDIR = Path("thunderbird_residual_temporal_001_out")
 OUTDIR.mkdir(exist_ok=True)
 
 WINDOWS = args.window_sizes
@@ -120,7 +123,7 @@ for window_size in WINDOWS:
             "local_residue_posture": posture,
         })
 
-out = OUTDIR / "linux_residual_temporal_windows_v0.csv"
+out = OUTDIR / "thunderbird_residual_temporal_windows_v0.csv"
 
 with out.open("w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(f, fieldnames=list(summary_rows[0].keys()))

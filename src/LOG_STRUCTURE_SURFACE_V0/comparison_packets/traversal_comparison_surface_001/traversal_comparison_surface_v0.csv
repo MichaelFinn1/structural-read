@@ -1,0 +1,3 @@
+terrain,windows,avg_residual_share,avg_middle_share,avg_residual_self_adjacent,avg_residual_stable_attachment,dominant_posture
+Linux,354,0.0485,0.023,0.0924,0.0432,no_residual
+Thunderbird,354,0.337,0.1305,0.5386,0.6551,stable_attached_residual
