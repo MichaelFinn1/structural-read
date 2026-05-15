@@ -11,6 +11,20 @@ banked_reread
 - linux_residual_temporal_windows_v0.csv
 - linux_residual_temporal_windows_scale_probe_v0.csv
 
+## What held?
+
+Residual islanding survived temporal reread as a localized recurrence climate rather than dissolving into diffuse background noise.
+
+Dominant stable enclosure also remained visible across all observer stances.
+
+Residual self-adjacency persisted under widening while remaining strongly localized in source order.
+
+The Linux terrain therefore continued to exhibit:
+- dominant enclosure climate
+- localized residual deformation
+- weak middle participation
+- partial scale survivability
+
 ## What held across scale?
 
 Residual islanding survived all observer stances once sufficiently wide local regions were included.
