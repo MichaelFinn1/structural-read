@@ -27,8 +27,24 @@ Does the field still read lawfully after time away?
 
 ## Decision
 
-TBD: continue / reread / pause / reopen scale survivability
+continue
 
 ## Hold
 
 Recoverability after delay is evidence.
+
+## Reread result
+
+The comparative field remained structurally recoverable after delay.
+
+Key distinctions reappeared without repair:
+
+- Apache baseline remained anchored near Apache terrain
+- Apache variants still expressed lawful posture migration
+- Netsparker remained separated from OpenStack by reintegration behavior
+- detached continuity remained distinct from uncoupled residual continuity
+
+No ontology expansion or semantic reinterpretation was required.
+
+The field currently appears replay-stable under delayed reread.
+
