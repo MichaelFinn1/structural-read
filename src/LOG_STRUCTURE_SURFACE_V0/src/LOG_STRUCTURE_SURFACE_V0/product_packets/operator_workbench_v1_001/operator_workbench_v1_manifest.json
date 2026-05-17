@@ -1,0 +1,26 @@
+﻿{
+  "packet_id": "operator_workbench_v1_001",
+  "status": "product_transition_packet",
+  "first_loop": [
+    "ingest",
+    "compare",
+    "widen_narrow",
+    "descend",
+    "bookmark_state",
+    "return"
+  ],
+  "initial_basin": "apache_comparison_basin_001",
+  "initial_surfaces": {
+    "field": "comparison_packets/master_comparative_field_001/master_comparative_field_v0.svg",
+    "comparison_csv": "comparison_packets/master_comparative_field_001/master_comparative_field_v0.csv",
+    "read": "comparison_packets/master_comparative_field_001/MASTER_COMPARATIVE_FIELD_READ_001.md",
+    "descent_example": "comparison_packets/apache_comparison_basin_001/netsparker_scale_survivability_250_500_1000_v0.csv"
+  },
+  "v1_invariants": [
+    "replayable_descent",
+    "packet_provenance",
+    "stance_history",
+    "bounded_language",
+    "saved_orientation_state"
+  ]
+}
