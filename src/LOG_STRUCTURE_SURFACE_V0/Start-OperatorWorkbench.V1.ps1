@@ -12,7 +12,7 @@ if (-not (Test-Path $IndexPath)) {
     exit
 }
 
-$Bookmarks = Import-Csv $IndexPath
+$Bookmarks = @(Import-Csv $IndexPath)
 
 Write-Host ""
 Write-Host "AVAILABLE ORIENTATION STATES"
