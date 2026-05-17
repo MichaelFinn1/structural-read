@@ -29,24 +29,35 @@ for ($i = 0; $i -lt $Bookmarks.Count; $i++) {
     Write-Host ""
 }
 
-$Choice = Read-Host "Select bookmark index"
+if ($Bookmarks.Count -eq 1) {
 
-if ($Choice -notmatch '^\d+$') {
-
+    Write-Host "ONLY ONE BOOKMARK AVAILABLE"
+    Write-Host "AUTO-SELECTING [0]"
     Write-Host ""
-    Write-Host "INVALID SELECTION"
-    Write-Host ""
-    exit
-}
 
-$ChoiceInt = [int]$Choice
+    $ChoiceInt = 0
 
-if ($ChoiceInt -ge $Bookmarks.Count) {
+} else {
 
-    Write-Host ""
-    Write-Host "SELECTION OUT OF RANGE"
-    Write-Host ""
-    exit
+    $Choice = Read-Host "Select bookmark index"
+
+    if ($Choice -notmatch '^\d+$') {
+
+        Write-Host ""
+        Write-Host "INVALID SELECTION"
+        Write-Host ""
+        exit
+    }
+
+    $ChoiceInt = [int]$Choice
+
+    if ($ChoiceInt -ge $Bookmarks.Count) {
+
+        Write-Host ""
+        Write-Host "SELECTION OUT OF RANGE"
+        Write-Host ""
+        exit
+    }
 }
 
 $Selected = $Bookmarks[$ChoiceInt]
