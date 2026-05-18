@@ -1,0 +1,21 @@
+signature_id,signature_type,current_evidence_strength,current_survivability,probe_type,expected_stability,probe_status,result_after_probe,boundary_note
+sig_001,carrier_persistence,supported,broad_stable,zone_shift_probe,sensitive,not_run,,stability probe only; does not add new grammar
+sig_001,carrier_persistence,supported,broad_stable,constitution_density_probe,likely_stable,not_run,,stability probe only; does not add new grammar
+sig_001,carrier_persistence,supported,broad_stable,extraction_threshold_probe,moderate,not_run,,stability probe only; does not add new grammar
+sig_001,carrier_persistence,supported,broad_stable,terrain_comparison_probe,unknown_until_replayed,not_run,,stability probe only; does not add new grammar
+sig_002,convergence_preservation,supported,recomposition_dependent,zone_shift_probe,moderate,not_run,,stability probe only; does not add new grammar
+sig_002,convergence_preservation,supported,recomposition_dependent,constitution_density_probe,sensitive,not_run,,stability probe only; does not add new grammar
+sig_002,convergence_preservation,supported,recomposition_dependent,extraction_threshold_probe,sensitive,not_run,,stability probe only; does not add new grammar
+sig_002,convergence_preservation,supported,recomposition_dependent,terrain_comparison_probe,unknown_until_replayed,not_run,,stability probe only; does not add new grammar
+sig_003,seam_handoff_candidate,weak_support,constitution_local_only,zone_shift_probe,moderate,not_run,,stability probe only; does not add new grammar
+sig_003,seam_handoff_candidate,weak_support,constitution_local_only,constitution_density_probe,sensitive,not_run,,stability probe only; does not add new grammar
+sig_003,seam_handoff_candidate,weak_support,constitution_local_only,extraction_threshold_probe,sensitive,not_run,,stability probe only; does not add new grammar
+sig_003,seam_handoff_candidate,weak_support,constitution_local_only,terrain_comparison_probe,unknown_until_replayed,not_run,,stability probe only; does not add new grammar
+sig_004,local_symmetry_pocket,supported,meso_stable,zone_shift_probe,sensitive,not_run,,stability probe only; does not add new grammar
+sig_004,local_symmetry_pocket,supported,meso_stable,constitution_density_probe,sensitive,not_run,,stability probe only; does not add new grammar
+sig_004,local_symmetry_pocket,supported,meso_stable,extraction_threshold_probe,moderate,not_run,,stability probe only; does not add new grammar
+sig_004,local_symmetry_pocket,supported,meso_stable,terrain_comparison_probe,unknown_until_replayed,not_run,,stability probe only; does not add new grammar
+sig_005,null_zone_respect,mixed,broad_stable,zone_shift_probe,sensitive,not_run,,stability probe only; does not add new grammar
+sig_005,null_zone_respect,mixed,broad_stable,constitution_density_probe,likely_stable,not_run,,stability probe only; does not add new grammar
+sig_005,null_zone_respect,mixed,broad_stable,extraction_threshold_probe,moderate,not_run,,stability probe only; does not add new grammar
+sig_005,null_zone_respect,mixed,broad_stable,terrain_comparison_probe,unknown_until_replayed,not_run,,stability probe only; does not add new grammar
