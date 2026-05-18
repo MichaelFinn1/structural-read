@@ -1,0 +1,16 @@
+candidate_id,candidate_type,constitution_range,zone_or_span,supporting_rows,evidence_strength,survivability,boundary_note
+cand_001,spacing_basin,50,cross_null_zone,1,supported,broad_stable,spacing preserved across low-participation basin
+cand_002,spacing_basin,75,cross_null_zone,1,supported,broad_stable,spacing preserved across low-participation basin
+cand_003,spacing_basin,100,cross_null_zone,1,supported,broad_stable,spacing preserved across low-participation basin
+cand_004,spacing_basin,150,cross_null_zone,1,supported,broad_stable,spacing preserved across low-participation basin
+cand_005,spacing_basin,200,cross_null_zone,1,supported,broad_stable,spacing preserved across low-participation basin
+cand_006,spacing_basin,250,cross_null_zone,1,supported,broad_stable,spacing preserved across low-participation basin
+cand_007,spacing_basin,350,cross_null_zone,1,supported,broad_stable,spacing preserved across low-participation basin
+cand_008,spacing_basin,500,cross_null_zone,1,supported,broad_stable,spacing preserved across low-participation basin
+cand_009,spacing_basin,750,cross_null_zone,1,supported,broad_stable,spacing preserved across low-participation basin
+cand_010,carrier_separation_basin,50,left_to_right_span,1,weak_support,meso_stable,persistent carrier/background asymmetry candidate
+cand_011,carrier_separation_basin,250,left_to_right_span,1,weak_support,meso_stable,persistent carrier/background asymmetry candidate
+cand_012,carrier_separation_basin,350,left_to_right_span,1,weak_support,meso_stable,persistent carrier/background asymmetry candidate
+cand_013,carrier_separation_basin,750,left_to_right_span,1,weak_support,meso_stable,persistent carrier/background asymmetry candidate
+cand_014,low_transition_basin,broad,null_zone,1,mixed,broad_stable,candidate low-transition basin under reread constitution
+cand_015,recomposition_corridor,50_to_250,left_zone,20,supported,recomposition_dependent,merge/split density suggests recomposition corridor
