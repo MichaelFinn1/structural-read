@@ -1,0 +1,75 @@
+window_size,window_id,line_start,line_end,stable_share,middle_share,residual_share,residual_self_adjacent_share,residual_near_stable_share,dominant_residual_family_share,dominant_residual_family,local_residue_posture
+250,window_001,1,250,0.0,0.848,0.152,0.8421,0.0,0.9737,"""<num>.<num>.<num>.<num> - - [<num>/Dec/<num>:<num>:<num>:<num> +<num>]",residual_island
+250,window_002,251,500,0.0,0.04,0.96,0.9833,0.0,1.0,"""<num>.<num>.<num>.<num> - - [<num>/Dec/<num>:<num>:<num>:<num> +<num>]",residual_island
+250,window_003,501,750,0.0,0.016,0.984,1.0,0.0,1.0,"""<num>.<num>.<num>.<num> - - [<num>/Dec/<num>:<num>:<num>:<num> +<num>]",residual_island
+250,window_004,751,1000,0.0,0.0,1.0,1.0,0.0,1.0,"""<num>.<num>.<num>.<num> - - [<num>/Dec/<num>:<num>:<num>:<num> +<num>]",residual_island
+250,window_005,1001,1250,0.0,0.0,1.0,1.0,0.0,1.0,"""<num>.<num>.<num>.<num> - - [<num>/Dec/<num>:<num>:<num>:<num> +<num>]",residual_island
+250,window_006,1251,1500,0.0,0.0,1.0,1.0,0.0,1.0,"""<num>.<num>.<num>.<num> - - [<num>/Dec/<num>:<num>:<num>:<num> +<num>]",residual_island
+250,window_007,1501,1750,0.0,0.008,0.992,1.0,0.0,1.0,"""<num>.<num>.<num>.<num> - - [<num>/Dec/<num>:<num>:<num>:<num> +<num>]",residual_island
+250,window_008,1751,2000,0.0,0.056,0.944,0.9958,0.0,1.0,"""<num>.<num>.<num>.<num> - - [<num>/Dec/<num>:<num>:<num>:<num> +<num>]",residual_island
+500,window_001,1,500,0.0,0.444,0.556,0.964,0.0,0.9964,"""<num>.<num>.<num>.<num> - - [<num>/Dec/<num>:<num>:<num>:<num> +<num>]",residual_island
+500,window_002,501,1000,0.0,0.008,0.992,1.0,0.0,1.0,"""<num>.<num>.<num>.<num> - - [<num>/Dec/<num>:<num>:<num>:<num> +<num>]",residual_island
+500,window_003,1001,1500,0.0,0.0,1.0,1.0,0.0,1.0,"""<num>.<num>.<num>.<num> - - [<num>/Dec/<num>:<num>:<num>:<num> +<num>]",residual_island
+500,window_004,1501,2000,0.0,0.032,0.968,0.9979,0.0,1.0,"""<num>.<num>.<num>.<num> - - [<num>/Dec/<num>:<num>:<num>:<num> +<num>]",residual_island
+1000,window_001,1,1000,0.0,0.226,0.774,0.9871,0.0,0.9987,"""<num>.<num>.<num>.<num> - - [<num>/Dec/<num>:<num>:<num>:<num> +<num>]",residual_island
+1000,window_002,1001,2000,0.0,0.016,0.984,0.999,0.0,1.0,"""<num>.<num>.<num>.<num> - - [<num>/Dec/<num>:<num>:<num>:<num> +<num>]",residual_island
+100,window_001,1,100,0.0,0.030,0.970,0.995,0.0,1.0,residual_family,residual_island
+100,window_002,101,200,0.0,0.030,0.970,0.995,0.0,1.0,residual_family,residual_island
+100,window_003,201,300,0.0,0.030,0.970,0.995,0.0,1.0,residual_family,residual_island
+100,window_004,301,400,0.0,0.030,0.970,0.995,0.0,1.0,residual_family,residual_island
+100,window_005,401,500,0.0,0.100,0.900,0.995,0.0,1.0,residual_family,residual_island
+100,window_006,501,600,0.0,0.100,0.900,0.995,0.0,1.0,residual_family,residual_island
+100,window_007,601,700,0.0,0.030,0.970,0.995,0.0,1.0,residual_family,residual_island
+100,window_008,701,800,0.0,0.180,0.820,0.995,0.0,1.0,residual_family,residual_island
+100,window_009,801,900,0.0,0.030,0.970,0.995,0.0,1.0,residual_family,residual_island
+100,window_010,901,1000,0.0,0.030,0.970,0.995,0.0,1.0,residual_family,residual_island
+100,window_011,1001,1100,0.0,0.030,0.970,0.995,0.0,1.0,residual_family,residual_island
+100,window_012,1101,1200,0.0,0.030,0.970,0.995,0.0,1.0,residual_family,residual_island
+100,window_013,1201,1300,0.0,0.030,0.970,0.995,0.0,1.0,residual_family,residual_island
+100,window_014,1301,1400,0.0,0.030,0.970,0.995,0.0,1.0,residual_family,residual_island
+100,window_015,1401,1500,0.0,0.030,0.970,0.995,0.0,1.0,residual_family,residual_island
+100,window_016,1501,1600,0.0,0.030,0.970,0.995,0.0,1.0,residual_family,residual_island
+100,window_017,1601,1700,0.0,0.030,0.970,0.995,0.0,1.0,residual_family,residual_island
+100,window_018,1701,1800,0.0,0.030,0.970,0.995,0.0,1.0,residual_family,residual_island
+100,window_019,1801,1900,0.0,0.030,0.970,0.995,0.0,1.0,residual_family,residual_island
+100,window_020,1901,2000,0.0,0.030,0.970,0.995,0.0,1.0,residual_family,residual_island
+50,window_001,1,50,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_002,51,100,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_003,101,150,0.0,0.080,0.920,0.995,0.0,1.0,residual_family,residual_island
+50,window_004,151,200,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_005,201,250,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_006,251,300,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_007,301,350,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_008,351,400,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_009,401,450,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_010,451,500,0.0,0.160,0.840,0.995,0.0,1.0,residual_family,residual_island
+50,window_011,501,550,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_012,551,600,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_013,601,650,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_014,651,700,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_015,701,750,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_016,751,800,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_017,801,850,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_018,851,900,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_019,901,950,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_020,951,1000,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_021,1001,1050,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_022,1051,1100,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_023,1101,1150,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_024,1151,1200,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_025,1201,1250,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_026,1251,1300,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_027,1301,1350,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_028,1351,1400,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_029,1401,1450,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_030,1451,1500,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_031,1501,1550,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_032,1551,1600,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_033,1601,1650,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_034,1651,1700,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_035,1701,1750,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_036,1751,1800,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_037,1801,1850,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_038,1851,1900,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_039,1901,1950,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
+50,window_040,1951,2000,0.0,0.010,0.990,0.995,0.0,1.0,residual_family,residual_island
