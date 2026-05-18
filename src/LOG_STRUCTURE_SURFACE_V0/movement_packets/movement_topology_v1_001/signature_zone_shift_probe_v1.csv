@@ -1,0 +1,10 @@
+signature_type,zone_variant,baseline_status,probe_status,change_class,supporting_rows,boundary_note
+carrier_persistence,baseline,supported,supported,survives,6,"zone shift tests dependence on current zoning, not correctness of zones"
+carrier_persistence,variant_a,supported,supported,survives,6,"zone shift tests dependence on current zoning, not correctness of zones"
+carrier_persistence,variant_b,supported,supported,survives,6,"zone shift tests dependence on current zoning, not correctness of zones"
+local_symmetry_pocket,baseline,supported,weak_support,weakens,3,"zone shift tests dependence on current zoning, not correctness of zones"
+local_symmetry_pocket,variant_a,supported,weak_support,weakens,3,"zone shift tests dependence on current zoning, not correctness of zones"
+local_symmetry_pocket,variant_b,supported,weak_support,weakens,3,"zone shift tests dependence on current zoning, not correctness of zones"
+null_zone_respect,baseline,mixed,supported,relocates,9,"zone shift tests dependence on current zoning, not correctness of zones"
+null_zone_respect,variant_a,mixed,supported,relocates,9,"zone shift tests dependence on current zoning, not correctness of zones"
+null_zone_respect,variant_b,mixed,supported,relocates,9,"zone shift tests dependence on current zoning, not correctness of zones"
