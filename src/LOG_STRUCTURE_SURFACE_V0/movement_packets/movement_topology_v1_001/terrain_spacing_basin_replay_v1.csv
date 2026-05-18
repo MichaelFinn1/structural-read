@@ -1,0 +1,5 @@
+terrain,candidate_type,supporting_rows,constitution_span,replay_status,movement_quality,boundary_note
+current_primary,spacing_basin,9,50|75|100|150|200|250|350|500|750,survives,locally_stable,baseline terrain replay
+linux_candidate,spacing_basin,,,not_run,unknown,contrast terrain intentionally unresolved until replay
+apache_candidate,spacing_basin,,,not_run,unknown,contrast terrain intentionally unresolved until replay
+openstack_candidate,spacing_basin,,,not_run,unknown,contrast terrain intentionally unresolved until replay
