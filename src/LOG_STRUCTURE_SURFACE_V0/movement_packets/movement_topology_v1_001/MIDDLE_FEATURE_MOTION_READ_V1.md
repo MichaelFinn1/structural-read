@@ -3,6 +3,34 @@
 Status:
 provisional_feature_motion_surface
 
+## Important correction
+
+The visible motion should not be read as object trajectory.
+
+A middle feature at one constitution may not be the same feature at another constitution.
+
+The current tracker uses nearest-neighbor continuity, so it may force identity across:
+
+- merge events
+- split events
+- disappearance
+- reconstitution
+- nearby replacement
+
+Therefore this surface currently supports:
+
+- visible positional continuity
+- anchor regions
+- drift-like behavior
+- merge/split candidates
+- reconstitution candidates
+
+It does not yet support:
+
+- stable feature identity
+- true feature trajectory
+- causal movement
+
 ## What held
 
 The measured dial supports visible feature motion across constitutions.
@@ -22,7 +50,7 @@ This suggests a constitution-resilient left chamber.
 
 ## What moved
 
-A thin mid-left feature drifts outward across broader constitutions:
+A thin mid-left feature shows apparent drift/reconstitution:
 
 255.5
 → 233.5
@@ -33,7 +61,7 @@ A thin mid-left feature drifts outward across broader constitutions:
 → 352.5
 → 502.5
 
-This may indicate reconstitution rather than single-object motion.
+This should not yet be treated as one continuing object.
 
 ## What anchored
 
@@ -46,10 +74,6 @@ then later folds into broader right-side organization.
 
 ## What remains unresolved
 
-The tracker uses nearest-neighbor matching.
-
-So track identity is provisional.
-
 Large jumps may represent:
 
 - true drift
@@ -61,7 +85,7 @@ Large jumps may represent:
 
 ## Key distinction
 
-This surface tracks feature motion.
+This surface tracks apparent feature motion under provisional continuity assumptions.
 
 It does not yet prove feature identity.
 
@@ -73,4 +97,4 @@ No causal claim.
 
 ## Hold
 
-The local ecology contains anchors, drifts, merges, and reconstitutions; identity tracking must remain provisional.
+The dial has exposed measurable stance-relative feature reconstitution; identity across constitutions is not yet lawful.
