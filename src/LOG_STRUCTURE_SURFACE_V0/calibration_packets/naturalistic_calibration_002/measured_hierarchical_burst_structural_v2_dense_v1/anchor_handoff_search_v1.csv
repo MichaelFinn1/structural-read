@@ -1,0 +1,9 @@
+terrain,from_window,to_window,anchor_mode,anchor_count,holding_zones,anchor_centers,width_behavior,handoff_read,boundary_note
+hierarchical_burst_structural_v2,125,150,fixed_anchor_present,2,right|right,2700.5|3825.5,mixed_width_hold_and_change,right holds field,anchor_handoff_not_identity
+hierarchical_burst_structural_v2,150,175,fixed_anchor_present,1,left,1050.5,center_holds_width_changes,left holds field,anchor_handoff_not_identity
+hierarchical_burst_structural_v2,175,200,near_anchor_present,1,middle,2000.5,center_holds_width_changes,middle holds field,anchor_handoff_not_identity
+hierarchical_burst_structural_v2,200,250,fixed_anchor_present,1,middle,2000.5,center_and_width_hold,middle holds field,anchor_handoff_not_identity
+hierarchical_burst_structural_v2,250,300,near_anchor_present,1,middle,1950.5,center_holds_width_changes,middle holds field,anchor_handoff_not_identity
+hierarchical_burst_structural_v2,300,350,fixed_anchor_present,1,middle,1925.5,center_and_width_hold,middle holds field,anchor_handoff_not_identity
+hierarchical_burst_structural_v2,350,400,near_anchor_present,1,middle,2000.5,center_holds_width_changes,middle holds field,anchor_handoff_not_identity
+hierarchical_burst_structural_v2,400,500,fixed_anchor_present,1,middle,2000.5,center_and_width_hold,middle holds field,anchor_handoff_not_identity
