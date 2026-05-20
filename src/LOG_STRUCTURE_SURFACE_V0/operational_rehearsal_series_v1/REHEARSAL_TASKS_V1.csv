@@ -1,0 +1,4 @@
+﻿rehearsal_id,terrain,task_type,core_pressure,success_condition,boundary
+ors_001,OpenStack_long_normal2,interrupted_return,orientation recovery after pause,operator can return to exact investigatory region without forced continuity,no semantic closure
+ors_002,Linux_long_horizon_001,false_global_coherence,global pattern differs from local survivability,operator preserves uncertainty when local descent weakens,no hidden unification
+ors_003,Netsparker_long_horizon_001,sparse_local_pressure,weak local articulation under broader redistribution,operator can preserve local investigability without hallucinating broader structure,no anomaly inference
