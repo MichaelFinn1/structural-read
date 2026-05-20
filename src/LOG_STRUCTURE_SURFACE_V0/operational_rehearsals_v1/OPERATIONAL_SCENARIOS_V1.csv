@@ -1,0 +1,6 @@
+﻿scenario_id,scenario_name,purpose,operator_task,success_signal,boundary
+scenario_001,something_shifted,Find where continuity weakens under widening,Locate first survivability weakening zone,weakening location preserved without cause claim,no semantic diagnosis
+scenario_002,return_after_interruption,Test reentry after pause,Return using receipt/bookmark/constitution/focus region,orientation recovered without continuity repair,no forced recovery
+scenario_003,false_global_coherence,Test global pattern that weakens locally,Compare global structure against local descent,operator avoids overforcing continuity,no hidden structure claim
+scenario_004,handoff_survivability,Test whether another reader can continue,Leave three cards for another reader,investigability survives transfer,no automated next-step authority
+scenario_005,sparse_incident,Inspect rare local articulation in quiet terrain,Find local pressure without broad hallucination,local region remains bounded,no anomaly claim
