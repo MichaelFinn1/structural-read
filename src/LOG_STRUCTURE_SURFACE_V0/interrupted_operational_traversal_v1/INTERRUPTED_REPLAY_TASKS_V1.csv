@@ -1,0 +1,7 @@
+﻿task_id,task_name,purpose,success_signal,boundary
+task_009,resume_after_delay,Return to terrain after interruption,orientation restores without forced continuity,no semantic reconstruction
+task_010,compare_pre_post_revisit,Compare reread before and after return,deformation remains inspectable,no privileged reread
+task_011,constitution_shift_revisit,Return under different constitution,continuity differences remain explicit,no hidden canonical scale
+task_012,preserve_unresolved_region,Maintain replay addressability for unresolved zones,unresolvedness survives revisit,no forced stabilization
+task_013,inspect_failed_reintegration,Observe non-recovering continuity after replay,replay does not hallucinate repair,no recovery pressure
+task_014,track_local_survivability_only,Preserve local seam continuity without global recovery,local persistence remains lawful,no global continuity assumption
