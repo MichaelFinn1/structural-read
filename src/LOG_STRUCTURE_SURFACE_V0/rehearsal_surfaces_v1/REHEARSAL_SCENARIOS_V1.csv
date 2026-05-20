@@ -1,0 +1,6 @@
+﻿scenario_id,scenario_name,operational_pressure,primary_surface,success_condition
+rs_001,deploy_shift_001,detect survivability change after deploy,paired temporal traversal,operator preserves before/after orientation
+rs_002,sparse_incident_001,inspect weak local articulation,global climate plus local reread,local pressure inspected without over-promotion
+rs_003,interrupted_return_001,recover orientation after pause,saved reread chamber,return traversal restores investigatory thread
+rs_004,handoff_001,preserve investigability across workers,sticky cards plus receipts,second reader can lawfully continue
+rs_005,false_global_coherence_001,global structure weakens locally,global/local comparison,operator preserves unresolvedness
