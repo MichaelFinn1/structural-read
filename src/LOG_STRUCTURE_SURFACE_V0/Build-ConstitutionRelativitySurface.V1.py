@@ -17,8 +17,8 @@ rows = list(csv.DictReader(src.open("r", encoding="utf-8")))
 
 for r in rows:
     r["window_size"] = int(float(r["window_size"]))
-    r["line_start"] = int(float(r["line_start"]))
-    r["line_end"] = int(float(r["line_end"]))
+    r["line_start"] = int(float(r["line_start"])) if "line_start" in r and r["line_start"] != "" else 1
+    r["line_end"] = int(float(r["line_end"])) if "line_end" in r and r["line_end"] != "" else r["line_start"]
     r["stable_share"] = float(r["stable_share"])
     r["middle_share"] = float(r["middle_share"])
     r["residual_share"] = float(r["residual_share"])
