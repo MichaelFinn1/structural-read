@@ -1,0 +1,66 @@
+﻿import csv
+from pathlib import Path
+
+ROOT = Path("src/LOG_STRUCTURE_SURFACE_V0")
+SRC = ROOT / "long_horizon_comparison_v1" / "long_horizon_comparison_v1.csv"
+OUT = ROOT / "long_horizon_comparison_v1" / "LONG_HORIZON_COMPARISON_READ_V1.md"
+
+rows = list(csv.DictReader(SRC.open("r", encoding="utf-8")))
+
+lines = []
+lines.append("# LONG_HORIZON_COMPARISON_READ_V1")
+lines.append("")
+lines.append("Status:")
+lines.append("first_three_terrain_read_banked")
+lines.append("")
+lines.append("## Purpose")
+lines.append("")
+lines.append("Compare survivability ecology across long-horizon operational terrains under the same observer stack.")
+lines.append("")
+lines.append("This does not compare dataset meaning.")
+lines.append("")
+lines.append("## Terrains")
+lines.append("")
+
+for r in rows:
+    lines.append(f"### {r['terrain']}")
+    lines.append("")
+    lines.append(f"- avg_stable_share: {r['avg_stable_share']}")
+    lines.append(f"- avg_middle_share: {r['avg_middle_share']}")
+    lines.append(f"- avg_residual_share: {r['avg_residual_share']}")
+    lines.append(f"- fine_residual_share: {r['fine_residual_share']}")
+    lines.append(f"- wide_residual_share: {r['wide_residual_share']}")
+    lines.append(f"- residual_delta_wide_minus_fine: {r['residual_delta_wide_minus_fine']}")
+    lines.append(f"- many_to_one_absorption: {r['many_to_one_absorption']}")
+    lines.append(f"- one_to_many_split: {r['one_to_many_split']}")
+    lines.append(f"- one_to_one_continuation: {r['one_to_one_continuation']}")
+    lines.append(f"- recolored_overlap: {r['recolored_overlap']}")
+    lines.append("")
+
+lines.append("## First read")
+lines.append("")
+lines.append("The first comparison establishes a shared deformation grammar while preserving terrain differences.")
+lines.append("")
+lines.append("All current terrains can be read through absorption, split, continuation, and recoloring pressure, but the intensity and balance differ.")
+lines.append("")
+lines.append("OpenStack currently anchors the carrier-dominant residual climate case.")
+lines.append("")
+lines.append("Linux and Netsparker provide contrasting lower-intensity deformation fields under the same stack.")
+lines.append("")
+lines.append("## Boundary")
+lines.append("")
+lines.append("This read does not infer:")
+lines.append("")
+lines.append("- dataset meaning")
+lines.append("- anomaly")
+lines.append("- causality")
+lines.append("- hidden state")
+lines.append("- object identity")
+lines.append("")
+lines.append("## Hold")
+lines.append("")
+lines.append("Compare survivability ecology, not semantic terrain identity.")
+lines.append("")
+
+OUT.write_text("\n".join(lines), encoding="utf-8")
+print("WROTE", OUT.resolve())
