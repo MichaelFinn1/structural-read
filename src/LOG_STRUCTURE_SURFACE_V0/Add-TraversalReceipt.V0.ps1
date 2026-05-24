@@ -24,6 +24,18 @@
 
     [int]$PriorGreenSize = 0,
 
+    [int]$PriorGreenStart = 0,
+
+    [int]$PriorGreenEnd = 0,
+
+    [ValidateSet(
+        "test",
+        "manual",
+        "session",
+        "handoff"
+    )]
+    [string]$ReceiptType = "manual",
+
     [Parameter(Mandatory=$true)]
     [ValidateSet(
         "seam_emerged",
@@ -78,14 +90,48 @@
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
+$Header = "receipt_id,ts_utc,terrain_id,replay_id,blue_size,green_size,green_start,green_end,traversal_direction,prior_blue_size,prior_green_size,operator_marker,observed_relation,local_legibility,band_sequence,optional_note,prior_green_start,prior_green_end,receipt_type"
+
 $dir = Split-Path $ReceiptCsv -Parent
 if (-not (Test-Path $dir)) {
     New-Item -ItemType Directory -Force -Path $dir | Out-Null
 }
 
 if (-not (Test-Path $ReceiptCsv)) {
-    "receipt_id,ts_utc,terrain_id,replay_id,blue_size,green_size,green_start,green_end,traversal_direction,prior_blue_size,prior_green_size,operator_marker,observed_relation,local_legibility,band_sequence,optional_note" |
-        Set-Content $ReceiptCsv -Encoding UTF8
+    $Header | Set-Content $ReceiptCsv -Encoding UTF8
+} else {
+    $first = Get-Content $ReceiptCsv -TotalCount 1
+    if ($first -notmatch "prior_green_start") {
+        $old = Import-Csv $ReceiptCsv
+        $tmp = "$ReceiptCsv.tmp"
+
+        $upgraded = foreach ($r in $old) {
+            [pscustomobject]@{
+                receipt_id = $r.receipt_id
+                ts_utc = $r.ts_utc
+                terrain_id = $r.terrain_id
+                replay_id = $r.replay_id
+                blue_size = $r.blue_size
+                green_size = $r.green_size
+                green_start = $r.green_start
+                green_end = $r.green_end
+                traversal_direction = $r.traversal_direction
+                prior_blue_size = $r.prior_blue_size
+                prior_green_size = $r.prior_green_size
+                operator_marker = $r.operator_marker
+                observed_relation = $r.observed_relation
+                local_legibility = $r.local_legibility
+                band_sequence = $r.band_sequence
+                optional_note = $r.optional_note
+                prior_green_start = ""
+                prior_green_end = ""
+                receipt_type = "manual"
+            }
+        }
+
+        $upgraded | Export-Csv $tmp -NoTypeInformation -Encoding UTF8
+        Move-Item $tmp $ReceiptCsv -Force
+    }
 }
 
 function Escape-Csv {
@@ -118,7 +164,10 @@ $fields = @(
     $ObservedRelation,
     $LocalLegibility,
     $BandSequence,
-    $OptionalNote
+    $OptionalNote,
+    "$PriorGreenStart",
+    "$PriorGreenEnd",
+    $ReceiptType
 )
 
 $line = ($fields | ForEach-Object { Escape-Csv $_ }) -join ","
