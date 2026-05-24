@@ -1,0 +1,2 @@
+﻿receipt_id,ts_utc,terrain_id,replay_id,blue_size,green_size,green_start,green_end,traversal_direction,prior_blue_size,prior_green_size,operator_marker,observed_relation,local_legibility,band_sequence,optional_note
+"trv_20260524_101811_464","2026-05-24T08:18:11.4658162Z","openstack_long_horizon_001","manual_probe_001","1000","250","876","1125","blue_held_green_moved","1000","250","seam_emerged","persisted_across_transition","moderate","RRRRRSRRRR","test receipt; sparse stable interruption inside residual carrier"
