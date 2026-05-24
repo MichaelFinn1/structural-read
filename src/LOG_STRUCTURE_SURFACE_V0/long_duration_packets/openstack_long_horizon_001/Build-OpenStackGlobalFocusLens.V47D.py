@@ -66,7 +66,7 @@ input[type=range] {{ width: 100%; }}
 <div class="controls">
   <div class="box">
     <div>Focus width</div>
-    <input id="spanDial" type="range" min="500" max="30000" value="3400" step="100">
+    <input id="spanDial" type="range" min="500" max="120000" value="3400" step="100">
     <div id="spanLabel" class="label"></div>
   </div>
 
@@ -449,6 +449,7 @@ html = html.replace("__PAYLOAD__", payload_json)
 
 OUT.write_text(html, encoding="utf-8")
 print("WROTE", OUT.resolve())
+
 
 
 
