@@ -1,5 +1,15 @@
 ﻿# Structural Read - Getting Started
 
+## Start here
+
+For the first preview session, do not browse the full repository.
+
+Open:
+
+PREVIEW/OpenStack.html
+
+Then follow PREVIEW/README.md.
+
 ## What is this?
 
 Structural Read is an investigatory workbench for exploring large log terrains while preserving orientation.
@@ -43,57 +53,28 @@ git clone https://github.com/MichaelFinn1/structural-read.git
 
 cd structural-read
 
-## Start With an Included Terrain
-
-For a first session, use one of the included long-horizon terrains:
-
-- OpenStack
-- Linux
-- Netsparker
-
-These already contain generated traversal surfaces and visualizations.
-
-## Open a Visualization
-
-Current stable preview:
-
-OpenStack Global Focus Lens V54
-
-Navigate to:
-
-src/LOG_STRUCTURE_SURFACE_V0/long_duration_packets/openstack_long_horizon_001/visualizations/
-
-Open:
-
-openstack_global_focus_lens_v54g3c_final_alignment.html
-
-or whichever version is currently marked stable in the repository.
-
 ## Suggested First Session
 
-Do not try to understand everything.
+1. Open PREVIEW/OpenStack.html.
+2. Survey the terrain.
+3. Pick a region.
+4. Inspect locally.
+5. Open raw lines.
+6. Save a card.
+7. Move elsewhere.
+8. Return using the card.
 
-Instead:
-
-1. Survey the terrain.
-2. Pick a region.
-3. Inspect locally.
-4. Open raw lines.
-5. Save a card.
-6. Move elsewhere.
-7. Return using the card.
-
-This simple loop demonstrates the core workbench behavior.
+That loop is the current preview.
 
 ## What To Pay Attention To
 
 Useful observations:
 
-- regions that change under different constitutions
-- continuity that weakens
-- continuity that survives
-- transitions between neighboring regions
-- unresolved areas worth revisiting
+- whether orientation is preserved
+- whether local descent helps
+- whether saved cards help return
+- whether comparison helps or confuses
+- where you get lost
 
 Less useful:
 
@@ -105,29 +86,13 @@ Less useful:
 
 This repository is an active research and development workbench.
 
-Some components are stable.
+The PREVIEW folder is the simplified first-user entry point.
 
-Others are exploratory.
+The src folder contains deeper development history and generated surfaces.
 
-The most useful feedback currently is:
+## Feedback
 
-- Was orientation preserved?
-- Could you return to unfinished work?
-- What was confusing?
-- What was helpful?
-- What information was missing?
-- What felt unnecessary?
-
-## Providing Feedback
-
-Please read FEEDBACK_REQUEST.md and include:
-
-- what terrain you explored
-- what task you attempted
-- where you became lost
-- where the workbench helped
-- what you expected to happen
-- what actually happened
+Please read FEEDBACK_REQUEST.md.
 
 The goal is not to measure correctness.
 
