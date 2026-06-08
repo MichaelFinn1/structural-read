@@ -36,10 +36,11 @@ Open Unresolveds
 - Whether CURRENT_STATE.md should be human-authored or model-drafted
 - Whether OpenHermes can ground orientation from bench context reliably
 - Later narrow code probe with Qwen2.5-Coder 3B
+- What continuity burden can be externalized safely without externalizing judgment
 
 Current Question
 
-Can local orientation drafting reduce remote-model dependence while preserving human review authority?
+What continuity burden can be externalized safely without externalizing judgment?
 
 Boundary
 

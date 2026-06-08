@@ -45,7 +45,10 @@ Minor schema loss:
 
 OpenHermes can support bounded local bench orientation, but human review remains required.
 
-It is suitable as a local orientation draft source, not as an authority source.
+Orientation drafting and orientation authority are different functions.
+
+The model may draft orientation.
+The human corrects continuity state.
 
 ## Evidence value
 
@@ -58,9 +61,10 @@ Bench orientation can be locally drafted without remote model dependence, provid
 - Whether CURRENT_STATE.md should be model-drafted then human-corrected.
 - Whether a stricter prompt can reduce active-packet grounding errors.
 - Whether orientation drafts remain useful after several packets.
+- What continuity burden can be externalized safely without externalizing judgment.
 
 ## Stop condition
 
 Packet 004 behavior receipted.
-Human-correct CURRENT_STATE.md.
+Human-corrected CURRENT_STATE.md.
 Stop before widening.
