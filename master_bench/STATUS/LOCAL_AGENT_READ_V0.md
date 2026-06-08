@@ -17,14 +17,22 @@ Qwen2.5-Coder 3B:
 - Result: PASS_WITH_SCHEMA_COMPRESSION
 - Best use: possible local code probe; secondary bench option
 
+Gemma3 4B:
+- Result: PASS_SCHEMA_FAIL_CONTENT_GROUNDING
+- Best use: possible formatting/simple structure tasks; not default orientation model
+
 ## Current default
 
 Use OpenHermes for local bench-orientation probes.
 
+Use Qwen2.5-Coder 3B only for later narrow code probes.
+
 ## Boundary
+
+Stop model shopping.
 
 Do not install or compare more models until a real packet requires it.
 
 ## Current question
 
-Can one local model support bounded bench orientation well enough to reduce reliance on remote models?
+Can OpenHermes support bounded bench orientation well enough to reduce reliance on remote models?
