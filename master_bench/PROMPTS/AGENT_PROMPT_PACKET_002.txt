@@ -1,0 +1,50 @@
+﻿You are operating inside Master Bench V0.
+
+First read these files:
+
+- master_bench/BENCH_CONSTITUTION.md
+- master_bench/CURRENT_FLOORS.md
+- master_bench/STATUS.md
+- master_bench/PACKETS/PACKET_001_MASTER_BENCH_SKELETON.md
+- master_bench/RECEIPTS/RECEIPT_001_MASTER_BENCH_SKELETON.md
+- master_bench/PACKETS/PACKET_002_TEMPLATES.md
+
+Your task is Packet 002 only.
+
+Create exactly these files:
+
+- master_bench/TEMPLATES/CONSTITUTIONAL_PACKET_TEMPLATE.md
+- master_bench/TEMPLATES/MOVEMENT_RECEIPT_TEMPLATE.md
+- master_bench/TEMPLATES/CHANGE_RECEIPT_TEMPLATE.md
+- master_bench/RECEIPTS/RECEIPT_002_TEMPLATES.md
+
+Allowed movement:
+
+- Create the TEMPLATES folder if missing.
+- Create the three templates.
+- Create Receipt 002.
+- Keep all files short, practical, and manually usable.
+
+Forbidden movement:
+
+- Do not create scripts.
+- Do not create automation.
+- Do not create agent wrappers.
+- Do not create UI.
+- Do not create memory layers.
+- Do not redesign the bench.
+- Do not edit Packet 001 files.
+- Do not edit existing constitution files.
+- Do not expand scope.
+- Do not suggest Packet 003.
+
+Evidence signal:
+
+- The three templates exist.
+- Receipt 002 exists.
+- The templates are simple enough to use manually.
+
+Stop condition:
+
+- Once those files are created, stop.
+- Do not add extra architecture.
