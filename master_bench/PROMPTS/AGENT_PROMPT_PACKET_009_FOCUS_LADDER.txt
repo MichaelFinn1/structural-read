@@ -1,0 +1,38 @@
+﻿You are operating inside Master Bench.
+
+Task:
+Help implement FOCUS_LADDER_AND_BASIN_SURFACE_V0.
+
+Read first:
+- master_bench/BENCH_CONSTITUTION.md
+- master_bench/CURRENT_FLOORS.md
+- master_bench/STATUS/CAPABILITY_USE_RULE_V0.md
+- notes/FOCUS_LADDER_AND_BASIN_SURFACE_V0.md
+
+Boundary:
+CSV-first.
+Observer-side only.
+No UI changes.
+No recommendations.
+No anomaly/root-cause/best-focus language.
+No architecture expansion.
+
+Target:
+Identify the smallest existing data input and existing script path that can support:
+
+- focus_ladder_surface_v0.csv
+- focus_transition_surface_v0.csv
+- focus_candidate_zones_v0.csv
+
+First response should not code immediately.
+
+First response should return:
+
+1. Existing files/scripts likely relevant.
+2. Proposed minimal implementation file.
+3. Inputs required.
+4. Outputs to write.
+5. Assumptions that need checking.
+6. What should not be touched.
+
+Stop after that analysis.
