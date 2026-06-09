@@ -1,0 +1,13 @@
+terrain,total_transitions,persisted_count,persisted_share,smoothed_count,smoothed_share,fragmented_count,fragmented_share,dominant_posture_transition,dominant_posture_transition_share,deformation_profile
+openstack,14031,13782,0.9823,22,0.0016,227,0.0162,"residual, residual",0.8800,persistence_dominant_fragmented_tail
+linux,2621,2560,0.9767,31,0.0118,30,0.0114,"stable, stable",0.8691,persistence_dominant_balanced_tail
+netsparker,753,704,0.9349,27,0.0359,22,0.0292,"residual, residual",0.6335,persistence_dominant_balanced_tail
+apache_baseline,152,144,0.9474,8,0.0526,0,0.0000,"stable, stable",0.9474,persistence_dominant_smoothed_tail
+apache_acunetix,152,152,1.0000,0,0.0000,0,0.0000,"stable, stable",1.0000,total_persistence
+apache_netsparker,152,150,0.9868,1,0.0066,1,0.0066,"residual, residual",0.8947,persistence_dominant_balanced_tail
+apache_w3af,152,136,0.8947,13,0.0855,3,0.0197,"stable, stable",0.8421,persistence_dominant_smoothed_tail
+white_noise,250,241,0.9640,3,0.0120,6,0.0240,"residual, residual",0.9600,persistence_dominant_fragmented_tail
+periodic_signal,250,250,1.0000,0,0.0000,0,0.0000,"stable, stable",1.0000,total_persistence
+mixed_pulse_noise,250,246,0.9840,3,0.0120,1,0.0040,"stable, stable",0.9720,persistence_dominant_balanced_tail
+hierarchical_burst,474,445,0.9388,23,0.0485,6,0.0127,"stable, stable",0.9114,persistence_dominant_smoothed_tail
+interrupted_replay,828,828,1.0000,0,0.0000,0,0.0000,"stable, stable",1.0000,total_persistence
