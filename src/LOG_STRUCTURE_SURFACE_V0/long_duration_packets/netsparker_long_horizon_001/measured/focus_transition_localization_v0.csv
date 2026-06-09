@@ -1,0 +1,16 @@
+terrain_id,bin_id,bin_start,bin_end,total_transitions,persisted_count,smoothed_count,fragmented_count,posture_changed_count,recomposed_count,non_persisted_count,non_persisted_share,dominant_transition_marker,localization_class
+netsparker,bin_0001,1,500,53,49,2,2,0,0,4,0.0755,persisted,localized_deformation
+netsparker,bin_0002,501,1000,55,55,0,0,0,0,0,0.0000,persisted,quiet
+netsparker,bin_0003,1001,1500,53,53,0,0,0,0,0,0.0000,persisted,quiet
+netsparker,bin_0004,1501,2000,53,53,0,0,0,0,0,0.0000,persisted,quiet
+netsparker,bin_0005,2001,2500,55,55,0,0,0,0,0,0.0000,persisted,quiet
+netsparker,bin_0006,2501,3000,53,53,0,0,0,0,0,0.0000,persisted,quiet
+netsparker,bin_0007,3001,3500,53,49,2,2,0,0,4,0.0755,persisted,localized_deformation
+netsparker,bin_0008,3501,4000,55,52,1,2,0,0,3,0.0545,persisted,localized_deformation
+netsparker,bin_0009,4001,4500,53,50,3,0,0,0,3,0.0566,persisted,localized_deformation
+netsparker,bin_0010,4501,5000,53,41,8,4,0,0,12,0.2264,persisted,dense_deformation
+netsparker,bin_0011,5001,5500,55,47,4,4,0,0,8,0.1455,persisted,localized_deformation
+netsparker,bin_0012,5501,6000,53,42,5,6,0,0,11,0.2075,persisted,dense_deformation
+netsparker,bin_0013,6001,6500,53,53,0,0,0,0,0,0.0000,persisted,quiet
+netsparker,bin_0014,6501,7000,55,52,1,2,0,0,3,0.0545,persisted,localized_deformation
+netsparker,bin_0015,7001,7314,38,34,2,2,0,0,4,0.1053,persisted,localized_deformation

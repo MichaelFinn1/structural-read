@@ -1,0 +1,5 @@
+terrain_id,bin_id,bin_start,bin_end,total_transitions,persisted_count,smoothed_count,fragmented_count,posture_changed_count,recomposed_count,non_persisted_count,non_persisted_share,dominant_transition_marker,localization_class
+mixed_pulse_noise,bin_0001,1,500,65,64,1,0,0,0,1,0.0154,persisted,distributed_low
+mixed_pulse_noise,bin_0002,501,1000,69,67,1,1,0,0,2,0.0290,persisted,distributed_low
+mixed_pulse_noise,bin_0003,1001,1500,66,65,1,0,0,0,1,0.0152,persisted,distributed_low
+mixed_pulse_noise,bin_0004,1501,2000,66,66,0,0,0,0,0,0.0000,persisted,quiet

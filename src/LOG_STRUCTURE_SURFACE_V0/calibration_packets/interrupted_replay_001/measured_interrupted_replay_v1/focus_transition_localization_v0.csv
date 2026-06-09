@@ -1,0 +1,15 @@
+terrain_id,bin_id,bin_start,bin_end,total_transitions,persisted_count,smoothed_count,fragmented_count,posture_changed_count,recomposed_count,non_persisted_count,non_persisted_share,dominant_transition_marker,localization_class
+interrupted_replay,bin_0001,1,500,61,61,0,0,0,0,0,0.0000,persisted,quiet
+interrupted_replay,bin_0002,501,1000,64,64,0,0,0,0,0,0.0000,persisted,quiet
+interrupted_replay,bin_0003,1001,1500,62,62,0,0,0,0,0,0.0000,persisted,quiet
+interrupted_replay,bin_0004,1501,2000,62,62,0,0,0,0,0,0.0000,persisted,quiet
+interrupted_replay,bin_0005,2001,2500,64,64,0,0,0,0,0,0.0000,persisted,quiet
+interrupted_replay,bin_0006,2501,3000,62,62,0,0,0,0,0,0.0000,persisted,quiet
+interrupted_replay,bin_0007,3001,3500,61,61,0,0,0,0,0,0.0000,persisted,quiet
+interrupted_replay,bin_0008,3501,4000,63,63,0,0,0,0,0,0.0000,persisted,quiet
+interrupted_replay,bin_0009,4001,4500,62,62,0,0,0,0,0,0.0000,persisted,quiet
+interrupted_replay,bin_0010,4501,5000,62,62,0,0,0,0,0,0.0000,persisted,quiet
+interrupted_replay,bin_0011,5001,5500,64,64,0,0,0,0,0,0.0000,persisted,quiet
+interrupted_replay,bin_0012,5501,6000,62,62,0,0,0,0,0,0.0000,persisted,quiet
+interrupted_replay,bin_0013,6001,6500,62,62,0,0,0,0,0,0.0000,persisted,quiet
+interrupted_replay,bin_0014,6501,7000,63,63,0,0,0,0,0,0.0000,persisted,quiet
