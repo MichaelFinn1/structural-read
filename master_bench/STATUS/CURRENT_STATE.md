@@ -6,25 +6,26 @@ structural-read / master_bench
 
 Active Packet
 
-PACKET_010_BUILD_FOCUS_LADDER_SURFACE_V57A
+PACKET_011_FOCUS_TRANSITION_SURFACE_V57B
 
 Last Completed
 
-PACKET_010_BUILD_FOCUS_LADDER_SURFACE_V57A
+PACKET_011_FOCUS_TRANSITION_SURFACE_V57B
 
 Recent Probes
 
 PACKET_003A_LOCAL_AGENT_ADHERENCE_V0
 PACKET_004_OPENHERMES_ORIENTATION_DRAFT_V0
 PACKET_010_BUILD_FOCUS_LADDER_SURFACE_V57A
+PACKET_011_FOCUS_TRANSITION_SURFACE_V57B
 
 Current Motion
 
-The bench has moved into real Structural Read capability use. V57A produced the first focus-ladder observer surface from existing traversal-window data. The next natural question is whether neighboring focus sizes can be compared into a transition surface without adding interpretation or UI.
+The bench is now supporting real Structural Read implementation. V57A produced focus-ladder surfaces. V57B produced the first neighboring-focus deformation surface using territorial overlap. The work is moving from static constitution surfaces toward deformation across constitutions.
 
 Current Attractor
 
-Use bounded capability to extend Structural Read toward continuous-feeling focus exploration while preserving explicit cached constitutions and observer-only outputs.
+Expose how ordered terrain changes under neighboring focus constitutions while preserving observer-only discipline and avoiding best-focus, anomaly, or basin claims.
 
 Local Model Read
 
@@ -49,16 +50,17 @@ Open Unresolveds
 - Whether OpenHermes can ground orientation from bench context reliably
 - Later narrow code probe with Qwen2.5-Coder 3B
 - What continuity burden can be externalized safely without externalizing judgment
-- Whether Current Motion and Current Attractor improve re-entry
-- Whether V57B should compare exact spans or use overlap-based matching
+- Whether V57C should group repeated deformation events into candidate zones
 - Whether missing focus sizes should be generated upstream later
+- Whether corridor refinement should happen before candidate grouping
 
 Current Question
 
-Can V57B expose neighboring focus-size deformation from V57A output while remaining observer-side and non-recommending?
+Should the next observer step be V57C candidate-zone grouping, or should V57B be inspected across another dataset before grouping?
 
 Boundary
 
 CURRENT_STATE.md is an orientation map, not a roadmap.
 Current Motion is trajectory support, not instruction.
 Current Attractor is tension exposure, not priority assignment.
+A deformation surface is itself a surface, not an explanation.
