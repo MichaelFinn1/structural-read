@@ -6,24 +6,25 @@ structural-read / master_bench
 
 Active Packet
 
-PACKET_005_CURRENT_MOTION_ATTRACTOR_V0
+PACKET_010_BUILD_FOCUS_LADDER_SURFACE_V57A
 
 Last Completed
 
-PACKET_004_OPENHERMES_ORIENTATION_DRAFT_V0
+PACKET_010_BUILD_FOCUS_LADDER_SURFACE_V57A
 
 Recent Probes
 
 PACKET_003A_LOCAL_AGENT_ADHERENCE_V0
 PACKET_004_OPENHERMES_ORIENTATION_DRAFT_V0
+PACKET_010_BUILD_FOCUS_LADDER_SURFACE_V57A
 
 Current Motion
 
-The bench is shifting from storing current state toward preserving recoverable motion: the paused trajectory of work that lets future re-entry resume without reconstructing the whole field from memory.
+The bench has moved into real Structural Read capability use. V57A produced the first focus-ladder observer surface from existing traversal-window data. The next natural question is whether neighboring focus sizes can be compared into a transition surface without adding interpretation or UI.
 
 Current Attractor
 
-Reduce the amount of project position the human must carry internally while preserving human review authority and preventing the system from becoming an authority source.
+Use bounded capability to extend Structural Read toward continuous-feeling focus exploration while preserving explicit cached constitutions and observer-only outputs.
 
 Local Model Read
 
@@ -37,6 +38,8 @@ Frozen Floors
 - CURRENT_FLOORS.md
 - BENCH_CONSTITUTION.md
 - STATUS.md
+- CAPABILITY_USE_RULE_V0.md
+- INTEGRATION_MAP_V0.md
 
 Open Unresolveds
 
@@ -47,10 +50,12 @@ Open Unresolveds
 - Later narrow code probe with Qwen2.5-Coder 3B
 - What continuity burden can be externalized safely without externalizing judgment
 - Whether Current Motion and Current Attractor improve re-entry
+- Whether V57B should compare exact spans or use overlap-based matching
+- Whether missing focus sizes should be generated upstream later
 
 Current Question
 
-Can the bench preserve enough recoverable motion that the human can set the work down and return without carrying the whole map internally?
+Can V57B expose neighboring focus-size deformation from V57A output while remaining observer-side and non-recommending?
 
 Boundary
 
