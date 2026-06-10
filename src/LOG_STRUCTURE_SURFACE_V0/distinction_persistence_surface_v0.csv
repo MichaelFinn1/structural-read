@@ -1,0 +1,4 @@
+terrain_family,slice_count,candidate_count_mean,candidate_count_sd,candidate_span_ratio_mean,candidate_span_ratio_sd,quiet_gap_count_mean,quiet_gap_count_sd,largest_quiet_gap_mean,largest_quiet_gap_sd,occupied_extent_ratio_mean,occupied_extent_ratio_sd,persistence_score
+apache_baseline,3,1.000000,0.000000,0.916917,0.143904,0.000000,0.000000,0.000000,0.000000,0.916917,0.143904,0.945739
+linux_long_horizon_001,3,2.000000,2.000000,0.273780,0.264535,1.333333,1.527525,833.333333,763.762616,0.449780,0.470537,0.497030
+openstack_long_horizon_001,3,18.000000,1.732051,0.567635,0.113306,17.000000,1.732051,1833.333333,288.675135,0.888629,0.163568,0.872374
