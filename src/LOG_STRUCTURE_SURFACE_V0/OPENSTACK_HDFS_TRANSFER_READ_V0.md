@@ -5,7 +5,7 @@ banked
 
 ## Purpose
 
-Record first transfer contact after OpenStack family replication.
+Record first cross-family transfer contact after OpenStack replication.
 
 This is an observer note.
 
@@ -23,13 +23,13 @@ OpenStack replication set:
 - openstack_loghub_normal1_001
 - openstack_loghub_normal2_001
 
-HDFS transfer set:
+HDFS transfer contact:
 
 - hdfs_loghub_first_137074_001
 
-## OpenStack read before transfer
+## Replicated inside OpenStack
 
-OpenStack replication preserved a recognizable relational envelope:
+OpenStack preserved a recognizable relational envelope:
 
 - many occupied regions
 - many quiet interruptions
@@ -42,50 +42,46 @@ Quiet gap count varied.
 
 No single metric remained fixed.
 
-The relation candidate_count = quiet_gap_count + 1 appeared across the OpenStack contacts and was treated as confirmation of segmentation structure, not as a family law.
+## Transferred into HDFS
 
-## HDFS first-contact result
-
-HDFS produced:
-
-- candidate_count: 40
-- quiet_gap_count: 39
-- candidate_span_ratio: 0.835315
-- largest_quiet_gap: 1000
-
-HDFS preserved broad segmented occupation.
-
-The relation candidate_count = quiet_gap_count + 1 also appeared.
-
-## Transfer read
-
-The OpenStack distinction did not transfer unchanged.
-
-It also did not dissolve.
-
-What transferred:
+HDFS preserved:
 
 - broad segmented occupation
 - active / quiet alternation
 - large occupied territory
 
-What changed:
+The relation candidate_count = quiet_gap_count + 1 appeared in HDFS as well.
 
-- composition shifted from mostly distributed corridor to mixed / distributed / localized / dense participation
-- candidate width mean increased
-- candidate span ratio increased
+## Deformed in transfer
 
-Current read:
+Composition changed sharply.
 
-transfer with deformation
+OpenStack was mostly distributed corridor.
 
-## Boundary
+HDFS showed:
+
+- mixed deformation candidates
+- distributed corridor candidates
+- localized deformation candidates
+- dense deformation bins
+
+Candidate width mean increased.
+
+Candidate span ratio increased.
+
+## Current read
+
+Transfer with deformation.
+
+The apparatus carried a relation across terrain while still detecting composition change.
+
+## Not claimed
+
+No family law.
 
 No causal interpretation.
 
 No anomaly interpretation.
-
-No family law.
 
 No claim that HDFS is OpenStack-like.
 
@@ -95,12 +91,8 @@ No classifier.
 
 ## Next stance
 
-Admit one negative control before further scale stress.
-
-Recommended next pressure:
-
-white_noise_001
+Open white_noise_001 as a negative control.
 
 Question:
 
-Does the apparatus manufacture broad segmented occupation when no structured log terrain is present?
+Can the apparatus refrain when structured log terrain is absent?
