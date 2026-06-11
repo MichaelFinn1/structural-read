@@ -1,0 +1,5 @@
+﻿"observer_bin_size","candidate_count","candidate_span_ratio","quiet_span_ratio","path_outcome"
+"250","61","0.153202","0.846798","origin"
+"500","42","0.262632","0.737368","survival_with_deformation"
+"1000","21","0.437720","0.562280","survival_with_deformation"
+"2000","8","0.627398","0.372602","survival_with_deformation"
