@@ -1,0 +1,4 @@
+﻿"path_step","contact_object","moved_coordinate","path_outcome","read"
+"1","electricity_raw_numeric","adapter","restraint_or_collapse","raw numeric exposure did not produce useful contact"
+"2","electricity_coarse_relation","adapter","local_contact","coarse relation exposed limited contact"
+"3","electricity_fine_relation","adapter","saturation_or_broad_contact","fine relation produced broad/full-span contact"
