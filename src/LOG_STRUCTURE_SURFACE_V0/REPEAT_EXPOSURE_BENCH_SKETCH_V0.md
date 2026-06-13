@@ -1,68 +1,72 @@
 ﻿# REPEAT_EXPOSURE_BENCH_SKETCH_V0
 
 Status:
-draft
+sketch
 
 ## Purpose
 
-Design a minimal bench for observing trace-conditioned behavior across repeated exposures.
+Sketch a minimal bench for testing exposure-history effects under bounded conditions.
 
-This bench is intended to test exposure history.
+This is not executable yet.
 
-It is not intended to test learning, memory, autonomy, or capability growth.
+## Frame
+
+The bench tests repeated lawful contact.
+
+It does not test intelligence.
+
+It does not test learning.
+
+It does not test memory.
+
+It does not test autonomy.
 
 ## Core question
 
-What changes because lawful contact happened before?
+Does prior lawful contact visibly alter later contact?
 
-## Experimental structure
+## Minimal design
 
-Three seed tasks.
+Use:
 
-For each seed task:
-
-- first exposure
-- second exposure
-- third exposure
-
-Then:
-
+- three seed tasks
+- three repeated exposures
 - two near variants
 - one far control
+- same prompt envelope
+- same model if possible
+- same context discipline where possible
+- manual comparison
 
 ## Candidate task families
 
-Preferred:
+Possible families:
 
-- bounded code repair tasks
-- Structural Read packet interpretation tasks
+- bounded code repair
+- Structural Read packet interpretation
+- small procedural puzzle
+- artifact review
+- branch reentry summary
 
-Optional:
+Preferred first family:
 
-- Tower of Hanoi
-- small procedural puzzles
+bounded code repair or Structural Read packet interpretation
 
-## Fixed conditions
+Reason:
 
-- same prompt envelope
-- same execution procedure
-- same comparison method
+closer to actual project use than abstract puzzles.
 
-Where possible:
+## Comparison read
 
-- same model
-- same temperature
-- same context discipline
+For each exposure, observe:
 
-## Candidate observables
-
-- route changes
-- compression changes
-- stability changes
-- recovery changes
-- distinction preservation
-- transfer behavior
-- overgeneralization behavior
+- what stayed stable
+- what compressed
+- what drifted
+- what improved
+- what over-transferred
+- what remained unresolved
+- what became newly available
 
 ## Reads of interest
 
@@ -78,6 +82,20 @@ Transfer boundary:
 
 far variant
 
+## Outcome language
+
+Allowed terms:
+
+- no visible change
+- compression
+- stabilization
+- overfit
+- bounded transfer
+- inappropriate transfer
+- improved restraint
+- weakened distinction
+- affordance shift
+
 ## Success condition
 
 Not improved performance.
@@ -90,17 +108,21 @@ Success is the ability to observe whether prior exposure alters later behavior.
 
 ## Boundary
 
-Do not create persistent memory.
+No scores.
 
-Do not modify model weights.
+No benchmark claim.
 
-Do not create autonomous adaptation.
+No memory claim.
 
-Do not create promotion rules.
+No learning claim.
 
-Do not create scoring systems.
+No agent claim.
 
-Do not infer learning.
+No automation.
+
+No persistent system.
+
+No promotion rule.
 
 Observe only trace-conditioned behavior.
 
@@ -112,3 +134,9 @@ A comparison read describing:
 - what changed
 - what transferred
 - what remained bounded
+
+## Compression
+
+The repeat-exposure bench asks:
+
+Does prior lawful contact visibly alter later contact?

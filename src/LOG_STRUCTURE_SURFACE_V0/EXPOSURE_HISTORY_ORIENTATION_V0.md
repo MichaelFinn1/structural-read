@@ -1,29 +1,35 @@
 ﻿# EXPOSURE_HISTORY_ORIENTATION_V0
 
 Status:
-draft
+sketch
 
 ## Purpose
 
-Record exposure history as a candidate coordinate distinct from terrain, adapter, and observer constitution.
+Bank exposure history as a new pressure coordinate.
 
-## Current floor
+This is not a learning claim.
 
-The branch has exercised:
+This is not memory architecture.
 
-- terrain movement
-- adapter movement
-- observer movement
+This is not training.
 
-through contact objects, paths, outcomes, inventories, coverage, and energy budgeting.
+This is not agent design.
 
-## Candidate fourth coordinate
+## Core question
 
-Exposure history.
+What changes because lawful contact happened before?
 
-Question:
+## Current coordinate set
 
-What changes because lawful contact has happened before?
+Prior branch work exercised:
+
+- terrain
+- adapter
+- observer constitution
+
+Exposure history adds a fourth coordinate:
+
+- prior lawful contact
 
 ## Distinction
 
@@ -33,51 +39,65 @@ Exposure history is not training.
 
 Exposure history is not autonomy.
 
-Exposure history is the observable effect of prior contact on later behavior.
+Exposure history is not intelligence growth.
 
-## Current framing
+Exposure history is the observable effect of prior lawful contact on later behavior.
 
-terrain
--> adapter
--> observer
--> exposure history
+The current term is:
 
-The first three coordinates ask:
+trace-conditioned behavior
 
-What appears under this configuration?
+## Repetition, variation, transfer
 
-The fourth asks:
+Repetition is not recurrence.
 
-What is different because this configuration has been encountered before?
+Exact repetition may show same-contact behavior.
 
-## Candidate observables
+Near variation may show bounded transfer.
 
-- route stability
-- compression behavior
-- recovery behavior
-- preservation of distinctions
-- recurrence
-- transfer to near variants
-- boundedness under far variants
+Far variation may show whether prior contact stays contained.
+
+## Exposure sequence
+
+A minimal exposure-history pattern may include:
+
+- first exposure
+- same exposure again
+- same exposure again
+- near variant
+- far control
+
+## What to observe
+
+Do later contacts show:
+
+- compression
+- stabilization
+- boundary improvement
+- overfitting
+- flattening
+- inappropriate transfer
+- better preservation of distinctions
+- quicker recovery after error
+- improved restraint
+- no change
 
 ## Boundary
 
-Do not claim learning.
+Do not call this learning.
 
-Do not claim understanding.
+Do not infer memory.
 
-Do not claim memory.
+Do not create persistence systems.
 
-Do not claim intelligence growth.
+Do not create autonomy.
 
-Observe only:
+Do not widen into agent architecture.
 
-whether prior contact leaves detectable traces in later behavior.
+Observe only whether prior lawful contact leaves detectable traces in later behavior.
 
-## Current hypothesis
+## Compression
 
-Repeated lawful contact may alter future behavior in ways that become visible through recurrence, accumulation, transfer, and changed affordances.
+Exposure history asks:
 
-## Next stance
-
-Create a small repeat-exposure bench before introducing new terrains or broader ecological machinery.
+What changes because contact happened before?
