@@ -1,8 +1,0 @@
-﻿terrain,stable_posture,middle_posture,residual_posture,residual_attachment_band,residual_concentration_band,observer_notes
-openssh,concentrated,circulating,attached_clouds,very_high,high,"persistent attached residual clouds"
-apache_access,distributed,circulating,fragmented,moderate,low,"high residual dispersion"
-apache_error,moderate,circulating,mixed,moderate,moderate,"mixed residual ecology"
-HDFS,concentrated,circulating,attached_clouds,very_high,very_high,"extreme residual concentration and attachment"
-Linux,distributed,weak_reuse,isolated_dispersion,very_low,very_low,"dispersed isolated edge field"
-OpenStack,concentrated,circulating,detached_clouds,low,high,"concentrated but detached residual ecology"
-Thunderbird,mixed,circulating,fragmented_attached,moderate,moderate,"fragmented partly attached residual ecology"

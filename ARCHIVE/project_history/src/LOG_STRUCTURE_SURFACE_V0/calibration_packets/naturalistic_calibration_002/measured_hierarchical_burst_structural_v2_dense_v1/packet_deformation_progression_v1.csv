@@ -1,0 +1,12 @@
+terrain,window_size,packet_order,band_id,band_start,band_end,band_width,width_class,gap_from_previous,width_delta_from_prior,gap_delta_from_prior,section,avg_residual_share,deformation_from_prior,boundary_note
+hierarchical_burst_structural_v2,125,1,125_B01,1,125,125,thin,,,,Q1,0.256,initial_boundary,observer_side_packet_band_no_identity_claim
+hierarchical_burst_structural_v2,125,2,125_B02,251,750,500,heavy,125,375,,Q1,0.22,thickens,observer_side_packet_band_no_identity_claim
+hierarchical_burst_structural_v2,125,3,125_B03,876,1000,125,thin,125,-375,0,Q1,0.272,thins,observer_side_packet_band_no_identity_claim
+hierarchical_burst_structural_v2,125,4,125_B04,1126,1625,500,heavy,125,375,0,Q2,0.228,thickens,observer_side_packet_band_no_identity_claim
+hierarchical_burst_structural_v2,125,5,125_B05,1751,1875,125,thin,125,-375,0,Q2,0.296,thins,observer_side_packet_band_no_identity_claim
+hierarchical_burst_structural_v2,125,6,125_B06,2001,2500,500,heavy,125,375,0,Q3,0.214,thickens,observer_side_packet_band_no_identity_claim
+hierarchical_burst_structural_v2,125,7,125_B07,2626,2750,125,thin,125,-375,0,Q3,0.256,thins,observer_side_packet_band_no_identity_claim
+hierarchical_burst_structural_v2,125,8,125_B08,2876,3000,125,thin,125,0,0,Q3,0.296,repeats_spacing_and_width,observer_side_packet_band_no_identity_claim
+hierarchical_burst_structural_v2,125,9,125_B09,3126,3375,250,medium,125,125,0,Q4,0.236,thickens,observer_side_packet_band_no_identity_claim
+hierarchical_burst_structural_v2,125,10,125_B10,3501,3625,125,thin,125,-125,0,Q4,0.28,thins,observer_side_packet_band_no_identity_claim
+hierarchical_burst_structural_v2,125,11,125_B11,3751,3875,125,thin,125,0,0,Q4,0.264,repeats_spacing_and_width,observer_side_packet_band_no_identity_claim

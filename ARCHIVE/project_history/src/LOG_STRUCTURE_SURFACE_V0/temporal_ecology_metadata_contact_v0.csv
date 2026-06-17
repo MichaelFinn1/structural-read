@@ -1,0 +1,4 @@
+﻿"file","terrain_id","age_years","gender","candidate_count","candidate_span_ratio","quiet_gap_count","largest_quiet_gap","candidate_width_mean","candidate_spacing_mean","occupied_extent_ratio"
+"4000","rr_interval_4000_first_137074_001","0.42","M","9","0.032829","8","49500","500.000000","12875.000000","0.784248"
+"4001","rr_interval_4001_first_137074_001","0.58","F","42","0.262632","41","8500","857.142857","2024.390244","0.868144"
+"4002","rr_interval_4002_first_137074_001","1.08","M","23","0.094839","22","57500","565.217391","5227.272727","0.933802"

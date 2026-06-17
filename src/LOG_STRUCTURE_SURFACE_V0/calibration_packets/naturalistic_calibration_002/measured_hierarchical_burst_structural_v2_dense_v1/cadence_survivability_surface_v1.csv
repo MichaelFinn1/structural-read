@@ -1,4 +1,0 @@
-terrain,window_size,dominant_gap,dominant_gap_count,total_gaps,cadence_strength,cadence_breaks,break_positions,cadence_class,deformation_onset_region
-hierarchical_burst_structural_v2,125,125,10,10,1.0,0,,near_uniform,none_visible
-hierarchical_burst_structural_v2,150,150,5,5,1.0,0,,near_uniform,none_visible
-hierarchical_burst_structural_v2,175,175,4,4,1.0,0,,near_uniform,none_visible

@@ -1,0 +1,463 @@
+terrain,window_size,line_start,line_end,dominant_motif,dominant_motif_share,dominant_marker,dominant_marker_share,drift_from_prior,cadence_class,boundary_note
+pseudo_periodic_drift_v1,25,1,25,alpha cadence one,0.76,pseudo_periodic,1.0,initial,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,26,50,beta cadence two,0.56,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,51,75,delta cadence four,0.64,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,76,100,none,0.84,quiet_carrier,0.84,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,101,125,none,0.76,quiet_carrier,0.76,motif_holds,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,126,150,gamma cadence three,0.56,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,151,175,alpha cadence one,0.64,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,176,200,beta cadence two,0.8,pseudo_periodic,0.96,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,201,225,none,1.0,quiet_carrier,1.0,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,226,250,none,0.56,quiet_carrier,0.56,motif_holds,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,251,275,beta cadence two,0.64,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,276,300,gamma cadence three,0.8,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,301,325,delta cadence four,0.76,pseudo_periodic,0.76,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,326,350,none,1.0,quiet_carrier,1.0,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,351,375,gamma cadence three,0.64,pseudo_periodic,0.64,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,376,400,delta cadence four,0.8,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,401,425,alpha cadence one,0.76,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,426,450,beta cadence two,0.56,pseudo_periodic,0.56,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,451,475,none,1.0,quiet_carrier,1.0,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,476,500,alpha cadence one,0.8,pseudo_periodic,0.84,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,501,525,beta cadence two,0.76,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,526,550,gamma cadence three,0.56,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,551,575,delta cadence four,0.48,cadence_interruption,0.4,motif_shifts,weak_or_fragmented_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,576,600,none,0.96,quiet_carrier,0.96,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,601,625,gamma cadence three,0.76,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,626,650,delta cadence four,0.56,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,651,675,beta cadence two,0.64,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,676,700,none,0.84,quiet_carrier,0.84,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,701,725,none,0.76,quiet_carrier,0.76,motif_holds,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,726,750,alpha cadence one,0.56,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,751,775,gamma cadence three,0.64,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,776,800,delta cadence four,0.8,pseudo_periodic,0.96,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,801,825,none,1.0,quiet_carrier,1.0,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,826,850,none,0.56,quiet_carrier,0.56,motif_holds,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,851,875,delta cadence four,0.64,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,876,900,alpha cadence one,0.8,pseudo_periodic,0.96,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,901,925,delta cadence four,0.96,delayed_phase_echo,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,926,950,alpha cadence one,0.96,delayed_phase_echo,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,951,975,beta cadence two,0.96,delayed_phase_echo,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,976,1000,gamma cadence three,0.96,pseudo_periodic,0.84,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1001,1025,delta cadence four,0.76,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1026,1050,alpha cadence one,0.56,pseudo_periodic,0.56,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1051,1075,none,1.0,quiet_carrier,1.0,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1076,1100,delta cadence four,0.8,pseudo_periodic,0.84,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1101,1125,alpha cadence one,0.76,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1126,1150,beta cadence two,0.56,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1151,1175,none,0.64,quiet_carrier,0.64,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1176,1200,none,0.96,quiet_carrier,0.96,motif_holds,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1201,1225,beta cadence two,0.76,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1226,1250,gamma cadence three,0.56,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1251,1275,alpha cadence one,0.64,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1276,1300,none,0.84,quiet_carrier,0.84,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1301,1325,none,0.76,quiet_carrier,0.76,motif_holds,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1326,1350,delta cadence four,0.56,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1351,1375,beta cadence two,0.64,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1376,1400,gamma cadence three,0.8,pseudo_periodic,0.96,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1401,1425,none,1.0,quiet_carrier,1.0,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1426,1450,none,0.56,quiet_carrier,0.56,motif_holds,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1451,1475,gamma cadence three,0.64,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1476,1500,delta cadence four,0.8,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1501,1525,alpha cadence one,0.76,pseudo_periodic,0.76,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1526,1550,none,1.0,quiet_carrier,1.0,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1551,1575,delta cadence four,0.64,pseudo_periodic,0.64,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1576,1600,alpha cadence one,0.8,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1601,1625,beta cadence two,0.76,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1626,1650,gamma cadence three,0.56,pseudo_periodic,0.56,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1651,1675,none,1.0,quiet_carrier,1.0,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1676,1700,beta cadence two,0.8,pseudo_periodic,0.84,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1701,1725,gamma cadence three,0.76,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1726,1750,delta cadence four,0.56,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1751,1775,none,0.64,quiet_carrier,0.64,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1776,1800,none,0.96,quiet_carrier,0.96,motif_holds,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1801,1825,alpha cadence one,0.76,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1826,1850,beta cadence two,0.56,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1851,1875,delta cadence four,0.64,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1876,1900,none,0.8,quiet_carrier,0.8,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1901,1925,gamma cadence three,0.52,cadence_interruption,0.76,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1926,1950,gamma cadence three,0.56,pseudo_periodic,1.0,motif_holds,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1951,1975,alpha cadence one,0.64,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,1976,2000,beta cadence two,0.8,pseudo_periodic,0.96,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2001,2025,none,1.0,quiet_carrier,1.0,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2026,2050,none,0.56,quiet_carrier,0.56,motif_holds,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2051,2075,beta cadence two,0.64,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2076,2100,gamma cadence three,0.8,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2101,2125,delta cadence four,0.76,pseudo_periodic,0.76,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2126,2150,none,1.0,quiet_carrier,1.0,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2151,2175,gamma cadence three,0.64,pseudo_periodic,0.64,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2176,2200,delta cadence four,0.8,pseudo_periodic,0.96,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2201,2225,alpha cadence one,0.96,delayed_phase_echo,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2226,2250,beta cadence two,0.96,delayed_phase_echo,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2251,2275,gamma cadence three,0.96,delayed_phase_echo,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2276,2300,alpha cadence one,0.8,pseudo_periodic,0.84,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2301,2325,beta cadence two,0.76,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2326,2350,gamma cadence three,0.56,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2351,2375,none,0.64,quiet_carrier,0.64,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2376,2400,none,0.96,quiet_carrier,0.96,motif_holds,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2401,2425,gamma cadence three,0.76,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2426,2450,delta cadence four,0.56,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2451,2475,beta cadence two,0.64,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2476,2500,none,0.84,quiet_carrier,0.84,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2501,2525,none,0.76,quiet_carrier,0.76,motif_holds,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2526,2550,alpha cadence one,0.56,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2551,2575,gamma cadence three,0.64,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2576,2600,delta cadence four,0.8,pseudo_periodic,0.96,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2601,2625,alpha cadence one,0.44,cadence_interruption,1.0,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2626,2650,gamma cadence three,0.68,cadence_interruption,0.56,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2651,2675,delta cadence four,0.64,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2676,2700,alpha cadence one,0.8,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2701,2725,gamma cadence three,0.76,pseudo_periodic,0.76,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2726,2750,none,1.0,quiet_carrier,1.0,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2751,2775,beta cadence two,0.64,pseudo_periodic,0.64,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2776,2800,gamma cadence three,0.8,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2801,2825,delta cadence four,0.76,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2826,2850,alpha cadence one,0.56,pseudo_periodic,0.56,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2851,2875,none,1.0,quiet_carrier,1.0,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2876,2900,delta cadence four,0.8,pseudo_periodic,0.84,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2901,2925,alpha cadence one,0.76,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2926,2950,beta cadence two,0.56,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2951,2975,none,0.64,quiet_carrier,0.64,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,2976,3000,none,0.96,quiet_carrier,0.96,motif_holds,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3001,3025,beta cadence two,0.76,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3026,3050,gamma cadence three,0.56,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3051,3075,alpha cadence one,0.64,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3076,3100,none,0.84,quiet_carrier,0.84,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3101,3125,none,0.76,quiet_carrier,0.76,motif_holds,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3126,3150,delta cadence four,0.56,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3151,3175,beta cadence two,0.64,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3176,3200,gamma cadence three,0.8,pseudo_periodic,0.96,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3201,3225,none,1.0,quiet_carrier,1.0,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3226,3250,none,0.56,quiet_carrier,0.56,motif_holds,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3251,3275,gamma cadence three,0.64,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3276,3300,delta cadence four,0.8,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3301,3325,alpha cadence one,0.84,pseudo_periodic,0.76,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3326,3350,alpha cadence one,0.36,cadence_interruption,1.0,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3351,3375,delta cadence four,0.64,pseudo_periodic,0.64,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3376,3400,alpha cadence one,0.8,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3401,3425,beta cadence two,0.76,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3426,3450,gamma cadence three,0.56,pseudo_periodic,0.56,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3451,3475,none,1.0,quiet_carrier,1.0,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3476,3500,beta cadence two,0.84,pseudo_periodic,0.8,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3501,3525,beta cadence two,0.96,delayed_phase_echo,1.0,motif_holds,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3526,3550,gamma cadence three,0.96,delayed_phase_echo,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3551,3575,delta cadence four,0.96,delayed_phase_echo,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3576,3600,none,0.8,quiet_carrier,0.8,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3601,3625,alpha cadence one,0.76,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3626,3650,beta cadence two,0.56,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3651,3675,delta cadence four,0.64,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3676,3700,none,0.84,quiet_carrier,0.84,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3701,3725,none,0.76,quiet_carrier,0.76,motif_holds,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3726,3750,gamma cadence three,0.56,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3751,3775,alpha cadence one,0.64,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3776,3800,beta cadence two,0.8,pseudo_periodic,0.96,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3801,3825,none,1.0,quiet_carrier,1.0,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3826,3850,none,0.56,quiet_carrier,0.56,motif_holds,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3851,3875,beta cadence two,0.64,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3876,3900,gamma cadence three,0.8,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3901,3925,delta cadence four,0.76,pseudo_periodic,0.76,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3926,3950,none,1.0,quiet_carrier,1.0,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3951,3975,gamma cadence three,0.64,pseudo_periodic,0.64,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,3976,4000,delta cadence four,0.8,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4001,4025,alpha cadence one,0.76,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4026,4050,beta cadence two,0.64,pseudo_periodic,0.56,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4051,4075,gamma cadence three,0.24,cadence_interruption,0.76,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4076,4100,alpha cadence one,0.8,pseudo_periodic,0.84,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4101,4125,beta cadence two,0.76,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4126,4150,gamma cadence three,0.56,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4151,4175,none,0.64,quiet_carrier,0.64,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4176,4200,none,0.96,quiet_carrier,0.96,motif_holds,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4201,4225,gamma cadence three,0.76,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4226,4250,delta cadence four,0.56,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4251,4275,beta cadence two,0.64,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4276,4300,none,0.84,quiet_carrier,0.84,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4301,4325,none,0.76,quiet_carrier,0.76,motif_holds,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4326,4350,alpha cadence one,0.56,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4351,4375,gamma cadence three,0.64,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4376,4400,delta cadence four,0.8,pseudo_periodic,0.96,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4401,4425,none,1.0,quiet_carrier,1.0,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4426,4450,none,0.56,quiet_carrier,0.56,motif_holds,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4451,4475,delta cadence four,0.64,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4476,4500,alpha cadence one,0.8,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4501,4525,gamma cadence three,0.76,pseudo_periodic,0.76,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4526,4550,none,1.0,quiet_carrier,1.0,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4551,4575,beta cadence two,0.64,pseudo_periodic,0.64,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4576,4600,gamma cadence three,0.8,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4601,4625,delta cadence four,0.76,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4626,4650,alpha cadence one,0.56,pseudo_periodic,0.56,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4651,4675,none,1.0,quiet_carrier,1.0,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4676,4700,delta cadence four,0.8,pseudo_periodic,0.84,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4701,4725,alpha cadence one,0.76,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4726,4750,beta cadence two,0.56,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4751,4775,gamma cadence three,0.36,cadence_interruption,0.4,motif_shifts,weak_or_fragmented_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4776,4800,none,0.96,quiet_carrier,0.96,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4801,4825,delta cadence four,0.96,delayed_phase_echo,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4826,4850,alpha cadence one,0.96,delayed_phase_echo,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4851,4875,beta cadence two,0.96,delayed_phase_echo,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4876,4900,none,0.84,quiet_carrier,0.84,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4901,4925,none,0.76,quiet_carrier,0.76,motif_holds,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4926,4950,delta cadence four,0.56,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4951,4975,beta cadence two,0.64,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,4976,5000,gamma cadence three,0.8,pseudo_periodic,0.96,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5001,5025,none,1.0,quiet_carrier,1.0,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5026,5050,none,0.56,quiet_carrier,0.56,motif_holds,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5051,5075,gamma cadence three,0.64,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5076,5100,delta cadence four,0.8,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5101,5125,alpha cadence one,0.76,pseudo_periodic,0.76,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5126,5150,none,1.0,quiet_carrier,1.0,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5151,5175,delta cadence four,0.64,pseudo_periodic,0.64,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5176,5200,alpha cadence one,0.8,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5201,5225,beta cadence two,0.76,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5226,5250,gamma cadence three,0.56,pseudo_periodic,0.56,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5251,5275,none,1.0,quiet_carrier,1.0,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5276,5300,beta cadence two,0.8,pseudo_periodic,0.84,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5301,5325,gamma cadence three,0.76,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5326,5350,delta cadence four,0.56,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5351,5375,none,0.64,quiet_carrier,0.64,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5376,5400,none,0.96,quiet_carrier,0.96,motif_holds,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5401,5425,alpha cadence one,0.76,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5426,5450,beta cadence two,0.56,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5451,5475,delta cadence four,0.64,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5476,5500,none,0.84,quiet_carrier,0.84,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5501,5525,none,0.76,quiet_carrier,0.76,motif_holds,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5526,5550,gamma cadence three,0.56,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5551,5575,alpha cadence one,0.64,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5576,5600,beta cadence two,0.8,pseudo_periodic,0.96,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5601,5625,none,1.0,quiet_carrier,1.0,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5626,5650,none,0.56,quiet_carrier,0.56,motif_holds,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5651,5675,beta cadence two,0.64,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5676,5700,gamma cadence three,0.8,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5701,5725,delta cadence four,0.76,pseudo_periodic,0.76,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5726,5750,none,1.0,quiet_carrier,1.0,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5751,5775,gamma cadence three,0.64,pseudo_periodic,0.64,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5776,5800,delta cadence four,0.8,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5801,5825,alpha cadence one,0.76,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5826,5850,beta cadence two,0.56,pseudo_periodic,0.56,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5851,5875,none,1.0,quiet_carrier,1.0,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5876,5900,alpha cadence one,0.8,pseudo_periodic,0.84,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5901,5925,beta cadence two,0.76,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5926,5950,gamma cadence three,0.56,pseudo_periodic,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5951,5975,none,0.64,quiet_carrier,0.64,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,25,5976,6000,none,0.96,quiet_carrier,0.96,motif_holds,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,1,50,beta cadence two,0.4,pseudo_periodic,1.0,initial,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,51,100,none,0.42,pseudo_periodic,0.58,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,101,150,gamma cadence three,0.4,pseudo_periodic,0.62,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,151,200,alpha cadence one,0.4,pseudo_periodic,0.98,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,201,250,none,0.78,quiet_carrier,0.78,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,251,300,beta cadence two,0.4,pseudo_periodic,1.0,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,301,350,none,0.62,quiet_carrier,0.62,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,351,400,gamma cadence three,0.4,pseudo_periodic,0.82,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,401,450,beta cadence two,0.4,pseudo_periodic,0.78,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,451,500,none,0.58,quiet_carrier,0.58,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,501,550,gamma cadence three,0.4,pseudo_periodic,1.0,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,551,600,none,0.6,quiet_carrier,0.6,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,601,650,delta cadence four,0.4,pseudo_periodic,1.0,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,651,700,none,0.42,pseudo_periodic,0.58,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,701,750,alpha cadence one,0.4,pseudo_periodic,0.62,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,751,800,gamma cadence three,0.4,pseudo_periodic,0.98,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,801,850,none,0.78,quiet_carrier,0.78,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,851,900,delta cadence four,0.4,pseudo_periodic,0.98,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,901,950,alpha cadence one,0.5,delayed_phase_echo,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,951,1000,gamma cadence three,0.5,delayed_phase_echo,0.58,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,1001,1050,alpha cadence one,0.4,pseudo_periodic,0.78,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,1051,1100,none,0.58,quiet_carrier,0.58,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,1101,1150,beta cadence two,0.4,pseudo_periodic,1.0,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,1151,1200,none,0.8,quiet_carrier,0.8,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,1201,1250,gamma cadence three,0.4,pseudo_periodic,1.0,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,1251,1300,none,0.42,pseudo_periodic,0.58,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,1301,1350,delta cadence four,0.4,pseudo_periodic,0.62,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,1351,1400,beta cadence two,0.4,pseudo_periodic,0.98,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,1401,1450,none,0.78,quiet_carrier,0.78,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,1451,1500,gamma cadence three,0.4,pseudo_periodic,1.0,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,1501,1550,none,0.62,quiet_carrier,0.62,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,1551,1600,delta cadence four,0.4,pseudo_periodic,0.82,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,1601,1650,gamma cadence three,0.4,pseudo_periodic,0.78,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,1651,1700,none,0.58,quiet_carrier,0.58,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,1701,1750,delta cadence four,0.4,pseudo_periodic,1.0,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,1751,1800,none,0.8,quiet_carrier,0.8,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,1801,1850,beta cadence two,0.4,pseudo_periodic,1.0,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,1851,1900,delta cadence four,0.4,pseudo_periodic,0.58,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,1901,1950,gamma cadence three,0.54,pseudo_periodic,0.62,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,1951,2000,alpha cadence one,0.4,pseudo_periodic,0.98,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,2001,2050,none,0.78,quiet_carrier,0.78,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,2051,2100,beta cadence two,0.4,pseudo_periodic,1.0,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,2101,2150,none,0.62,quiet_carrier,0.62,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,2151,2200,gamma cadence three,0.4,pseudo_periodic,0.8,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,2201,2250,beta cadence two,0.5,delayed_phase_echo,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,2251,2300,gamma cadence three,0.48,delayed_phase_echo,0.58,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,2301,2350,gamma cadence three,0.4,pseudo_periodic,1.0,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,2351,2400,none,0.8,quiet_carrier,0.8,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,2401,2450,delta cadence four,0.4,pseudo_periodic,1.0,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,2451,2500,none,0.42,pseudo_periodic,0.58,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,2501,2550,alpha cadence one,0.4,pseudo_periodic,0.62,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,2551,2600,gamma cadence three,0.4,pseudo_periodic,0.98,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,2601,2650,gamma cadence three,0.46,cadence_interruption,0.78,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,2651,2700,delta cadence four,0.4,pseudo_periodic,1.0,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,2701,2750,none,0.62,quiet_carrier,0.62,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,2751,2800,beta cadence two,0.4,pseudo_periodic,0.82,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,2801,2850,alpha cadence one,0.4,pseudo_periodic,0.78,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,2851,2900,none,0.58,quiet_carrier,0.58,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,2901,2950,beta cadence two,0.4,pseudo_periodic,1.0,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,2951,3000,none,0.8,quiet_carrier,0.8,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,3001,3050,gamma cadence three,0.4,pseudo_periodic,1.0,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,3051,3100,none,0.42,pseudo_periodic,0.58,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,3101,3150,delta cadence four,0.4,pseudo_periodic,0.62,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,3151,3200,beta cadence two,0.4,pseudo_periodic,0.98,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,3201,3250,none,0.78,quiet_carrier,0.78,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,3251,3300,gamma cadence three,0.4,pseudo_periodic,1.0,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,3301,3350,alpha cadence one,0.6,cadence_interruption,0.62,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,3351,3400,alpha cadence one,0.46,pseudo_periodic,0.82,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,3401,3450,gamma cadence three,0.4,pseudo_periodic,0.78,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,3451,3500,none,0.58,quiet_carrier,0.58,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,3501,3550,gamma cadence three,0.5,delayed_phase_echo,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,3551,3600,delta cadence four,0.5,delayed_phase_echo,0.58,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,3601,3650,beta cadence two,0.4,pseudo_periodic,1.0,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,3651,3700,none,0.42,pseudo_periodic,0.58,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,3701,3750,gamma cadence three,0.4,pseudo_periodic,0.62,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,3751,3800,alpha cadence one,0.4,pseudo_periodic,0.98,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,3801,3850,none,0.78,quiet_carrier,0.78,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,3851,3900,beta cadence two,0.4,pseudo_periodic,1.0,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,3901,3950,none,0.62,quiet_carrier,0.62,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,3951,4000,gamma cadence three,0.4,pseudo_periodic,0.82,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,4001,4050,alpha cadence one,0.44,pseudo_periodic,0.78,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,4051,4100,alpha cadence one,0.52,pseudo_periodic,0.42,motif_holds,weak_or_fragmented_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,4101,4150,gamma cadence three,0.4,pseudo_periodic,1.0,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,4151,4200,none,0.8,quiet_carrier,0.8,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,4201,4250,delta cadence four,0.4,pseudo_periodic,1.0,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,4251,4300,none,0.42,pseudo_periodic,0.58,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,4301,4350,alpha cadence one,0.4,pseudo_periodic,0.62,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,4351,4400,gamma cadence three,0.4,pseudo_periodic,0.98,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,4401,4450,none,0.78,quiet_carrier,0.78,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,4451,4500,delta cadence four,0.4,pseudo_periodic,1.0,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,4501,4550,none,0.62,quiet_carrier,0.62,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,4551,4600,beta cadence two,0.4,pseudo_periodic,0.82,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,4601,4650,alpha cadence one,0.4,pseudo_periodic,0.78,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,4651,4700,none,0.58,quiet_carrier,0.58,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,4701,4750,beta cadence two,0.4,pseudo_periodic,1.0,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,4751,4800,none,0.6,quiet_carrier,0.6,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,4801,4850,alpha cadence one,0.5,delayed_phase_echo,1.0,motif_shifts,locally_stable_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,4851,4900,beta cadence two,0.48,delayed_phase_echo,0.58,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,4901,4950,delta cadence four,0.4,pseudo_periodic,0.62,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,4951,5000,beta cadence two,0.4,pseudo_periodic,0.98,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,5001,5050,none,0.78,quiet_carrier,0.78,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,5051,5100,gamma cadence three,0.4,pseudo_periodic,1.0,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,5101,5150,none,0.62,quiet_carrier,0.62,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,5151,5200,delta cadence four,0.4,pseudo_periodic,0.82,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,5201,5250,gamma cadence three,0.4,pseudo_periodic,0.78,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,5251,5300,none,0.58,quiet_carrier,0.58,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,5301,5350,delta cadence four,0.4,pseudo_periodic,1.0,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,5351,5400,none,0.8,quiet_carrier,0.8,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,5401,5450,beta cadence two,0.4,pseudo_periodic,1.0,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,5451,5500,none,0.42,pseudo_periodic,0.58,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,5501,5550,gamma cadence three,0.4,pseudo_periodic,0.62,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,5551,5600,alpha cadence one,0.4,pseudo_periodic,0.98,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,5601,5650,none,0.78,quiet_carrier,0.78,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,5651,5700,beta cadence two,0.4,pseudo_periodic,1.0,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,5701,5750,none,0.62,quiet_carrier,0.62,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,5751,5800,gamma cadence three,0.4,pseudo_periodic,0.82,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,5801,5850,beta cadence two,0.4,pseudo_periodic,0.78,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,5851,5900,none,0.58,quiet_carrier,0.58,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,5901,5950,gamma cadence three,0.4,pseudo_periodic,1.0,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,50,5951,6000,none,0.8,quiet_carrier,0.8,motif_shifts,quiet_carrier,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,1,100,none,0.21,pseudo_periodic,0.79,initial,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,101,200,none,0.2,pseudo_periodic,0.8,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,201,300,none,0.39,pseudo_periodic,0.61,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,301,400,none,0.4,pseudo_periodic,0.6,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,401,500,none,0.4,pseudo_periodic,0.6,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,501,600,none,0.3,pseudo_periodic,0.6,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,601,700,none,0.21,pseudo_periodic,0.79,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,701,800,none,0.2,pseudo_periodic,0.8,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,801,900,none,0.39,pseudo_periodic,0.6,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,901,1000,delta cadence four,0.25,delayed_phase_echo,0.79,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,1001,1100,none,0.4,pseudo_periodic,0.6,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,1101,1200,none,0.4,pseudo_periodic,0.6,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,1201,1300,none,0.21,pseudo_periodic,0.79,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,1301,1400,none,0.2,pseudo_periodic,0.8,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,1401,1500,none,0.39,pseudo_periodic,0.61,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,1501,1600,none,0.4,pseudo_periodic,0.6,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,1601,1700,none,0.4,pseudo_periodic,0.6,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,1701,1800,none,0.4,pseudo_periodic,0.6,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,1801,1900,gamma cadence three,0.21,pseudo_periodic,0.79,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,1901,2000,gamma cadence three,0.27,pseudo_periodic,0.8,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,2001,2100,none,0.39,pseudo_periodic,0.61,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,2101,2200,none,0.4,pseudo_periodic,0.59,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,2201,2300,alpha cadence one,0.44,delayed_phase_echo,0.79,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,2301,2400,none,0.4,pseudo_periodic,0.6,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,2401,2500,none,0.21,pseudo_periodic,0.79,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,2501,2600,beta cadence two,0.21,pseudo_periodic,0.8,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,2601,2700,alpha cadence one,0.32,pseudo_periodic,0.61,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,2701,2800,none,0.4,pseudo_periodic,0.6,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,2801,2900,none,0.4,pseudo_periodic,0.6,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,2901,3000,none,0.4,pseudo_periodic,0.6,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,3001,3100,none,0.21,pseudo_periodic,0.79,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,3101,3200,none,0.2,pseudo_periodic,0.8,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,3201,3300,none,0.39,pseudo_periodic,0.61,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,3301,3400,alpha cadence one,0.53,pseudo_periodic,0.6,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,3401,3500,beta cadence two,0.4,pseudo_periodic,0.59,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,3501,3600,delta cadence four,0.26,delayed_phase_echo,0.79,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,3601,3700,none,0.21,pseudo_periodic,0.79,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,3701,3800,none,0.2,pseudo_periodic,0.8,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,3801,3900,none,0.39,pseudo_periodic,0.61,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,3901,4000,none,0.4,pseudo_periodic,0.6,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,4001,4100,alpha cadence one,0.48,pseudo_periodic,0.6,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,4101,4200,none,0.4,pseudo_periodic,0.6,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,4201,4300,none,0.21,pseudo_periodic,0.79,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,4301,4400,none,0.2,pseudo_periodic,0.8,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,4401,4500,none,0.39,pseudo_periodic,0.61,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,4501,4600,none,0.4,pseudo_periodic,0.6,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,4601,4700,none,0.4,pseudo_periodic,0.6,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,4701,4800,none,0.3,pseudo_periodic,0.59,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,4801,4900,alpha cadence one,0.25,delayed_phase_echo,0.79,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,4901,5000,none,0.2,pseudo_periodic,0.8,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,5001,5100,none,0.39,pseudo_periodic,0.61,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,5101,5200,none,0.4,pseudo_periodic,0.6,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,5201,5300,none,0.4,pseudo_periodic,0.6,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,5301,5400,none,0.4,pseudo_periodic,0.6,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,5401,5500,none,0.21,pseudo_periodic,0.79,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,5501,5600,none,0.2,pseudo_periodic,0.8,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,5601,5700,none,0.39,pseudo_periodic,0.61,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,5701,5800,none,0.4,pseudo_periodic,0.6,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,5801,5900,none,0.4,pseudo_periodic,0.6,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,100,5901,6000,none,0.4,pseudo_periodic,0.6,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,250,1,250,none,0.32,pseudo_periodic,0.68,initial,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,250,251,500,none,0.32,pseudo_periodic,0.68,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,250,501,750,none,0.28,pseudo_periodic,0.68,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,250,751,1000,gamma cadence three,0.264,pseudo_periodic,0.52,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,250,1001,1250,none,0.32,pseudo_periodic,0.68,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,250,1251,1500,none,0.32,pseudo_periodic,0.68,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,250,1501,1750,none,0.32,pseudo_periodic,0.68,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,250,1751,2000,none,0.244,pseudo_periodic,0.676,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,250,2001,2250,none,0.316,pseudo_periodic,0.48,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,250,2251,2500,gamma cadence three,0.256,pseudo_periodic,0.64,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,250,2501,2750,gamma cadence three,0.284,pseudo_periodic,0.64,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,250,2751,3000,none,0.356,pseudo_periodic,0.644,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,250,3001,3250,none,0.32,pseudo_periodic,0.68,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,250,3251,3500,beta cadence two,0.232,pseudo_periodic,0.676,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,250,3501,3750,gamma cadence three,0.26,pseudo_periodic,0.444,motif_shifts,weak_or_fragmented_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,250,3751,4000,none,0.32,pseudo_periodic,0.68,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,250,4001,4250,alpha cadence one,0.236,pseudo_periodic,0.68,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,250,4251,4500,none,0.32,pseudo_periodic,0.68,motif_shifts,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,250,4501,4750,none,0.32,pseudo_periodic,0.68,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,250,4751,5000,none,0.284,pseudo_periodic,0.356,motif_holds,weak_or_fragmented_cadence,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,250,5001,5250,none,0.36,pseudo_periodic,0.64,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,250,5251,5500,none,0.36,pseudo_periodic,0.64,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,250,5501,5750,none,0.36,pseudo_periodic,0.64,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,250,5751,6000,none,0.356,pseudo_periodic,0.644,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,500,1,500,none,0.32,pseudo_periodic,0.68,initial,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,500,501,1000,none,0.22,pseudo_periodic,0.6,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,500,1001,1500,none,0.32,pseudo_periodic,0.68,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,500,1501,2000,none,0.282,pseudo_periodic,0.678,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,500,2001,2500,none,0.28,pseudo_periodic,0.56,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,500,2501,3000,none,0.278,pseudo_periodic,0.642,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,500,3001,3500,none,0.24,pseudo_periodic,0.678,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,500,3501,4000,none,0.28,pseudo_periodic,0.562,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,500,4001,4500,none,0.26,pseudo_periodic,0.68,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,500,4501,5000,none,0.302,pseudo_periodic,0.518,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,500,5001,5500,none,0.36,pseudo_periodic,0.64,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,500,5501,6000,none,0.358,pseudo_periodic,0.642,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,1000,1,1000,none,0.27,pseudo_periodic,0.64,initial,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,1000,1001,2000,none,0.301,pseudo_periodic,0.679,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,1000,2001,3000,none,0.279,pseudo_periodic,0.601,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,1000,3001,4000,none,0.26,pseudo_periodic,0.62,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,1000,4001,5000,none,0.281,pseudo_periodic,0.599,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission
+pseudo_periodic_drift_v1,1000,5001,6000,none,0.359,pseudo_periodic,0.641,motif_holds,mixed_cadence_pressure,cadence_diagnostic_not_residual_admission

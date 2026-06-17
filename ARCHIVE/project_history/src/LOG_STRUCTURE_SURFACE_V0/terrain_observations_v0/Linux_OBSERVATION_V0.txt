@@ -1,0 +1,24 @@
+﻿terrain:
+Linux
+
+stable posture:
+distributed
+
+middle posture:
+weak_reuse
+
+residual posture:
+isolated_dispersion
+
+observer notes:
+very low residual attachment
+
+cross-layer observations:
+
+possible repeated structures:
+
+counterexamples observed:
+
+observer cautions:
+
+hold:

@@ -1,0 +1,24 @@
+﻿terrain:
+apache_error
+
+stable posture:
+moderate
+
+middle posture:
+circulating
+
+residual posture:
+mixed
+
+observer notes:
+moderate fragmentation and attachment
+
+cross-layer observations:
+
+possible repeated structures:
+
+counterexamples observed:
+
+observer cautions:
+
+hold:

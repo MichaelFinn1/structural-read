@@ -1,0 +1,487 @@
+﻿<html>
+<head>
+<meta charset='utf-8'>
+<title>Stable Topology Prototype V0</title>
+<style>
+body {
+  background:#111;
+  color:#eee;
+  font-family:Segoe UI, Arial;
+  padding:32px;
+}
+
+.card {
+  max-width:1220px;
+  margin:auto;
+  background:#1b1b1b;
+  border-radius:18px;
+  padding:28px;
+}
+
+h1 { margin-top:0; }
+h2 { margin-bottom:12px; }
+
+.note {
+  color:#aaa;
+  line-height:1.6;
+  margin-bottom:26px;
+}
+
+.small-note {
+  font-size:12px;
+  margin-bottom:12px;
+}
+
+.comparison-block {
+  background:#202020;
+  border:1px solid #333;
+  border-radius:16px;
+  padding:22px;
+  margin:24px 0;
+}
+
+.file-card {
+  background:#202020;
+  border:1px solid #333;
+  border-radius:16px;
+  padding:22px;
+  margin:24px 0;
+}
+
+.metrics {
+  display:grid;
+  grid-template-columns:repeat(4, 1fr);
+  gap:10px;
+  margin-bottom:18px;
+}
+
+.metrics div {
+  background:#171717;
+  border-radius:10px;
+  padding:12px;
+}
+
+.metrics span {
+  display:block;
+  color:#999;
+  font-size:11px;
+}
+
+.metrics strong {
+  font-size:22px;
+}
+
+.label {
+  color:#aaa;
+  font-size:12px;
+  margin:18px 0 8px 0;
+}
+
+.curve-note {
+  color:#999;
+  font-size:12px;
+  margin-bottom:8px;
+}
+
+.curve-field {
+  height:150px;
+  position:relative;
+  background:linear-gradient(to bottom, #101a2b, #07101d);
+  border-radius:12px;
+  padding:8px;
+  overflow:hidden;
+  border:1px solid #25344a;
+}
+
+.curve-svg {
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  overflow:visible;
+}
+
+.curve-svg polyline {
+  fill:none;
+  stroke:#51eaff;
+  stroke-width:2.4;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  vector-effect:non-scaling-stroke;
+  filter:drop-shadow(0 0 5px rgba(90,220,255,.55));
+}
+
+.grid-line {
+  position:absolute;
+  left:0;
+  right:0;
+  height:1px;
+  background:rgba(255,255,255,.08);
+}
+
+.y20 { top:80%; }
+.y40 { top:60%; }
+.y60 { top:40%; }
+.y80 { top:20%; }
+
+.pct-marker {
+  position:absolute;
+  top:0;
+  bottom:0;
+  width:1px;
+}
+
+
+
+.pct-line {
+  height:100%;
+  border-left:1px dashed rgba(255,255,255,.16);
+}
+
+.pct-label {
+  position:absolute;
+  top:4px;
+  left:4px;
+  color:#8fd8f4;
+  font-size:10px;
+}
+
+.density-frame {
+  height:34px;
+  background:linear-gradient(to bottom, #101a2b, #07101d);
+  border-radius:12px;
+  padding:8px;
+  overflow:hidden;
+  border:1px solid #25344a;
+}
+
+.density-field {
+  height:100%;
+  display:flex;
+  border-radius:8px;
+  overflow:hidden;
+  background:rgba(40,120,210,.16);
+}
+
+.density-cell {
+  flex:1;
+  min-width:1px;
+  background:linear-gradient(to bottom, #51eaff, #10345d);
+  box-shadow:0 0 5px rgba(90,220,255,.22);
+}
+
+.decay-field {
+  height:104px;
+  display:flex;
+  align-items:flex-end;
+  gap:3px;
+  background:linear-gradient(to bottom, #101a2b, #07101d);
+  border-radius:12px;
+  padding:8px;
+  overflow:hidden;
+}
+
+.decay-tick {
+  width:8px;
+  background:linear-gradient(to top, #10345d, #51eaff);
+  border-radius:6px 6px 0 0;
+  box-shadow:0 0 7px rgba(90,220,255,.3);
+}
+
+.relief-field {
+  min-height:80px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:3px;
+  background:linear-gradient(to bottom, #101a2b, #07101d);
+  border-radius:12px;
+  padding:8px;
+  overflow:hidden;
+}
+
+.relief-cell {
+  width:13px;
+  height:13px;
+  border-radius:4px;
+  box-shadow:0 0 5px rgba(90,220,255,.22);
+}
+
+details {
+  margin-top:16px;
+}
+
+summary {
+  cursor:pointer;
+  color:#8fd8f4;
+}
+
+table {
+  width:100%;
+  border-collapse:collapse;
+  margin-top:10px;
+  font-size:12px;
+}
+
+th {
+  color:#aaa;
+  text-align:left;
+  border-bottom:1px solid #444;
+  padding:8px;
+}
+
+td {
+  border-bottom:1px solid #333;
+  padding:8px;
+  vertical-align:top;
+}
+
+code {
+  color:#ddd;
+  white-space:normal;
+}
+
+.boundary {
+  margin-top:34px;
+  border-top:1px solid #333;
+  padding-top:18px;
+  color:#999;
+  font-size:12px;
+  line-height:1.7;
+}
+</style>
+</head>
+<body>
+<div class='card'>
+
+<h1>Stable Topology Prototype V0</h1>
+
+<div class='note'>
+Sandbox prototype only. This page studies stable recurrence topology before compressing it into the overview terrain strip.
+Stable means templates occurring five or more times: recurring enough to have shape. Stable does not mean normal, safe, boring, ignorable, or explained.
+This page shows recurrence posture, not importance.
+</div>
+
+<div class='comparison-block'>
+  <h2>Stable mass comparison</h2>
+  <div class='note small-note'>
+    Comparison table for recurrence mass only. Lower template counts to 50% / 80% indicate concentrated stable mass; higher counts indicate broader stable mass.
+  </div>
+  <table>
+    <tr>
+      <th>file</th>
+      <th>stable templates</th>
+      <th>stable lines</th>
+      <th>max count</th>
+      <th>median count</th>
+      <th>top1</th>
+      <th>top5</th>
+      <th>top10</th>
+      <th>templates to 50%</th>
+      <th>templates to 80%</th>
+    </tr>
+    <tr>
+  <td>Linux_2k.log</td>
+  <td>66</td>
+  <td>1857</td>
+  <td>206</td>
+  <td>16</td>
+  <td>11.1%</td>
+  <td>31.6%</td>
+  <td>46.9%</td>
+  <td>12</td>
+  <td>32</td>
+</tr>
+  </table>
+</div>
+
+<div class='file-card'>
+  <h2>Linux_2k.log</h2>
+
+  <div class='metrics'>
+    <div><span>stable templates</span><strong>66</strong></div>
+    <div><span>stable lines</span><strong>1857</strong></div>
+    <div><span>max recurrence</span><strong>206</strong></div>
+    <div><span>median count</span><strong>16</strong></div>
+    <div><span>top5 stable share</span><strong>31.6%</strong></div>
+    <div><span>templates to 80%</span><strong>32</strong></div>
+  </div>
+
+  <div class='label'>cumulative stable mass curve</div>
+  <div class='curve-note'>Shows how quickly stable recurrence mass accumulates as templates are added from highest count downward. Fast rise = stable mass carried by few templates. Slow rise = stable mass spread across many templates.</div>
+  <div class='curve-field'>
+    <div class='grid-line y20'></div>
+    <div class='grid-line y40'></div>
+    <div class='grid-line y60'></div>
+    <div class='grid-line y80'></div>
+    <svg class="curve-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+      <polyline points="0,88.91 1.54,82.44 3.08,77.54 4.62,72.86 6.15,68.44 7.69,64.35 9.23,60.96 10.77,58.05 12.31,55.57 13.85,53.1 15.38,50.62 16.92,48.14 18.46,46.31 20,44.53 21.54,42.81 23.08,41.14 24.62,39.53 26.15,38.07 27.69,36.62 29.23,35.16 30.77,33.71 32.31,32.26 33.85,30.91 35.38,29.56 36.92,28.27 38.46,27.03 40,25.79 41.54,24.56 43.08,23.32 44.62,22.08 46.15,20.84 47.69,19.92 49.23,19.06 50.77,18.2 52.31,17.34 53.85,16.48 55.38,15.62 56.92,14.75 58.46,13.95 60,13.14 61.54,12.44 63.08,11.74 64.62,11.09 66.15,10.5 67.69,9.91 69.23,9.37 70.77,8.83 72.31,8.29000000000001 73.85,7.75 75.38,7.22 76.92,6.68000000000001 78.46,6.14 80,5.59999999999999 81.54,5.06 83.08,4.52 84.62,3.98 86.15,3.45 87.69,2.91 89.23,2.48 90.77,2.05 92.31,1.62 93.85,1.18000000000001 95.38,0.810000000000002 96.92,0.540000000000006 98.46,0.269999999999996 100,0" />
+    </svg>
+        <div class='pct-marker' style='left:18%'>
+      <div class='pct-line'></div>
+      <div class='pct-label'>50%</div>
+    </div>
+    <div class='pct-marker' style='left:48%'>
+      <div class='pct-line'></div>
+      <div class='pct-label'>80%</div>
+    </div>
+    <div class='pct-marker' style='left:100%'>
+      <div class='pct-line'></div>
+      <div class='pct-label'>100%</div>
+    </div>
+  </div>
+
+  <div class='label'>rank density strip</div>
+  <div class='curve-note'>Strip length shows stable recurrence mass relative to other files. Brightness shows rank concentration inside this file.</div>
+  <div class='density-frame'>
+    <div class='density-field' style='width:100%'>
+      <span class='density-cell' style='opacity:1'></span>
+<span class='density-cell' style='opacity:0.633'></span>
+<span class='density-cell' style='opacity:0.509'></span>
+<span class='density-cell' style='opacity:0.492'></span>
+<span class='density-cell' style='opacity:0.47'></span>
+<span class='density-cell' style='opacity:0.445'></span>
+<span class='density-cell' style='opacity:0.389'></span>
+<span class='density-cell' style='opacity:0.351'></span>
+<span class='density-cell' style='opacity:0.317'></span>
+<span class='density-cell' style='opacity:0.317'></span>
+<span class='density-cell' style='opacity:0.317'></span>
+<span class='density-cell' style='opacity:0.317'></span>
+<span class='density-cell' style='opacity:0.265'></span>
+<span class='density-cell' style='opacity:0.261'></span>
+<span class='density-cell' style='opacity:0.257'></span>
+<span class='density-cell' style='opacity:0.252'></span>
+<span class='density-cell' style='opacity:0.248'></span>
+<span class='density-cell' style='opacity:0.235'></span>
+<span class='density-cell' style='opacity:0.235'></span>
+<span class='density-cell' style='opacity:0.235'></span>
+<span class='density-cell' style='opacity:0.235'></span>
+<span class='density-cell' style='opacity:0.235'></span>
+<span class='density-cell' style='opacity:0.227'></span>
+<span class='density-cell' style='opacity:0.227'></span>
+<span class='density-cell' style='opacity:0.223'></span>
+<span class='density-cell' style='opacity:0.218'></span>
+<span class='density-cell' style='opacity:0.218'></span>
+<span class='density-cell' style='opacity:0.218'></span>
+<span class='density-cell' style='opacity:0.218'></span>
+<span class='density-cell' style='opacity:0.218'></span>
+<span class='density-cell' style='opacity:0.218'></span>
+<span class='density-cell' style='opacity:0.193'></span>
+<span class='density-cell' style='opacity:0.188'></span>
+<span class='density-cell' style='opacity:0.188'></span>
+<span class='density-cell' style='opacity:0.188'></span>
+<span class='density-cell' style='opacity:0.188'></span>
+<span class='density-cell' style='opacity:0.188'></span>
+<span class='density-cell' style='opacity:0.188'></span>
+<span class='density-cell' style='opacity:0.184'></span>
+<span class='density-cell' style='opacity:0.184'></span>
+<span class='density-cell' style='opacity:0.176'></span>
+<span class='density-cell' style='opacity:0.176'></span>
+<span class='density-cell' style='opacity:0.171'></span>
+<span class='density-cell' style='opacity:0.167'></span>
+<span class='density-cell' style='opacity:0.167'></span>
+<span class='density-cell' style='opacity:0.163'></span>
+<span class='density-cell' style='opacity:0.163'></span>
+<span class='density-cell' style='opacity:0.163'></span>
+<span class='density-cell' style='opacity:0.163'></span>
+<span class='density-cell' style='opacity:0.163'></span>
+<span class='density-cell' style='opacity:0.163'></span>
+<span class='density-cell' style='opacity:0.163'></span>
+<span class='density-cell' style='opacity:0.163'></span>
+<span class='density-cell' style='opacity:0.163'></span>
+<span class='density-cell' style='opacity:0.163'></span>
+<span class='density-cell' style='opacity:0.163'></span>
+<span class='density-cell' style='opacity:0.163'></span>
+<span class='density-cell' style='opacity:0.163'></span>
+<span class='density-cell' style='opacity:0.155'></span>
+<span class='density-cell' style='opacity:0.155'></span>
+<span class='density-cell' style='opacity:0.155'></span>
+<span class='density-cell' style='opacity:0.155'></span>
+<span class='density-cell' style='opacity:0.155'></span>
+<span class='density-cell' style='opacity:0.155'></span>
+<span class='density-cell' style='opacity:0.155'></span>
+<span class='density-cell' style='opacity:0.155'></span>
+    </div>
+  </div>
+
+  <details>
+    <summary>Open top stable templates</summary>
+    <table>
+      <tr><th>count</th><th>template</th></tr>
+      <tr>
+  <td>206</td>
+  <td><code>Jul <num> <num>:<num>:<num> combo sshd(pam_unix)[<num>]: authentication failure; logname= uid=<num> euid=<num> tty=NODEVssh ruser= rhost=<ip> user=root</code></td>
+</tr>
+<tr>
+  <td>120</td>
+  <td><code>Jul <num> <num>:<num>:<num> combo ftpd[<num>]: connection from <ip> () at Sun Jul <num> <num>:<num>:<num> <num></code></td>
+</tr>
+<tr>
+  <td>91</td>
+  <td><code>Jul <num> <num>:<num>:<num> combo ftpd[<num>]: connection from <ip> () at Fri Jul <num> <num>:<num>:<num> <num></code></td>
+</tr>
+<tr>
+  <td>87</td>
+  <td><code>Jul <num> <num>:<num>:<num> combo ftpd[<num>]: connection from <ip> () at Sat Jul <num> <num>:<num>:<num> <num></code></td>
+</tr>
+<tr>
+  <td>82</td>
+  <td><code>Jun <num> <num>:<num>:<num> combo sshd(pam_unix)[<num>]: check pass; user unknown</code></td>
+</tr>
+<tr>
+  <td>76</td>
+  <td><code>Jun <num> <num>:<num>:<num> combo ftpd[<num>]: connection from <ip> () at Wed Jun <num> <num>:<num>:<num> <num></code></td>
+</tr>
+<tr>
+  <td>63</td>
+  <td><code>Jul <num> <num>:<num>:<num> combo ftpd[<num>]: connection from <ip> () at Mon Jul <num> <num>:<num>:<num> <num></code></td>
+</tr>
+<tr>
+  <td>54</td>
+  <td><code>Jul <num> <num>:<num>:<num> combo ftpd[<num>]: connection from <ip> () at Thu Jul <num> <num>:<num>:<num> <num></code></td>
+</tr>
+<tr>
+  <td>46</td>
+  <td><code>Jul <num> <num>:<num>:<num> combo ftpd[<num>]: connection from <ip> (<num>-<num>-<num>-<num>.dsl.in-addr.zen.co.uk) at Sun Jul <num> <num>:<num>:<num> <num></code></td>
+</tr>
+<tr>
+  <td>46</td>
+  <td><code>Jul <num> <num>:<num>:<num> combo ftpd[<num>]: connection from <ip> (host8.topspot.net) at Sun Jul <num> <num>:<num>:<num> <num></code></td>
+</tr>
+<tr>
+  <td>46</td>
+  <td><code>Jul <num> <num>:<num>:<num> combo ftpd[<num>]: connection from <ip> () at Tue Jul <num> <num>:<num>:<num> <num></code></td>
+</tr>
+<tr>
+  <td>46</td>
+  <td><code>Jul <num> <num>:<num>:<num> combo ftpd[<num>]: connection from <ip> (dsl-Chn-static-<ip>.touchtelindia.net) at Sun Jul <num> <num>:<num>:<num> <num></code></td>
+</tr>
+<tr>
+  <td>34</td>
+  <td><code>Jul <num> <num>:<num>:<num> combo sshd(pam_unix)[<num>]: check pass; user unknown</code></td>
+</tr>
+<tr>
+  <td>33</td>
+  <td><code>Jun <num> <num>:<num>:<num> combo sshd(pam_unix)[<num>]: authentication failure; logname= uid=<num> euid=<num> tty=NODEVssh ruser= rhost=<ip> user=root</code></td>
+</tr>
+<tr>
+  <td>32</td>
+  <td><code>Jul <num> <num>:<num>:<num> combo ftpd[<num>]: connection from <ip> (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul <num> <num>:<num>:<num> <num></code></td>
+</tr>
+<tr>
+  <td>31</td>
+  <td><code>Jun <num> <num>:<num>:<num> combo ftpd[<num>]: connection from <ip> () at Sat Jun <num> <num>:<num>:<num> <num></code></td>
+</tr>
+    </table>
+  </details>
+</div>
+
+<div class='boundary'>
+Boundary: This prototype does not infer anomaly, severity, importance, cause, incident status, or recommended action.
+<br><br>
+One-line hold: Stabilize local stable terrain before compressing upward.
+</div>
+
+</div>
+</body>
+</html>

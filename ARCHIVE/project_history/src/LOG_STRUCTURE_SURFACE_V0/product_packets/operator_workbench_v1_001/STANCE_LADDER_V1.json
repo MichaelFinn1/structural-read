@@ -1,0 +1,34 @@
+﻿{
+  "stance_ladder_v1": [
+    {
+      "stance_id": "OUTER_CONTEXT",
+      "window_size": 1000,
+      "role": "broad continuity field",
+      "posture": "slow fixed orientation layer"
+    },
+    {
+      "stance_id": "OPERATOR_CONTINUITY",
+      "window_size": 500,
+      "role": "investigative continuity layer",
+      "posture": "operator-scale reread"
+    },
+    {
+      "stance_id": "LOCAL_SEAM",
+      "window_size": 250,
+      "role": "local decomposition layer",
+      "posture": "seam emergence and local continuity"
+    },
+    {
+      "stance_id": "RUNNER_FRAGMENT",
+      "window_size": 100,
+      "role": "micro-fragment inspection layer",
+      "posture": "fine-grain local segmentation"
+    }
+  ],
+  "boundary": [
+    "stances are explicit observational constitutions",
+    "stances are replayable",
+    "stances are not semantic interpretations",
+    "stances are not adaptive optimization layers"
+  ]
+}

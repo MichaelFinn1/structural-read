@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="680">
+<rect width="100%" height="100%" fill="white"/>
+<text x="490.0" y="32" text-anchor="middle" font-size="22">Six-Terrain Glyph Map V0</text>
+<text x="490.0" y="55" text-anchor="middle" font-size="13">x=residual share | y=stable attachment | size=middle share | ring=residual self-adjacency</text>
+<line x1="95" y1="590" x2="920" y2="590" stroke="black"/>
+<line x1="95" y1="70" x2="95" y2="590" stroke="black"/>
+<text x="490.0" y="645" text-anchor="middle" font-size="15">Residual Share</text>
+<text x="28" y="340.0" text-anchor="middle" font-size="15" transform="rotate(-90 28 340.0)">Residual Stable Attachment</text>
+<circle cx="145.1" cy="560.1" r="10.1" fill="white" stroke="black" stroke-width="1.7"/>
+<circle cx="145.1" cy="560.1" r="3" fill="black"/>
+<text x="163.1" y="564.1" font-size="14">Linux</text>
+<circle cx="442.9" cy="135.8" r="19.7" fill="white" stroke="black" stroke-width="5.3"/>
+<circle cx="442.9" cy="135.8" r="3" fill="black"/>
+<text x="470.7" y="139.8" font-size="14">Thunderbird</text>
+<circle cx="831.6" cy="403.9" r="12.8" fill="white" stroke="black" stroke-width="8.5"/>
+<circle cx="831.6" cy="403.9" r="3" fill="black"/>
+<text x="852.4" y="407.9" font-size="14">OpenStack</text>
+<circle cx="656.6" cy="125.7" r="11.6" fill="white" stroke="black" stroke-width="7.3"/>
+<circle cx="656.6" cy="125.7" r="3" fill="black"/>
+<text x="676.2" y="129.7" font-size="14">HDFS</text>
+<circle cx="117.7" cy="447.5" r="20.9" fill="white" stroke="black" stroke-width="1.2"/>
+<circle cx="117.7" cy="447.5" r="3" fill="black"/>
+<text x="146.6" y="451.5" font-size="14">Apache</text>
+<circle cx="96.0" cy="562.6" r="8.0" fill="white" stroke="black" stroke-width="1.0"/>
+<circle cx="96.0" cy="562.6" r="3" fill="black"/>
+<text x="112.0" y="566.6" font-size="14">BGL</text>
+</svg>

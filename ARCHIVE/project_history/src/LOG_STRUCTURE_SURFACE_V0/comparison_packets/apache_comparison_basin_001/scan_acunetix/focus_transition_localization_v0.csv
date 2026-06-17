@@ -1,0 +1,5 @@
+terrain_id,bin_id,bin_start,bin_end,total_transitions,persisted_count,smoothed_count,fragmented_count,posture_changed_count,recomposed_count,non_persisted_count,non_persisted_share,dominant_transition_marker,localization_class
+apache_acunetix,bin_0001,1,500,38,38,0,0,0,0,0,0.0000,persisted,quiet
+apache_acunetix,bin_0002,501,1000,38,38,0,0,0,0,0,0.0000,persisted,quiet
+apache_acunetix,bin_0003,1001,1500,38,38,0,0,0,0,0,0.0000,persisted,quiet
+apache_acunetix,bin_0004,1501,2000,38,38,0,0,0,0,0,0.0000,persisted,quiet

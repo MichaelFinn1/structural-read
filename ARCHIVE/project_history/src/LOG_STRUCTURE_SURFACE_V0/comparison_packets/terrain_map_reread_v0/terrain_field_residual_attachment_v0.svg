@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620">
+<rect width="100%" height="100%" fill="white"/>
+<text x="450.0" y="30" text-anchor="middle" font-size="20">Six-Terrain Field: Residual Share vs Stable Attachment</text>
+<line x1="90" y1="540" x2="860" y2="540" stroke="black"/>
+<line x1="90" y1="60" x2="90" y2="540" stroke="black"/>
+<text x="450.0" y="595" text-anchor="middle" font-size="14">Residual Share</text>
+<text x="25" y="310.0" text-anchor="middle" font-size="14" transform="rotate(-90 25 310.0)">Residual Stable Attachment</text>
+<circle cx="136.7" cy="512.4" r="5" fill="black"/>
+<text x="144.7" y="504.4" font-size="13">Linux</text>
+<circle cx="414.7" cy="120.8" r="5" fill="black"/>
+<text x="422.7" y="112.8" font-size="13">Thunderbird</text>
+<circle cx="777.5" cy="368.2" r="5" fill="black"/>
+<text x="785.5" y="360.2" font-size="13">OpenStack</text>
+<circle cx="614.2" cy="111.4" r="5" fill="black"/>
+<text x="622.2" y="103.4" font-size="13">HDFS</text>
+<circle cx="111.2" cy="408.5" r="5" fill="black"/>
+<text x="119.2" y="400.5" font-size="13">Apache</text>
+<circle cx="91.0" cy="514.7" r="5" fill="black"/>
+<text x="99.0" y="506.7" font-size="13">BGL</text>
+</svg>

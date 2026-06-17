@@ -1,6 +1,0 @@
-family_name,terrain_member,slice_count,candidate_count_mean,candidate_span_ratio_mean,quiet_gap_count_mean,largest_quiet_gap_mean,occupied_extent_ratio_mean,within_member_persistence_score
-apache,apache_baseline,3,1.000000,0.916917,0.000000,0.000000,0.916917,0.945739
-linux,linux_long_horizon_001,3,2.000000,0.273780,1.333333,833.333333,0.449780,0.497030
-openstack,openstack_loghub_normal1_001,1,28.000000,0.665469,27.000000,1500.000000,1.000000,1.000000
-openstack,openstack_loghub_normal2_001,1,60.000000,0.561740,59.000000,2500.000000,0.897326,1.000000
-openstack,openstack_long_horizon_001,3,18.000000,0.567635,17.000000,1833.333333,0.888629,0.872374

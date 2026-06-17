@@ -1,4 +1,0 @@
-﻿receipt_id,terrain,start_line,end_line,constitution,focus_region,operator_note,revisit_anchor,status
-r001,openstack_long_normal2,28000,34000,250,right_seam_band,initial seam inspection,seam_28k_34k,open
-r002,linux_long_horizon_001,12000,15000,1000,sparse_carrier_transition,wide reread after interruption,linux_12k_15k,open
-r003,netsparker_long_horizon_001,4000,7000,100,scanner redistribution pocket,narrow redistribution reread,nsp_4k_7k,open

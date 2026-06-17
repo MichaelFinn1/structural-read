@@ -1,0 +1,24 @@
+﻿terrain:
+openssh
+
+stable posture:
+concentrated
+
+middle posture:
+circulating
+
+residual posture:
+attached_clouds
+
+observer notes:
+high residual attachment with tiny family vocabulary
+
+cross-layer observations:
+
+possible repeated structures:
+
+counterexamples observed:
+
+observer cautions:
+
+hold:

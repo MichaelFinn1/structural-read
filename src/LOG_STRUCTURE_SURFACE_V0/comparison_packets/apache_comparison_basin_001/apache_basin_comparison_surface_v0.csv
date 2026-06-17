@@ -1,5 +1,0 @@
-source,windows,avg_residual_share,avg_middle_share,avg_residual_self_adjacent,avg_residual_stable_attachment,dominant_posture,distinct_postures,distinct_dominant_families
-baseline_loghub_apache,354,0.022,0.143,0.0284,0.2055,no_residual,5,7
-scan_acunetix,354,0.159,0.017,0.184,0.8832,stable_attached_residual,3,2
-scan_netsparker,354,0.879,0.121,0.9032,0.0,residual_island,4,2
-scan_w3af,354,0.1535,0.13,0.4033,0.1362,no_residual,5,2

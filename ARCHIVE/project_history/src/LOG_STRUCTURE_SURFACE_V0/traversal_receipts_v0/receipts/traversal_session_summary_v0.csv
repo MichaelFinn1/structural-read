@@ -1,0 +1,2 @@
+﻿"replay_id","terrain_id","first_span","last_span","movement_count","marker_sequence","relation_sequence","legibility_sequence","summary_line"
+"manual_probe_001","openstack_long_horizon_001","876-1125","876-1125","1","seam_emerged","persisted_across_transition","moderate","Traversal manual_probe_001 moved from 876-1125 to 876-1125 across 1 receipt(s): seam_emerged."

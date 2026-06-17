@@ -1,7 +1,0 @@
-terrain,window_size,local_region,line_start,line_end,dominant_posture,continuity_strength,stable_share,middle_share,residual_share,transition_pressure,survival_class,boundary_note
-collapse_terrain_001,25,R001,1,1,residual,0.8475,0.0,0.1525,0.8475,initial,initial,constitution_relative_observer_surface_no_identity_claim
-collapse_terrain_001,50,R001,1,1,residual,0.82,0.0,0.18,0.82,posture_holds,holds,constitution_relative_observer_surface_no_identity_claim
-collapse_terrain_001,100,R001,1,1,residual,0.81,0.0,0.19,0.81,posture_holds,holds,constitution_relative_observer_surface_no_identity_claim
-collapse_terrain_001,250,R001,1,1,residual,0.8,0.0,0.2,0.8,posture_holds,holds,constitution_relative_observer_surface_no_identity_claim
-collapse_terrain_001,500,R001,1,1,residual,0.8,0.0,0.2,0.8,posture_holds,holds,constitution_relative_observer_surface_no_identity_claim
-collapse_terrain_001,1000,R001,1,1,residual,0.8,0.0,0.2,0.8,posture_holds,holds,constitution_relative_observer_surface_no_identity_claim

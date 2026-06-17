@@ -1,0 +1,7 @@
+terrain,window_scales_present,window_count,distinct_postures,distinct_dominant_families,fully_descendable,comparison_replayable
+Linux,10|25|50|100|250|500|1000,354,4,6,yes,yes
+Thunderbird,10|25|50|100|250|500|1000,354,4,166,yes,yes
+OpenStack,10|25|50|100|250|500|1000,354,3,2,yes,yes
+HDFS,10|25|50|100|250|500|1000,354,4,5,yes,yes
+Apache,10|25|50|100|250|500|1000,354,5,7,yes,yes
+BGL,10|25|50|100|250|500|1000,354,2,2,yes,yes

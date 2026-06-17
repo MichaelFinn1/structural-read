@@ -1,5 +1,0 @@
-terrain_id,bin_id,bin_start,bin_end,total_transitions,persisted_count,smoothed_count,fragmented_count,posture_changed_count,recomposed_count,non_persisted_count,non_persisted_share,dominant_transition_marker,localization_class
-white_noise,bin_0001,1,500,65,60,2,3,0,0,5,0.0769,persisted,localized_deformation
-white_noise,bin_0002,501,1000,69,68,0,1,0,0,1,0.0145,persisted,distributed_low
-white_noise,bin_0003,1001,1500,66,64,1,1,0,0,2,0.0303,persisted,distributed_low
-white_noise,bin_0004,1501,2000,66,65,0,1,0,0,1,0.0152,persisted,distributed_low

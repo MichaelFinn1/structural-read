@@ -1,0 +1,35 @@
+quality_id,source_surface,movement_dimension,scope,movement_quality,supporting_detail,boundary_note
+mq_001,constitution_transition_surface_v1,transition_texture,50->75,fragile_movement,texture=fragmentation_prone; continues=2; appears=3; disappears=5,"transition quality describes reread movement, not terrain truth"
+mq_002,constitution_transition_surface_v1,transition_texture,75->100,fragile_movement,texture=fragmentation_prone; continues=1; appears=3; disappears=4,"transition quality describes reread movement, not terrain truth"
+mq_003,constitution_transition_surface_v1,transition_texture,100->150,fragile_movement,texture=fragmentation_prone; continues=1; appears=3; disappears=3,"transition quality describes reread movement, not terrain truth"
+mq_004,constitution_transition_surface_v1,transition_texture,150->200,fragile_movement,texture=fragmentation_prone; continues=1; appears=2; disappears=3,"transition quality describes reread movement, not terrain truth"
+mq_005,constitution_transition_surface_v1,transition_texture,200->250,fragile_movement,texture=fragmentation_prone; continues=0; appears=4; disappears=3,"transition quality describes reread movement, not terrain truth"
+mq_006,constitution_transition_surface_v1,transition_texture,250->350,fragile_movement,texture=fragmentation_prone; continues=2; appears=2; disappears=3,"transition quality describes reread movement, not terrain truth"
+mq_007,constitution_transition_surface_v1,transition_texture,350->500,fragile_movement,texture=fragmentation_prone; continues=1; appears=2; disappears=3,"transition quality describes reread movement, not terrain truth"
+mq_008,constitution_transition_surface_v1,transition_texture,500->750,stable_movement,texture=continuity_friendly; continues=2; appears=0; disappears=1,"transition quality describes reread movement, not terrain truth"
+mq_009,constitution_transition_surface_v1,transition_texture,750->1000,fragile_movement,texture=fragmentation_prone; continues=1; appears=1; disappears=1,"transition quality describes reread movement, not terrain truth"
+mq_010,replay_degradation_surface_v1,degradation_pressure,local_symmetry_pocket,pressure_weakens,supported->weak_support; rows=3,"degradation pressure is inspectable weakening, not failure"
+mq_011,replay_degradation_surface_v1,degradation_pressure,local_symmetry_pocket,pressure_weakens,supported->weak_support; rows=3,"degradation pressure is inspectable weakening, not failure"
+mq_012,replay_degradation_surface_v1,degradation_pressure,local_symmetry_pocket,pressure_weakens,supported->weak_support; rows=3,"degradation pressure is inspectable weakening, not failure"
+mq_013,replay_degradation_surface_v1,degradation_pressure,null_zone_respect,pressure_relocates,mixed->supported; rows=9,"degradation pressure is inspectable weakening, not failure"
+mq_014,replay_degradation_surface_v1,degradation_pressure,null_zone_respect,pressure_relocates,mixed->supported; rows=9,"degradation pressure is inspectable weakening, not failure"
+mq_015,replay_degradation_surface_v1,degradation_pressure,null_zone_respect,pressure_relocates,mixed->supported; rows=9,"degradation pressure is inspectable weakening, not failure"
+mq_016,replay_degradation_surface_v1,degradation_pressure,spacing_basin,pressure_not_run,baseline=9; probe=,"degradation pressure is inspectable weakening, not failure"
+mq_017,replay_degradation_surface_v1,degradation_pressure,50->75,pressure_high,loss=8; total=16; ratio=0.5,"degradation pressure is inspectable weakening, not failure"
+mq_018,replay_degradation_surface_v1,degradation_pressure,75->100,pressure_high,loss=7; total=13; ratio=0.538,"degradation pressure is inspectable weakening, not failure"
+mq_019,replay_degradation_surface_v1,degradation_pressure,100->150,pressure_high,loss=6; total=11; ratio=0.545,"degradation pressure is inspectable weakening, not failure"
+mq_020,replay_degradation_surface_v1,degradation_pressure,150->200,pressure_high,loss=5; total=9; ratio=0.556,"degradation pressure is inspectable weakening, not failure"
+mq_021,replay_degradation_surface_v1,degradation_pressure,200->250,pressure_high,loss=7; total=9; ratio=0.778,"degradation pressure is inspectable weakening, not failure"
+mq_022,replay_degradation_surface_v1,degradation_pressure,250->350,pressure_high,loss=5; total=7; ratio=0.714,"degradation pressure is inspectable weakening, not failure"
+mq_023,replay_degradation_surface_v1,degradation_pressure,350->500,pressure_high,loss=5; total=6; ratio=0.833,"degradation pressure is inspectable weakening, not failure"
+mq_024,replay_degradation_surface_v1,degradation_pressure,500->750,pressure_moderate,loss=1; total=3; ratio=0.333,"degradation pressure is inspectable weakening, not failure"
+mq_025,replay_degradation_surface_v1,degradation_pressure,750->1000,pressure_high,loss=2; total=3; ratio=0.667,"degradation pressure is inspectable weakening, not failure"
+mq_026,pause_basin_surface_v1,pause_support,spacing_hold,pause_supported,supporting_rows=10,"pause support marks lawful non-forcing, not inactivity"
+mq_027,pause_basin_surface_v1,pause_support,continuity_hold,pause_supported,supporting_rows=11,"pause support marks lawful non-forcing, not inactivity"
+mq_028,pause_basin_surface_v1,pause_support,unresolved_hold,pause_supported,supporting_rows=2,"pause support marks lawful non-forcing, not inactivity"
+mq_029,hollow_survivability_sweep_v1,basin_survivability,constitution_density_probe,survives,baseline=9; probe=9,basin survivability remains candidate evidence only
+mq_030,hollow_survivability_sweep_v1,basin_survivability,extraction_threshold_probe,survives,baseline=9; probe=8,basin survivability remains candidate evidence only
+mq_031,hollow_survivability_sweep_v1,basin_survivability,zone_shift_probe_baseline,survives,baseline=9; probe=9,basin survivability remains candidate evidence only
+mq_032,hollow_survivability_sweep_v1,basin_survivability,zone_shift_probe_variant_a,survives,baseline=9; probe=9,basin survivability remains candidate evidence only
+mq_033,hollow_survivability_sweep_v1,basin_survivability,zone_shift_probe_variant_b,survives,baseline=9; probe=9,basin survivability remains candidate evidence only
+mq_034,hollow_survivability_sweep_v1,basin_survivability,terrain_comparison_probe,not_run,baseline=9; probe=,basin survivability remains candidate evidence only

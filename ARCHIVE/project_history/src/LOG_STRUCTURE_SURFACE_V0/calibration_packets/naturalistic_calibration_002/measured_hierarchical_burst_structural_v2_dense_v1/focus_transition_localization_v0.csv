@@ -1,0 +1,9 @@
+terrain_id,bin_id,bin_start,bin_end,total_transitions,persisted_count,smoothed_count,fragmented_count,posture_changed_count,recomposed_count,non_persisted_count,non_persisted_share,dominant_transition_marker,localization_class
+hierarchical_burst,bin_0001,1,500,61,57,3,1,0,0,4,0.0656,persisted,localized_deformation
+hierarchical_burst,bin_0002,501,1000,64,61,3,0,0,0,3,0.0469,persisted,distributed_low
+hierarchical_burst,bin_0003,1001,1500,62,58,2,2,0,0,4,0.0645,persisted,localized_deformation
+hierarchical_burst,bin_0004,1501,2000,62,57,4,1,0,0,5,0.0806,persisted,localized_deformation
+hierarchical_burst,bin_0005,2001,2500,64,59,3,2,0,0,5,0.0781,persisted,localized_deformation
+hierarchical_burst,bin_0006,2501,3000,62,59,3,0,0,0,3,0.0484,persisted,distributed_low
+hierarchical_burst,bin_0007,3001,3500,61,59,2,0,0,0,2,0.0328,persisted,distributed_low
+hierarchical_burst,bin_0008,3501,4000,63,60,3,0,0,0,3,0.0476,persisted,distributed_low

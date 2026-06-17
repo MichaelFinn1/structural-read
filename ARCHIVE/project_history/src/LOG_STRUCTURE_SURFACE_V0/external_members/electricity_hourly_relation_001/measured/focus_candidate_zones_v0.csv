@@ -1,0 +1,2 @@
+terrain_id,candidate_id,bin_size,span_start,span_end,bin_count,active_bin_count,quiet_bin_count,distributed_low_count,localized_deformation_count,dense_deformation_count,dominant_localization_class,candidate_type,boundary_note
+electricity_hourly_relation_001,candidate_0001,500,1,26304,53,53,0,0,1,52,dense_deformation,mixed_deformation_candidate,quiet_bins_break_groups

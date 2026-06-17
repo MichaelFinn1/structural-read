@@ -1,7 +1,0 @@
-terrain,window_size,local_region,line_start,line_end,dominant_posture,continuity_strength,stable_share,middle_share,residual_share,transition_pressure,survival_class,boundary_note
-lynx_hare_cycle_001,3,R001,1,114,stable,0.5877,0.5877,0.3114,0.1009,initial,initial,constitution_relative_observer_surface_no_identity_claim
-lynx_hare_cycle_001,5,R001,1,114,stable,0.5859,0.5859,0.3141,0.1,posture_holds,holds,constitution_relative_observer_surface_no_identity_claim
-lynx_hare_cycle_001,7,R001,1,114,stable,0.5735,0.5735,0.3298,0.0966,posture_holds,holds,constitution_relative_observer_surface_no_identity_claim
-lynx_hare_cycle_001,9,R001,1,114,stable,0.5876,0.5876,0.3141,0.0983,posture_holds,holds,constitution_relative_observer_surface_no_identity_claim
-lynx_hare_cycle_001,11,R001,1,114,stable,0.5754,0.5754,0.3295,0.0951,posture_holds,holds,constitution_relative_observer_surface_no_identity_claim
-lynx_hare_cycle_001,15,R001,1,114,stable,0.5861,0.5861,0.318,0.0958,posture_holds,holds,constitution_relative_observer_surface_no_identity_claim

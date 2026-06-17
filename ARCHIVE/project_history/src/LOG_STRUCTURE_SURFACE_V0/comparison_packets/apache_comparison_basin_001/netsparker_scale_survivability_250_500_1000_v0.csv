@@ -1,0 +1,15 @@
+window_size,window_id,line_start,line_end,stable_share,middle_share,residual_share,residual_self_adjacent_share,residual_near_stable_share,dominant_residual_family_share,dominant_residual_family,local_residue_posture
+250,window_001,1,250,0.0,0.848,0.152,0.8421,0.0,0.9737,"""<num>.<num>.<num>.<num> - - [<num>/Dec/<num>:<num>:<num>:<num> +<num>]",residual_island
+250,window_002,251,500,0.0,0.04,0.96,0.9833,0.0,1.0,"""<num>.<num>.<num>.<num> - - [<num>/Dec/<num>:<num>:<num>:<num> +<num>]",residual_island
+250,window_003,501,750,0.0,0.016,0.984,1.0,0.0,1.0,"""<num>.<num>.<num>.<num> - - [<num>/Dec/<num>:<num>:<num>:<num> +<num>]",residual_island
+250,window_004,751,1000,0.0,0.0,1.0,1.0,0.0,1.0,"""<num>.<num>.<num>.<num> - - [<num>/Dec/<num>:<num>:<num>:<num> +<num>]",residual_island
+250,window_005,1001,1250,0.0,0.0,1.0,1.0,0.0,1.0,"""<num>.<num>.<num>.<num> - - [<num>/Dec/<num>:<num>:<num>:<num> +<num>]",residual_island
+250,window_006,1251,1500,0.0,0.0,1.0,1.0,0.0,1.0,"""<num>.<num>.<num>.<num> - - [<num>/Dec/<num>:<num>:<num>:<num> +<num>]",residual_island
+250,window_007,1501,1750,0.0,0.008,0.992,1.0,0.0,1.0,"""<num>.<num>.<num>.<num> - - [<num>/Dec/<num>:<num>:<num>:<num> +<num>]",residual_island
+250,window_008,1751,2000,0.0,0.056,0.944,0.9958,0.0,1.0,"""<num>.<num>.<num>.<num> - - [<num>/Dec/<num>:<num>:<num>:<num> +<num>]",residual_island
+500,window_001,1,500,0.0,0.444,0.556,0.964,0.0,0.9964,"""<num>.<num>.<num>.<num> - - [<num>/Dec/<num>:<num>:<num>:<num> +<num>]",residual_island
+500,window_002,501,1000,0.0,0.008,0.992,1.0,0.0,1.0,"""<num>.<num>.<num>.<num> - - [<num>/Dec/<num>:<num>:<num>:<num> +<num>]",residual_island
+500,window_003,1001,1500,0.0,0.0,1.0,1.0,0.0,1.0,"""<num>.<num>.<num>.<num> - - [<num>/Dec/<num>:<num>:<num>:<num> +<num>]",residual_island
+500,window_004,1501,2000,0.0,0.032,0.968,0.9979,0.0,1.0,"""<num>.<num>.<num>.<num> - - [<num>/Dec/<num>:<num>:<num>:<num> +<num>]",residual_island
+1000,window_001,1,1000,0.0,0.226,0.774,0.9871,0.0,0.9987,"""<num>.<num>.<num>.<num> - - [<num>/Dec/<num>:<num>:<num>:<num> +<num>]",residual_island
+1000,window_002,1001,2000,0.0,0.016,0.984,0.999,0.0,1.0,"""<num>.<num>.<num>.<num> - - [<num>/Dec/<num>:<num>:<num>:<num> +<num>]",residual_island

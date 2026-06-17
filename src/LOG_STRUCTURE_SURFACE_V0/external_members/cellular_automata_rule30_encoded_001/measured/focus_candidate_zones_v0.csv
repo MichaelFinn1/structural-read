@@ -1,2 +1,0 @@
-terrain_id,candidate_id,bin_size,span_start,span_end,bin_count,active_bin_count,quiet_bin_count,distributed_low_count,localized_deformation_count,dense_deformation_count,dominant_localization_class,candidate_type,boundary_note
-cellular_automata_rule30_encoded_001,candidate_0001,500,1,500,1,1,0,1,0,0,distributed_low,distributed_corridor_candidate,quiet_bins_break_groups

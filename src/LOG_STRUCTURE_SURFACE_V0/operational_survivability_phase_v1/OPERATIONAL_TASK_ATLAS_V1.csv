@@ -1,9 +1,0 @@
-﻿task_id,task_name,purpose,success_signal,boundary
-task_001,find_first_continuity_destabilization,Locate where continuity first weakens under constitution movement,operator can point to first weakening zone without semantic claim,no cause inference
-task_002,inspect_widening_survivability,See what survives from fine to broad constitutions,survivability path is replayable,no privileged scale
-task_003,distinguish_absorption_vs_disappearance,Prevent false loss claims under widening,absorption/split/recoloring are separated,no object identity
-task_004,recover_after_interruption,Restore orientation after pause or handoff,return state preserves constitution and descent path,no automated next-step authority
-task_005,compare_two_terrains_same_law,Compare survivability ecologies across terrains,differences emerge under same stack,no dataset meaning claim
-task_006,locate_embedded_seam_pressure,Find local seam behavior inside carrier climate,operator can descend to seam region,no hidden state claim
-task_007,identify_false_local_coherence,Detect where local structure fails under widening,local pattern weakens transparently,no anomaly claim
-task_008,inspect_recoloring_pressure,Track positional overlap with posture change,recolored overlaps remain replay-addressable,no lifecycle claim

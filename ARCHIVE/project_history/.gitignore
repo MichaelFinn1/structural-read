@@ -1,0 +1,6 @@
+﻿_surface_work/
+*.tmp
+.DS_Store
+Thumbs.db
+
+_local_untracked_archive/

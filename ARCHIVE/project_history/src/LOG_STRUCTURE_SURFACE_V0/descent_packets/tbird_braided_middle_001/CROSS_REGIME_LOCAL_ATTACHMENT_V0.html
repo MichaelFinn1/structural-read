@@ -1,0 +1,226 @@
+﻿<html>
+<head>
+<meta charset='utf-8'>
+<title>Cross-Regime Local Attachment V0</title>
+<style>
+body { background:#0b0f14; color:#eee; font-family:Segoe UI, Arial; padding:28px; }
+.card { max-width:1200px; margin:auto; background:#111820; border:1px solid #2c3945; border-radius:14px; padding:24px; }
+h1 { margin-top:0; }
+.note { color:#aaa; line-height:1.6; margin-bottom:22px; }
+table { width:100%; border-collapse:collapse; margin:18px 0; font-size:13px; }
+th { color:#aaa; text-align:left; border-bottom:1px solid #444; padding:8px; }
+td { border-bottom:1px solid #27313a; padding:8px; vertical-align:top; }
+.boundary { color:#999; margin-top:24px; border-top:1px solid #2c3945; padding-top:18px; line-height:1.6; }
+</style>
+</head>
+<body>
+<div class='card'>
+
+<h1>Cross-Regime Local Attachment V0</h1>
+
+<div class='note'>
+Observer-only local adjacency surface. This asks what persistence regimes locally surround stable, middle, and residual forms.
+It does not infer membership, cause, lifecycle progression, anomaly, severity, or importance.
+</div>
+
+<h2>Compact regime-neighbor summary</h2>
+
+<table>
+<tr>
+  <th>file</th>
+  <th>current regime</th>
+  <th>occurrences</th>
+  <th>near stable</th>
+  <th>near middle</th>
+  <th>near residual</th>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>middle</td>
+  <td>264</td>
+  <td>71.6%</td>
+  <td>40.2%</td>
+  <td>50.8%</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>residual</td>
+  <td>671</td>
+  <td>51%</td>
+  <td>19.7%</td>
+  <td>70.3%</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>stable</td>
+  <td>1065</td>
+  <td>90%</td>
+  <td>22.3%</td>
+  <td>39.8%</td>
+</tr>
+</table>
+
+<h2>Top local regime neighborhoods</h2>
+
+<table>
+<tr>
+  <th>file</th>
+  <th>neighborhood signature</th>
+  <th>occurrences</th>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>stable-stable-stable</td>
+  <td>448</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>stable-stable-residual</td>
+  <td>167</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>residual-stable-stable</td>
+  <td>166</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>middle-stable-stable</td>
+  <td>89</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>stable-stable-middle</td>
+  <td>88</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>residual-stable-residual</td>
+  <td>47</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>middle-stable-residual</td>
+  <td>27</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>residual-stable-middle</td>
+  <td>17</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>middle-stable-middle</td>
+  <td>16</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>residual-residual-residual</td>
+  <td>252</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>stable-residual-stable</td>
+  <td>129</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>residual-residual-stable</td>
+  <td>79</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>stable-residual-residual</td>
+  <td>78</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>stable-residual-middle</td>
+  <td>34</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>middle-residual-residual</td>
+  <td>31</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>residual-residual-middle</td>
+  <td>31</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>middle-residual-stable</td>
+  <td>22</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>middle-residual-middle</td>
+  <td>14</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>boundary-residual-residual</td>
+  <td>1</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>stable-middle-stable</td>
+  <td>64</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>residual-middle-stable</td>
+  <td>50</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>stable-middle-residual</td>
+  <td>32</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>stable-middle-middle</td>
+  <td>25</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>middle-middle-residual</td>
+  <td>23</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>middle-middle-middle</td>
+  <td>22</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>middle-middle-stable</td>
+  <td>18</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>residual-middle-middle</td>
+  <td>17</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>residual-middle-residual</td>
+  <td>12</td>
+</tr>
+<tr>
+  <td>Thunderbird_2k.log</td>
+  <td>middle-middle-boundary</td>
+  <td>1</td>
+</tr>
+</table>
+
+<div class='boundary'>
+Boundary: This is static/postural local adjacency only. It does not describe movement across windows.
+<br><br>
+One-line hold: Observe how persistence regimes locally touch without turning adjacency into belonging or lifecycle.
+</div>
+
+</div>
+</body>
+</html>

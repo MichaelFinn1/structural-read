@@ -1,0 +1,10 @@
+transition,continues,merges,splits,appears,disappears,ambiguous,total_relations,transition_texture,boundary_note
+50->75,2,4,2,3,5,0,16,fragmentation_prone,"transition texture describes reread deformation, not quality or truth"
+75->100,1,1,4,3,4,0,13,fragmentation_prone,"transition texture describes reread deformation, not quality or truth"
+100->150,1,2,2,3,3,0,11,fragmentation_prone,"transition texture describes reread deformation, not quality or truth"
+150->200,1,1,2,2,3,0,9,fragmentation_prone,"transition texture describes reread deformation, not quality or truth"
+200->250,0,2,0,4,3,0,9,fragmentation_prone,"transition texture describes reread deformation, not quality or truth"
+250->350,2,0,0,2,3,0,7,fragmentation_prone,"transition texture describes reread deformation, not quality or truth"
+350->500,1,0,0,2,3,0,6,fragmentation_prone,"transition texture describes reread deformation, not quality or truth"
+500->750,2,0,0,0,1,0,3,continuity_friendly,"transition texture describes reread deformation, not quality or truth"
+750->1000,1,0,0,1,1,0,3,fragmentation_prone,"transition texture describes reread deformation, not quality or truth"

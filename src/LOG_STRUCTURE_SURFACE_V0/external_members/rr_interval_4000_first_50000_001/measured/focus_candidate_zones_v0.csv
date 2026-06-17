@@ -1,5 +1,0 @@
-terrain_id,candidate_id,bin_size,span_start,span_end,bin_count,active_bin_count,quiet_bin_count,distributed_low_count,localized_deformation_count,dense_deformation_count,dominant_localization_class,candidate_type,boundary_note
-rr_interval_4000_first_50000_001,candidate_0001,500,29501,30000,1,1,0,1,0,0,distributed_low,distributed_corridor_candidate,quiet_bins_break_groups
-rr_interval_4000_first_50000_001,candidate_0002,500,30501,31000,1,1,0,1,0,0,distributed_low,distributed_corridor_candidate,quiet_bins_break_groups
-rr_interval_4000_first_50000_001,candidate_0003,500,39001,39500,1,1,0,1,0,0,distributed_low,distributed_corridor_candidate,quiet_bins_break_groups
-rr_interval_4000_first_50000_001,candidate_0004,500,40001,40500,1,1,0,1,0,0,distributed_low,distributed_corridor_candidate,quiet_bins_break_groups

@@ -1,6 +1,0 @@
-signature_id,signature_type,supporting_rows,constitution_range,zone,evidence_strength,constitution_survivability,relation_volatility,boundary_note
-sig_001,carrier_persistence,6,200|250|350|500|750|1000,left_zone,supported,broad_stable,smoothing_dominant,broad carrier candidate only; not object identity
-sig_002,convergence_preservation,7/10,adjacent_constitutions,left_zone,supported,recomposition_dependent,recomposition_heavy,width preservation is approximate; mass is width proxy only
-sig_003,seam_handoff_candidate,58,adjacent_constitutions,mixed_zone,weak_support,constitution_local_only,fragmentation_prone,"appearance after disappearance suggests possible reconstitution, not identity transfer"
-sig_004,local_symmetry_pocket,6,fine_to_meso,right_zone,supported,meso_stable,continuity_friendly,local symmetry is spacing/width posture only; not equilibrium
-sig_005,null_zone_respect,null_spanning=9; direct_null_activity=1,meso_to_broad,null_zone,mixed,broad_stable,smoothing_dominant,null zone is low-activity basin; spanning relation is not orbit

@@ -1,0 +1,17 @@
+terrain,window_size,packet_count,largest_band_width,avg_residual,max_residual,field_class,transition_from_prior,boundary_note
+sparse_misleading_structural_v1,25,0,0,0.0,0.0,no_residual_basin,initial_state,failure_terrain_observer_restraint_test
+sparse_misleading_structural_v1,40,0,0,0.0,0.0,no_residual_basin,class_holds,failure_terrain_observer_restraint_test
+sparse_misleading_structural_v1,50,0,0,0.0,0.0,no_residual_basin,class_holds,failure_terrain_observer_restraint_test
+sparse_misleading_structural_v1,75,0,0,0.0,0.0,no_residual_basin,class_holds,failure_terrain_observer_restraint_test
+sparse_misleading_structural_v1,100,0,0,0.0,0.0,no_residual_basin,class_holds,failure_terrain_observer_restraint_test
+sparse_misleading_structural_v1,125,0,0,0.0,0.0,no_residual_basin,class_holds,failure_terrain_observer_restraint_test
+sparse_misleading_structural_v1,150,0,0,0.0,0.0,no_residual_basin,class_holds,failure_terrain_observer_restraint_test
+sparse_misleading_structural_v1,175,0,0,0.0,0.0,no_residual_basin,class_holds,failure_terrain_observer_restraint_test
+sparse_misleading_structural_v1,200,0,0,0.0,0.0,no_residual_basin,class_holds,failure_terrain_observer_restraint_test
+sparse_misleading_structural_v1,250,0,0,0.0,0.0,no_residual_basin,class_holds,failure_terrain_observer_restraint_test
+sparse_misleading_structural_v1,300,0,0,0.0,0.0,no_residual_basin,class_holds,failure_terrain_observer_restraint_test
+sparse_misleading_structural_v1,400,0,0,0.0,0.0,no_residual_basin,class_holds,failure_terrain_observer_restraint_test
+sparse_misleading_structural_v1,500,0,0,0.0,0.0,no_residual_basin,class_holds,failure_terrain_observer_restraint_test
+sparse_misleading_structural_v1,700,0,0,0.0,0.0,no_residual_basin,class_holds,failure_terrain_observer_restraint_test
+sparse_misleading_structural_v1,1000,0,0,0.0,0.0,no_residual_basin,class_holds,failure_terrain_observer_restraint_test
+sparse_misleading_structural_v1,1500,0,0,0.0,0.0,no_residual_basin,class_holds,failure_terrain_observer_restraint_test

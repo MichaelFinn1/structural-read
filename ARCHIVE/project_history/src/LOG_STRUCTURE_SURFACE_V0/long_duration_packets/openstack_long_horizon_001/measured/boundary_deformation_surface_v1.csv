@@ -1,0 +1,703 @@
+from_window_size,to_window_size,from_segment,to_segment,from_dominant,to_dominant,from_interval,to_interval,overlap_lines,center_shift,width_change,relation_type,boundary_note
+25,40,1,1,residual,residual,1-150,1-160,150,5.0,10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,3,2,residual,stable,176-1000,161-200,25,-407.5,-785,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,5,3,residual,residual,1026-3425,201-3040,2015,-605.0,440,slow_drift,observer-side boundary deformation under adjacent constitution transition
+25,40,5,4,residual,stable,1026-3425,3041-3080,40,835.0,-2360,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,13,5,residual,residual,4201-4575,3081-4560,360,-567.5,1105,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,14,6,stable,stable,4576-4600,4561-4600,25,-7.5,15,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,15,7,residual,residual,4601-4925,4601-5120,325,97.5,195,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,18,8,stable,stable,5126-5175,5121-5160,35,-10.0,-10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,19,9,residual,residual,5176-7200,5161-8240,2025,512.5,1055,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,26,10,stable,stable,8251-8275,8241-8280,25,-2.5,15,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,27,11,residual,residual,8276-8700,8281-9640,420,472.5,935,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,36,12,stable,stable,9651-9675,9641-9680,25,-2.5,15,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,37,13,residual,residual,9676-10125,9681-10120,440,0.0,-10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,38,14,stable,stable,10126-10175,10121-10160,35,-10.0,-10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,39,15,residual,residual,10176-10875,10161-10240,65,-325.0,-620,thinning_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,39,16,residual,stable,10176-10875,10241-10280,40,-265.0,-660,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,41,17,residual,residual,10901-12025,10281-12800,1125,77.5,1395,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,46,18,stable,stable,12801-12825,12801-12840,25,7.5,15,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,47,19,residual,residual,12826-14025,12841-15080,1185,535.0,1040,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,51,20,residual,stable,14426-15100,15081-15120,20,337.5,-635,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,53,21,residual,residual,15126-17650,15121-17640,2515,-7.5,-5,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,54,22,stable,stable,17651-17675,17641-17680,25,-2.5,15,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,59,23,residual,residual,18051-18575,17681-18760,525,-92.5,555,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,63,24,residual,stable,18776-19400,18761-18800,25,-307.5,-585,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,63,25,residual,residual,18776-19400,18801-19720,600,172.5,295,slow_drift,observer-side boundary deformation under adjacent constitution transition
+25,40,66,26,stable,stable,19701-19750,19721-19760,30,15.0,-10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,73,27,residual,residual,21176-23600,19761-29880,2425,2432.5,7695,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,97,28,residual,stable,29626-30300,29881-29920,40,-62.5,-635,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,97,29,residual,residual,29626-30300,29921-30000,80,-2.5,-595,thinning_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,97,30,residual,stable,29626-30300,30001-30040,40,57.5,-635,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,103,31,residual,residual,31451-32525,30041-32880,1075,-527.5,1765,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,109,32,residual,stable,32826-32900,32881-32920,20,37.5,-35,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,111,33,residual,residual,32926-34675,32921-34680,1750,0.0,10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,112,34,stable,stable,34676-34700,34681-34720,20,12.5,15,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,113,35,residual,residual,34701-34775,34721-34800,55,22.5,5,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,114,36,stable,stable,34776-34825,34801-34840,25,20.0,-10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,115,37,residual,residual,34826-37000,34841-37000,2160,7.5,-15,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,116,38,stable,stable,37001-37050,37001-37040,40,-5.0,-10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,127,39,residual,residual,38076-39875,37041-41280,1800,185.0,2440,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,133,40,residual,stable,40651-41300,41281-41320,20,325.0,-610,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,137,41,residual,residual,41701-42700,41321-42720,1000,-180.0,400,minor_deformation,observer-side boundary deformation under adjacent constitution transition
+25,40,138,42,stable,stable,42701-42750,42721-42760,30,15.0,-10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,139,43,residual,residual,42751-43575,42761-43480,720,-42.5,-105,minor_deformation,observer-side boundary deformation under adjacent constitution transition
+25,40,139,44,residual,stable,42751-43575,43481-43520,40,337.5,-785,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,141,45,residual,residual,43601-44325,43521-45480,725,537.5,1235,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,148,46,stable,stable,45476-45500,45481-45520,20,12.5,15,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,155,47,residual,residual,46526-48000,45521-49040,1475,17.5,2045,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,160,48,stable,stable,49051-49075,49041-49080,25,-2.5,15,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,169,49,residual,residual,51676-54275,49081-53720,2045,-1575.0,2040,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,169,50,residual,stable,51676-54275,53721-53760,40,765.0,-2560,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,169,51,residual,residual,51676-54275,53761-54280,515,1045.0,-2080,thinning_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,170,52,stable,stable,54276-54300,54281-54320,20,12.5,15,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,177,53,residual,residual,55126-56050,54321-55640,515,-607.5,395,slow_drift,observer-side boundary deformation under adjacent constitution transition
+25,40,177,54,residual,stable,55126-56050,55641-55680,40,72.5,-885,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,181,55,residual,residual,56151-56600,55681-57000,450,-35.0,870,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,184,56,stable,stable,57001-57050,57001-57040,40,-5.0,-10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,187,57,residual,residual,57226-57575,57041-57960,350,100.0,570,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,191,58,residual,stable,57976-58450,57961-58000,25,-232.5,-435,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,191,59,residual,residual,57976-58450,58001-58440,440,7.5,-35,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,192,60,stable,stable,58451-58475,58441-58480,25,-2.5,15,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,193,61,residual,residual,58476-59100,58481-59280,620,92.5,175,minor_deformation,observer-side boundary deformation under adjacent constitution transition
+25,40,195,62,residual,stable,59126-59575,59281-59320,40,-50.0,-410,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,195,63,residual,residual,59126-59575,59321-60120,255,370.0,350,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,199,64,residual,stable,59876-60525,60121-60160,40,-60.0,-610,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,201,65,residual,residual,60551-60975,60161-61240,425,-62.5,655,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,206,66,stable,stable,61251-61275,61241-61280,25,-2.5,15,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,207,67,residual,residual,61276-61900,61281-62720,620,412.5,815,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,211,68,residual,stable,62201-63950,62721-62760,40,-335.0,-1710,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,211,69,residual,residual,62201-63950,62761-64760,1190,685.0,250,slow_drift,observer-side boundary deformation under adjacent constitution transition
+25,40,220,70,stable,stable,64776-64800,64761-64800,25,-7.5,15,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,235,71,residual,residual,67276-68100,64801-68360,825,-1107.5,2735,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,238,72,stable,stable,68376-68400,68361-68400,25,-7.5,15,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,239,73,residual,residual,68401-68675,68401-68680,275,2.5,5,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,240,74,stable,stable,68676-68725,68681-68720,40,0.0,-10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,245,75,residual,residual,69001-69650,68721-69360,360,-285.0,-10,slow_drift,observer-side boundary deformation under adjacent constitution transition
+25,40,245,76,residual,stable,69001-69650,69361-69400,40,55.0,-610,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,257,77,residual,residual,70776-71950,69401-71840,1065,-742.5,1265,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,257,78,residual,stable,70776-71950,71841-71880,40,497.5,-1135,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,257,79,residual,residual,70776-71950,71881-71960,70,557.5,-1095,thinning_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,259,80,residual,stable,71976-72875,71961-72000,25,-445.0,-860,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,259,81,residual,residual,71976-72875,72001-72880,875,15.0,-20,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,260,82,stable,stable,72876-72900,72881-72920,20,12.5,15,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,261,83,residual,residual,72901-73075,72921-73080,155,12.5,-15,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,262,84,stable,stable,73076-73125,73081-73120,40,0.0,-10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,263,85,residual,residual,73126-73650,73121-73640,515,-7.5,-5,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,264,86,stable,stable,73651-73675,73641-73680,25,-2.5,15,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,265,87,residual,residual,73676-74025,73681-74040,345,10.0,10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,267,88,residual,stable,74051-75075,74041-74080,30,-502.5,-985,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,267,89,residual,residual,74051-75075,74081-75080,995,17.5,-25,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,268,90,stable,stable,75076-75100,75081-75120,20,12.5,15,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,269,91,residual,residual,75101-77900,75121-77880,2760,0.0,-40,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,269,92,residual,stable,75101-77900,77881-77920,20,1400.0,-2760,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,277,93,residual,residual,79426-80175,77921-80160,735,-760.0,1490,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,278,94,stable,stable,80176-80200,80161-80200,25,-7.5,15,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,283,95,residual,residual,80876-81400,80201-81400,525,-337.5,675,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,284,96,stable,stable,81401-81425,81401-81440,25,7.5,15,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,291,97,residual,residual,81826-82875,81441-83800,1050,270.0,1310,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,299,98,residual,stable,83551-84375,83801-83840,40,-142.5,-785,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,299,99,residual,residual,83551-84375,83841-84200,360,57.5,-465,thinning_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,299,100,residual,stable,83551-84375,84201-84240,40,257.5,-785,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,315,101,residual,residual,85926-86725,84241-87000,800,-705.0,1960,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,317,102,residual,stable,86751-87025,87001-87040,25,132.5,-235,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,319,103,residual,residual,87051-87675,87041-87400,350,-142.5,-265,thinning_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,319,104,residual,stable,87051-87675,87401-87440,40,57.5,-585,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,319,105,residual,residual,87051-87675,87441-87680,235,197.5,-385,thinning_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,320,106,stable,stable,87676-87700,87681-87720,20,12.5,15,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,321,107,residual,residual,87701-88250,87721-87960,240,-135.0,-310,thinning_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,321,108,residual,stable,87701-88250,87961-88000,40,5.0,-510,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,321,109,residual,residual,87701-88250,88001-88520,250,285.0,-30,slow_drift,observer-side boundary deformation under adjacent constitution transition
+25,40,323,110,residual,stable,88276-89575,88521-88560,40,-385.0,-1260,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,323,111,residual,residual,88276-89575,88561-89200,640,-45.0,-660,thinning_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,323,112,residual,stable,88276-89575,89201-89240,40,295.0,-1260,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,325,113,residual,residual,89601-91550,89241-92280,1950,185.0,1090,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,330,114,stable,stable,92276-92300,92281-92320,20,12.5,15,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,331,115,residual,residual,92301-92850,92321-93320,530,245.0,450,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,337,116,residual,stable,93251-93425,93321-93360,40,2.5,-135,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,339,117,residual,residual,93451-94775,93361-94760,1310,-52.5,75,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,340,118,stable,stable,94776-94800,94761-94800,25,-7.5,15,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,341,119,residual,residual,94801-95700,94801-95320,520,-190.0,-380,thinning_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,341,120,residual,stable,94801-95700,95321-95360,40,90.0,-860,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,347,121,residual,residual,96376-97450,95361-99440,1075,487.5,3005,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,353,122,residual,stable,98526-100175,99441-99480,40,110.0,-1610,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,361,123,residual,residual,101626-103550,99481-104120,1925,-787.5,2715,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,366,124,stable,stable,104126-104150,104121-104160,25,2.5,15,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,369,125,residual,residual,104426-105600,104161-106680,1175,407.5,1345,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,377,126,residual,stable,106451-106700,106681-106720,20,125.0,-210,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,391,127,residual,residual,109101-110300,106721-111240,1200,-720.0,3320,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,399,128,residual,stable,111076-111900,111241-111280,40,-227.5,-785,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,399,129,residual,residual,111076-111900,111281-112000,620,152.5,-105,minor_deformation,observer-side boundary deformation under adjacent constitution transition
+25,40,402,130,stable,stable,112001-112025,112001-112040,25,7.5,15,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,409,131,residual,residual,112876-113325,112041-113800,450,-180.0,1310,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,412,132,stable,stable,113801-113825,113801-113840,25,7.5,15,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,413,133,residual,residual,113826-114175,113841-114440,335,140.0,250,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,416,134,stable,stable,114451-114475,114441-114480,25,-2.5,15,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,417,135,residual,residual,114476-115100,114481-115120,620,12.5,15,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,418,136,stable,stable,115101-115150,115121-115160,30,15.0,-10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,419,137,residual,residual,115151-116225,115161-118640,1065,1212.5,2405,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,427,138,residual,stable,117926-119100,118641-118680,40,147.5,-1135,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,433,139,residual,residual,119526-121175,118681-120320,795,-850.0,-10,slow_drift,observer-side boundary deformation under adjacent constitution transition
+25,40,433,140,residual,stable,119526-121175,120321-120360,40,-10.0,-1610,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+25,40,437,141,residual,residual,121851-123050,120361-123360,1200,-590.0,1800,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,440,142,stable,stable,123376-137074,123361-137074,13699,-7.5,15,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+25,40,2,,stable,,151-175,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,4,,stable,,1001-1025,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,6,,stable,,3426-3450,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,7,,residual,,3451-3725,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,8,,stable,,3726-3750,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,9,,residual,,3751-4000,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,10,,stable,,4001-4025,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,11,,residual,,4026-4175,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,12,,stable,,4176-4200,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,16,,stable,,4926-4950,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,17,,residual,,4951-5125,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,20,,stable,,7201-7225,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,21,,residual,,7226-7875,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,22,,stable,,7876-7900,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,23,,residual,,7901-7950,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,24,,stable,,7951-7975,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,25,,residual,,7976-8250,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,28,,stable,,8701-8725,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,29,,residual,,8726-8975,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,30,,stable,,8976-9000,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,31,,residual,,9001-9175,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,32,,stable,,9176-9200,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,33,,residual,,9201-9550,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,34,,stable,,9551-9575,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,35,,residual,,9576-9650,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,40,,stable,,10876-10900,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,42,,stable,,12026-12050,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,43,,residual,,12051-12575,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,44,,stable,,12576-12600,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,45,,residual,,12601-12800,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,48,,stable,,14026-14050,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,49,,residual,,14051-14400,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,50,,stable,,14401-14425,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,52,,stable,,15101-15125,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,55,,residual,,17676-17950,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,56,,stable,,17951-17975,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,57,,residual,,17976-18025,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,58,,stable,,18026-18050,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,60,,stable,,18576-18600,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,61,,residual,,18601-18750,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,62,,stable,,18751-18775,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,64,,stable,,19401-19425,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,65,,residual,,19426-19700,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,67,,residual,,19751-20375,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,68,,stable,,20376-20400,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,69,,residual,,20401-20950,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,70,,stable,,20951-20975,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,71,,residual,,20976-21150,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,72,,stable,,21151-21175,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,74,,stable,,23601-23625,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,75,,residual,,23626-23850,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,76,,stable,,23851-23875,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,77,,residual,,23876-24425,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,78,,stable,,24426-24450,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,79,,residual,,24451-24525,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,80,,stable,,24526-24550,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,81,,residual,,24551-24900,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,82,,stable,,24901-24925,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,83,,residual,,24926-26000,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,84,,stable,,26001-26025,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,85,,residual,,26026-26725,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,86,,stable,,26726-26750,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,87,,residual,,26751-27725,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,88,,stable,,27726-27750,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,89,,residual,,27751-27925,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,90,,stable,,27926-27950,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,91,,residual,,27951-28250,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,92,,stable,,28251-28275,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,93,,residual,,28276-29050,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,94,,stable,,29051-29075,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,95,,residual,,29076-29600,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,96,,stable,,29601-29625,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,98,,stable,,30301-30325,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,99,,residual,,30326-31150,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,100,,stable,,31151-31175,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,101,,residual,,31176-31425,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,102,,stable,,31426-31450,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,104,,stable,,32526-32550,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,105,,residual,,32551-32625,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,106,,stable,,32626-32650,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,107,,residual,,32651-32800,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,108,,stable,,32801-32825,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,110,,stable,,32901-32925,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,117,,residual,,37051-37200,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,118,,stable,,37201-37225,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,119,,residual,,37226-37400,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,120,,stable,,37401-37425,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,121,,residual,,37426-37575,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,122,,stable,,37576-37600,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,123,,residual,,37601-37875,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,124,,stable,,37876-37900,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,125,,residual,,37901-38050,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,126,,stable,,38051-38075,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,128,,stable,,39876-39900,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,129,,residual,,39901-40150,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,130,,stable,,40151-40175,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,131,,residual,,40176-40625,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,132,,stable,,40626-40650,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,134,,stable,,41301-41325,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,135,,residual,,41326-41675,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,136,,stable,,41676-41700,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,140,,stable,,43576-43600,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,142,,stable,,44326-44350,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,143,,residual,,44351-44525,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,144,,stable,,44526-44550,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,145,,residual,,44551-45200,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,146,,stable,,45201-45225,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,147,,residual,,45226-45475,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,149,,residual,,45501-45850,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,150,,stable,,45851-45875,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,151,,residual,,45876-46125,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,152,,stable,,46126-46150,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,153,,residual,,46151-46500,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,154,,stable,,46501-46525,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,156,,stable,,48001-48025,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,157,,residual,,48026-48475,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,158,,stable,,48476-48500,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,159,,residual,,48501-49050,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,161,,residual,,49076-50225,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,162,,stable,,50226-50250,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,163,,residual,,50251-50975,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,164,,stable,,50976-51000,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,165,,residual,,51001-51100,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,166,,stable,,51101-51125,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,167,,residual,,51126-51650,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,168,,stable,,51651-51675,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,171,,residual,,54301-54550,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,172,,stable,,54551-54575,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,173,,residual,,54576-54825,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,174,,stable,,54826-54850,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,175,,residual,,54851-55100,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,176,,stable,,55101-55125,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,178,,stable,,56051-56075,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,179,,residual,,56076-56125,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,180,,stable,,56126-56150,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,182,,stable,,56601-56625,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,183,,residual,,56626-57000,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,185,,residual,,57051-57200,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,186,,stable,,57201-57225,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,188,,stable,,57576-57600,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,189,,residual,,57601-57950,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,190,,stable,,57951-57975,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,194,,stable,,59101-59125,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,196,,stable,,59576-59600,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,197,,residual,,59601-59850,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,198,,stable,,59851-59875,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,200,,stable,,60526-60550,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,202,,stable,,60976-61000,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,203,,residual,,61001-61075,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,204,,stable,,61076-61100,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,205,,residual,,61101-61250,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,208,,stable,,61901-61925,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,209,,residual,,61926-62175,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,210,,stable,,62176-62200,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,212,,stable,,63951-63975,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,213,,residual,,63976-64225,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,214,,stable,,64226-64250,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,215,,residual,,64251-64325,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,216,,stable,,64326-64350,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,217,,residual,,64351-64500,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,218,,stable,,64501-64525,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,219,,residual,,64526-64775,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,221,,residual,,64801-64975,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,222,,stable,,64976-65000,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,223,,residual,,65001-65250,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,224,,stable,,65251-65275,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,225,,residual,,65276-65350,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,226,,stable,,65351-65375,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,227,,residual,,65376-65825,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,228,,stable,,65826-65850,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,229,,residual,,65851-66300,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,230,,stable,,66301-66325,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,231,,residual,,66326-66600,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,232,,stable,,66601-66625,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,233,,residual,,66626-67250,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,234,,stable,,67251-67275,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,236,,stable,,68101-68125,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,237,,residual,,68126-68375,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,241,,residual,,68726-68875,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,242,,stable,,68876-68900,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,243,,residual,,68901-68975,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,244,,stable,,68976-69000,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,246,,stable,,69651-69675,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,247,,residual,,69676-69925,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,248,,stable,,69926-69950,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,249,,residual,,69951-70000,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,250,,stable,,70001-70025,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,251,,residual,,70026-70100,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,252,,stable,,70101-70125,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,253,,residual,,70126-70475,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,254,,stable,,70476-70500,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,255,,residual,,70501-70750,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,256,,stable,,70751-70775,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,258,,stable,,71951-71975,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,266,,stable,,74026-74050,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,270,,stable,,77901-77925,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,271,,residual,,77926-78275,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,272,,stable,,78276-78300,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,273,,residual,,78301-78650,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,274,,stable,,78651-78675,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,275,,residual,,78676-79400,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,276,,stable,,79401-79425,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,279,,residual,,80201-80650,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,280,,stable,,80651-80675,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,281,,residual,,80676-80850,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,282,,stable,,80851-80875,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,285,,residual,,81426-81500,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,286,,stable,,81501-81525,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,287,,residual,,81526-81700,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,288,,stable,,81701-81725,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,289,,residual,,81726-81800,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,290,,stable,,81801-81825,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,292,,stable,,82876-82900,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,293,,residual,,82901-82975,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,294,,stable,,82976-83000,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,295,,residual,,83001-83250,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,296,,stable,,83251-83275,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,297,,residual,,83276-83525,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,298,,stable,,83526-83550,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,300,,stable,,84376-84400,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,301,,residual,,84401-84650,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,302,,stable,,84651-84675,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,303,,residual,,84676-84850,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,304,,stable,,84851-84875,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,305,,residual,,84876-84950,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,306,,stable,,84951-84975,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,307,,residual,,84976-85350,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,308,,stable,,85351-85375,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,309,,residual,,85376-85625,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,310,,stable,,85626-85650,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,311,,residual,,85651-85800,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,312,,stable,,85801-85825,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,313,,residual,,85826-85900,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,314,,stable,,85901-85925,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,316,,stable,,86726-86750,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,318,,stable,,87026-87050,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,322,,stable,,88251-88275,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,324,,stable,,89576-89600,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,326,,stable,,91551-91575,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,327,,residual,,91576-91625,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,328,,stable,,91626-91650,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,329,,residual,,91651-92275,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,332,,stable,,92851-92875,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,333,,residual,,92876-93125,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,334,,stable,,93126-93150,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,335,,residual,,93151-93225,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,336,,stable,,93226-93250,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,338,,stable,,93426-93450,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,342,,stable,,95701-95725,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,343,,residual,,95726-96075,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,344,,stable,,96076-96100,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,345,,residual,,96101-96350,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,346,,stable,,96351-96375,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,348,,stable,,97451-97475,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,349,,residual,,97476-97650,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,350,,stable,,97651-97675,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,351,,residual,,97676-98500,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,352,,stable,,98501-98525,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,354,,stable,,100176-100200,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,355,,residual,,100201-100475,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,356,,stable,,100476-100500,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,357,,residual,,100501-100750,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,358,,stable,,100751-100775,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,359,,residual,,100776-101600,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,360,,stable,,101601-101625,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,362,,stable,,103551-103575,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,363,,residual,,103576-103825,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,364,,stable,,103826-103850,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,365,,residual,,103851-104125,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,367,,residual,,104151-104400,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,368,,stable,,104401-104425,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,370,,stable,,105601-105625,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,371,,residual,,105626-105875,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,372,,stable,,105876-105900,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,373,,residual,,105901-106150,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,374,,stable,,106151-106175,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,375,,residual,,106176-106425,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,376,,stable,,106426-106450,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,378,,stable,,106701-106725,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,379,,residual,,106726-107275,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,380,,stable,,107276-107300,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,381,,residual,,107301-107650,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,382,,stable,,107651-107700,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,383,,residual,,107701-108225,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,384,,stable,,108226-108250,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,385,,residual,,108251-108500,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,386,,stable,,108501-108525,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,387,,residual,,108526-108700,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,388,,stable,,108701-108725,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,389,,residual,,108726-109075,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,390,,stable,,109076-109100,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,392,,stable,,110301-110325,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,393,,residual,,110326-110575,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,394,,stable,,110576-110600,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,395,,residual,,110601-110775,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,396,,stable,,110776-110800,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,397,,residual,,110801-111050,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,398,,stable,,111051-111075,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,400,,stable,,111901-111925,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,401,,residual,,111926-112000,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,403,,residual,,112026-112375,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,404,,stable,,112376-112400,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,405,,residual,,112401-112575,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,406,,stable,,112576-112600,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,407,,residual,,112601-112850,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,408,,stable,,112851-112875,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,410,,stable,,113326-113350,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,411,,residual,,113351-113800,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,414,,stable,,114176-114200,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,415,,residual,,114201-114450,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,420,,stable,,116226-116250,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,421,,residual,,116251-116700,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,422,,stable,,116701-116725,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,423,,residual,,116726-116900,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,424,,stable,,116901-116925,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,425,,residual,,116926-117900,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,426,,stable,,117901-117925,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,428,,stable,,119101-119125,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,429,,residual,,119126-119300,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,430,,stable,,119301-119325,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,431,,residual,,119326-119500,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,432,,stable,,119501-119525,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,434,,stable,,121176-121200,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,435,,residual,,121201-121825,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,436,,stable,,121826-121850,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,438,,stable,,123051-123075,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+25,40,439,,residual,,123076-123375,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,3,1,residual,residual,201-3040,1-3700,2840,230.0,860,minor_deformation,observer-side boundary deformation under adjacent constitution transition
+40,50,5,2,residual,stable,3081-4560,3701-3750,50,-95.0,-1430,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+40,50,9,3,residual,residual,5161-8240,3751-7200,2040,-1225.0,370,slow_drift,observer-side boundary deformation under adjacent constitution transition
+40,50,9,4,residual,stable,5161-8240,7201-7250,50,525.0,-3030,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+40,50,11,5,residual,residual,8281-9640,7251-9650,1360,-510.0,1040,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,12,6,stable,stable,9641-9680,9651-9700,30,15.0,10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,13,7,residual,residual,9681-10120,9701-10100,400,0.0,-40,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,14,8,stable,stable,10121-10160,10101-10150,30,-15.0,10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,17,9,residual,residual,10281-12800,10151-17650,2520,2360.0,4980,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,22,10,stable,stable,17641-17680,17651-17700,30,15.0,10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,23,11,residual,residual,17681-18760,17701-19400,1060,330.0,620,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,25,12,residual,stable,18801-19720,19401-19450,50,165.0,-870,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+40,50,25,13,residual,residual,18801-19720,19451-19700,250,315.0,-670,thinning_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,26,14,stable,stable,19721-19760,19701-19750,30,-15.0,10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,27,15,residual,residual,19761-29880,19751-24400,4640,-2745.0,-5470,thinning_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,27,16,residual,stable,19761-29880,24401-24450,50,-395.0,-10070,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+40,50,27,17,residual,residual,19761-29880,24451-34800,5430,4805.0,230,slow_drift,observer-side boundary deformation under adjacent constitution transition
+40,50,36,18,stable,stable,34801-34840,34801-34850,40,5.0,10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,37,19,residual,residual,34841-37000,34851-37000,2150,5.0,-10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,38,20,stable,stable,37001-37040,37001-37050,40,5.0,10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,39,21,residual,residual,37041-41280,37051-42700,4230,715.0,1410,minor_deformation,observer-side boundary deformation under adjacent constitution transition
+40,50,42,22,stable,stable,42721-42760,42701-42750,30,-15.0,10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,45,23,residual,residual,43521-45480,42751-45450,1930,-400.0,740,slow_drift,observer-side boundary deformation under adjacent constitution transition
+40,50,45,24,residual,stable,43521-45480,45451-45500,30,975.0,-1910,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+40,50,47,25,residual,residual,45521-49040,45501-46500,980,-1280.0,-2520,thinning_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,47,26,residual,stable,45521-49040,46501-46550,50,-755.0,-3470,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+40,50,49,27,residual,residual,49081-53720,46551-57000,4640,375.0,5810,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,56,28,stable,stable,57001-57040,57001-57050,40,5.0,10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,71,29,residual,residual,64801-68360,57051-71950,3560,-2080.0,11340,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,80,30,stable,stable,71961-72000,71951-72000,40,-5.0,10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,81,31,residual,residual,72001-72880,72001-73050,880,85.0,170,minor_deformation,observer-side boundary deformation under adjacent constitution transition
+40,50,83,32,residual,stable,72921-73080,73051-73100,30,75.0,-110,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+40,50,113,33,residual,residual,89241-92280,73101-95700,3040,-6360.0,19560,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,121,34,residual,stable,95361-99440,95701-95750,50,-1675.0,-4030,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+40,50,123,35,residual,residual,99481-104120,95751-104100,4620,-1875.0,3710,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,124,36,stable,stable,104121-104160,104101-104150,30,-15.0,10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,125,37,residual,residual,104161-106680,104151-107650,2520,480.0,980,minor_deformation,observer-side boundary deformation under adjacent constitution transition
+40,50,127,38,residual,stable,106721-111240,107651-107700,50,-1305.0,-4470,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+40,50,127,39,residual,residual,106721-111240,107701-109050,1350,-605.0,-3170,thinning_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,127,40,residual,stable,106721-111240,109051-109100,50,95.0,-4470,boundary_recolored,observer-side boundary deformation under adjacent constitution transition
+40,50,127,41,residual,residual,106721-111240,109101-112000,2140,1570.0,-1620,thinning_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,130,42,stable,stable,112001-112040,112001-112050,40,5.0,10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,131,43,residual,residual,112041-113800,112051-113800,1750,5.0,-10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,132,44,stable,stable,113801-113840,113801-113850,40,5.0,10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,135,45,residual,residual,114481-115120,113851-115100,620,-325.0,610,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,136,46,stable,stable,115121-115160,115101-115150,30,-15.0,10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,137,47,residual,residual,115161-118640,115151-123350,3480,2350.0,4720,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,142,48,stable,stable,123361-137074,123351-137074,13714,-5.0,10,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+40,50,1,,residual,,1-160,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,2,,stable,,161-200,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,4,,stable,,3041-3080,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,6,,stable,,4561-4600,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,7,,residual,,4601-5120,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,8,,stable,,5121-5160,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,10,,stable,,8241-8280,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,15,,residual,,10161-10240,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,16,,stable,,10241-10280,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,18,,stable,,12801-12840,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,19,,residual,,12841-15080,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,20,,stable,,15081-15120,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,21,,residual,,15121-17640,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,24,,stable,,18761-18800,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,28,,stable,,29881-29920,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,29,,residual,,29921-30000,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,30,,stable,,30001-30040,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,31,,residual,,30041-32880,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,32,,stable,,32881-32920,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,33,,residual,,32921-34680,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,34,,stable,,34681-34720,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,35,,residual,,34721-34800,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,40,,stable,,41281-41320,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,41,,residual,,41321-42720,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,43,,residual,,42761-43480,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,44,,stable,,43481-43520,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,46,,stable,,45481-45520,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,48,,stable,,49041-49080,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,50,,stable,,53721-53760,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,51,,residual,,53761-54280,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,52,,stable,,54281-54320,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,53,,residual,,54321-55640,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,54,,stable,,55641-55680,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,55,,residual,,55681-57000,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,57,,residual,,57041-57960,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,58,,stable,,57961-58000,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,59,,residual,,58001-58440,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,60,,stable,,58441-58480,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,61,,residual,,58481-59280,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,62,,stable,,59281-59320,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,63,,residual,,59321-60120,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,64,,stable,,60121-60160,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,65,,residual,,60161-61240,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,66,,stable,,61241-61280,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,67,,residual,,61281-62720,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,68,,stable,,62721-62760,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,69,,residual,,62761-64760,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,70,,stable,,64761-64800,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,72,,stable,,68361-68400,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,73,,residual,,68401-68680,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,74,,stable,,68681-68720,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,75,,residual,,68721-69360,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,76,,stable,,69361-69400,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,77,,residual,,69401-71840,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,78,,stable,,71841-71880,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,79,,residual,,71881-71960,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,82,,stable,,72881-72920,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,84,,stable,,73081-73120,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,85,,residual,,73121-73640,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,86,,stable,,73641-73680,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,87,,residual,,73681-74040,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,88,,stable,,74041-74080,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,89,,residual,,74081-75080,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,90,,stable,,75081-75120,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,91,,residual,,75121-77880,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,92,,stable,,77881-77920,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,93,,residual,,77921-80160,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,94,,stable,,80161-80200,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,95,,residual,,80201-81400,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,96,,stable,,81401-81440,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,97,,residual,,81441-83800,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,98,,stable,,83801-83840,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,99,,residual,,83841-84200,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,100,,stable,,84201-84240,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,101,,residual,,84241-87000,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,102,,stable,,87001-87040,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,103,,residual,,87041-87400,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,104,,stable,,87401-87440,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,105,,residual,,87441-87680,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,106,,stable,,87681-87720,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,107,,residual,,87721-87960,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,108,,stable,,87961-88000,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,109,,residual,,88001-88520,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,110,,stable,,88521-88560,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,111,,residual,,88561-89200,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,112,,stable,,89201-89240,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,114,,stable,,92281-92320,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,115,,residual,,92321-93320,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,116,,stable,,93321-93360,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,117,,residual,,93361-94760,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,118,,stable,,94761-94800,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,119,,residual,,94801-95320,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,120,,stable,,95321-95360,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,122,,stable,,99441-99480,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,126,,stable,,106681-106720,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,128,,stable,,111241-111280,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,129,,residual,,111281-112000,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,133,,residual,,113841-114440,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,134,,stable,,114441-114480,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,138,,stable,,118641-118680,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,139,,residual,,118681-120320,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,140,,stable,,120321-120360,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+40,50,141,,residual,,120361-123360,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,17,1,residual,residual,24451-34800,1-42675,10350,-8287.5,32325,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+50,75,22,2,stable,stable,42701-42750,42676-42750,50,-12.5,25,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+50,75,29,3,residual,residual,57051-71950,42751-73050,14900,-6600.0,15400,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+50,75,32,4,stable,stable,73051-73100,73051-73125,50,12.5,25,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+50,75,33,5,residual,residual,73101-95700,73126-123375,22575,13850.0,27650,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+50,75,48,6,stable,stable,123351-137074,123376-137074,13699,12.5,-25,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+50,75,1,,residual,,1-3700,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,2,,stable,,3701-3750,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,3,,residual,,3751-7200,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,4,,stable,,7201-7250,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,5,,residual,,7251-9650,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,6,,stable,,9651-9700,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,7,,residual,,9701-10100,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,8,,stable,,10101-10150,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,9,,residual,,10151-17650,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,10,,stable,,17651-17700,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,11,,residual,,17701-19400,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,12,,stable,,19401-19450,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,13,,residual,,19451-19700,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,14,,stable,,19701-19750,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,15,,residual,,19751-24400,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,16,,stable,,24401-24450,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,18,,stable,,34801-34850,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,19,,residual,,34851-37000,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,20,,stable,,37001-37050,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,21,,residual,,37051-42700,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,23,,residual,,42751-45450,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,24,,stable,,45451-45500,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,25,,residual,,45501-46500,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,26,,stable,,46501-46550,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,27,,residual,,46551-57000,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,28,,stable,,57001-57050,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,30,,stable,,71951-72000,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,31,,residual,,72001-73050,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,34,,stable,,95701-95750,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,35,,residual,,95751-104100,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,36,,stable,,104101-104150,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,37,,residual,,104151-107650,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,38,,stable,,107651-107700,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,39,,residual,,107701-109050,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,40,,stable,,109051-109100,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,41,,residual,,109101-112000,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,42,,stable,,112001-112050,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,43,,residual,,112051-113800,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,44,,stable,,113801-113850,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,45,,residual,,113851-115100,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,46,,stable,,115101-115150,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+50,75,47,,residual,,115151-123350,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+75,100,5,1,residual,residual,73126-123375,1-123400,50250,-36550.0,73150,widening_boundary,observer-side boundary deformation under adjacent constitution transition
+75,100,6,2,stable,stable,123376-137074,123401-137074,13674,12.5,-25,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+75,100,1,,residual,,1-42675,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+75,100,2,,stable,,42676-42750,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+75,100,3,,residual,,42751-73050,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+75,100,4,,stable,,73051-73125,,0,,,boundary_disappearance,prior dominant segment not preserved at wider constitution
+100,150,1,1,residual,residual,1-123400,1-123300,123300,-50.0,-100,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+100,150,2,2,stable,stable,123401-137074,123301-137074,13674,-50.0,100,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+150,200,1,1,residual,residual,1-123300,1-123400,123300,50.0,100,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+150,200,2,2,stable,stable,123301-137074,123401-137074,13674,50.0,-100,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+200,250,1,1,residual,residual,1-123400,1-123250,123250,-75.0,-150,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+200,250,2,2,stable,stable,123401-137074,123251-137074,13674,-75.0,150,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+250,350,1,1,residual,residual,1-123250,1-123200,123200,-25.0,-50,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+250,350,2,2,stable,stable,123251-137074,123201-137074,13824,-25.0,50,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+350,500,1,1,residual,residual,1-123200,1-123500,123200,150.0,300,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+350,500,2,2,stable,stable,123201-137074,123501-137074,13574,150.0,-300,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+500,750,1,1,residual,residual,1-123500,1-123000,123000,-250.0,-500,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+500,750,2,2,stable,stable,123501-137074,123001-137074,13574,-250.0,500,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+750,1000,1,1,residual,residual,1-123000,1-123000,123000,0.0,0,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+750,1000,2,2,stable,stable,123001-137074,123001-137074,14074,0.0,0,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+1000,1500,1,1,residual,residual,1-123000,1-123000,123000,0.0,0,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+1000,1500,2,2,stable,stable,123001-137074,123001-137074,14074,0.0,0,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+1500,2000,1,1,residual,residual,1-123000,1-124000,123000,500.0,1000,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+1500,2000,2,2,stable,stable,123001-137074,124001-137074,13074,500.0,-1000,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+2000,3000,1,1,residual,residual,1-124000,1-123000,123000,-500.0,-1000,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+2000,3000,2,2,stable,stable,124001-137074,123001-137074,13074,-500.0,1000,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+3000,4000,1,1,residual,residual,1-123000,1-124000,123000,500.0,1000,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+3000,4000,2,2,stable,stable,123001-137074,124001-137074,13074,500.0,-1000,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+4000,5000,1,1,residual,residual,1-124000,1-120000,120000,-2000.0,-4000,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+4000,5000,2,2,stable,stable,124001-137074,120001-137074,13074,-2000.0,4000,minor_deformation,observer-side boundary deformation under adjacent constitution transition
+5000,7000,1,1,residual,residual,1-120000,1-119000,119000,-500.0,-1000,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+5000,7000,2,2,stable,stable,120001-137074,119001-137074,17074,-500.0,1000,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+7000,10000,1,1,residual,residual,1-119000,1-120000,119000,500.0,1000,stable_boundary,observer-side boundary deformation under adjacent constitution transition
+7000,10000,2,2,stable,stable,119001-137074,120001-137074,17074,500.0,-1000,stable_boundary,observer-side boundary deformation under adjacent constitution transition

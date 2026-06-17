@@ -1,7 +1,0 @@
-candidate_type,probe_type,baseline_supporting_rows,probe_supporting_rows,survivability_result,constitution_range,boundary_note
-spacing_basin,constitution_density_probe,9,9,survives,50|75|100|150|200|250|350|500|750,tests whether spacing basin appears across multiple constitutions already present
-spacing_basin,extraction_threshold_probe,9,8,survives,50|75|100|150|200|350|500|750,stricter threshold requires null-spanning separation >= 1000
-spacing_basin,zone_shift_probe_baseline,9,9,survives,50|75|100|150|200|250|350|500|750,zone shift tests spacing basin sensitivity to null boundary placement
-spacing_basin,zone_shift_probe_variant_a,9,9,survives,50|75|100|150|200|250|350|500|750,zone shift tests spacing basin sensitivity to null boundary placement
-spacing_basin,zone_shift_probe_variant_b,9,9,survives,50|75|100|150|200|250|350|500|750,zone shift tests spacing basin sensitivity to null boundary placement
-spacing_basin,terrain_comparison_probe,9,,not_run,,requires replay on alternate terrain packets; intentionally not inferred here
