@@ -8,8 +8,6 @@ Open the live interactive preview:
 
 https://michaelfinn1.github.io/structural-read/
 
-It opens directly into the OpenStack Global Focus Lens.
-
 ## What to do first
 
 1. Look at the upper view.
@@ -29,7 +27,7 @@ If you want a local copy:
 1. Click the green **Code** button.
 2. Choose **Download ZIP**.
 3. Extract the ZIP.
-4. Open `TRY_NOW.html`.
+4. Open `index.html`.
 
 ## Use your own data
 
