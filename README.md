@@ -4,6 +4,15 @@ A visual tool for exploring large, messy data before deciding what it means.
 
 ## Try it now
 
+## Use your own file
+
+1. Download the repository.
+2. Open USE_YOUR_OWN_FILE.
+3. Put one plain-text, CSV, or log-like file in INPUT.
+4. Right-click Run-StructuralRead.Local.ps1.
+5. Choose "Run with PowerShell".
+6. Open the generated HTML in OUTPUT.
+
 Open the live interactive preview:
 
 https://michaelfinn1.github.io/structural-read/
@@ -50,3 +59,4 @@ It helps you see structure before deciding what it means.
 Older scripts, notes, tools, previews, and development material are preserved in:
 
 `ARCHIVE/project_history`
+

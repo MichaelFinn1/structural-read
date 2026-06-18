@@ -1,0 +1,2 @@
+﻿Put one plain-text, CSV, or log-like file in this folder.
+Then run ../Run-StructuralRead.Local.ps1.
